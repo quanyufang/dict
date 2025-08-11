@@ -70,8 +70,8 @@ if __name__ == '__main__':
                 offset = struct.unpack('>I', offset_bytes)[0]  # 使用无符号整数
                 length = struct.unpack('>I', length_bytes)[0]  # 使用无符号整数
                 
-                if word_count < 10:  # 只打印前10个单词的详细信息
-                    print(f'处理单词: key={key}, offset={offset}, length={length}')
+                #if word_count < 10:  # 只打印前10个单词的详细信息
+                print(f'处理单词: key={key}, offset={offset}, length={length}')
 
                 sql = 'INSERT INTO wordIndex(word, offset, length) VALUES (?, ?, ?)'
                 param = (key, offset, length)

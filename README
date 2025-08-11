@@ -1,5 +1,6 @@
 lookupDict.py 根据索引文件读取字典解释，并把数据输出到XML
 createDictSqliteDbIndex.py 根据字典索引，创建使用sqlite3作为存储的索引
+    createDictSqliteDbIndex.py xiandaihanyucidian.dict xiandaihanyucidian.idx xiandaihanyucidian.db
 
 解压词典文件：
 mv oxford-gb.dict.dz oxford-gb.dict.gz
