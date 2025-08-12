@@ -24,7 +24,7 @@ def run_command(cmd: str, description: str) -> bool:
     print(f"开始时间: {time.strftime('%H:%M:%S')}")
     
     try:
-        # 使用实时输出，避免死循环时无法看到进展
+        # 使用实时输出，显示进展
         process = subprocess.Popen(
             cmd, 
             shell=True, 
@@ -37,7 +37,6 @@ def run_command(cmd: str, description: str) -> bool:
         
         # 实时监控输出
         start_time = time.time()
-        last_output_time = start_time
         last_progress_time = start_time
         
         print(f"🔄 进程已启动，PID: {process.pid}")
@@ -50,23 +49,6 @@ def run_command(cmd: str, description: str) -> bool:
             current_time = time.time()
             elapsed = current_time - start_time
             
-            # 检查是否超时（超过10分钟没有输出）
-            if current_time - last_output_time > 600:  # 10分钟
-                print(f"⚠️  警告: {description}可能进入死循环，超过10分钟没有输出")
-                print(f"正在终止进程 PID {process.pid}...")
-                process.terminate()
-                time.sleep(3)
-                if process.poll() is None:
-                    print(f"强制终止进程 PID {process.pid}...")
-                    process.kill()
-                return False
-            
-            # 检查总运行时间（超过30分钟强制终止）
-            if elapsed > 1800:  # 30分钟
-                print(f"⚠️  警告: {description}运行时间过长（{int(elapsed)}秒），强制终止")
-                process.kill()
-                return False
-            
             # 尝试读取输出
             try:
                 # 非阻塞读取
@@ -78,18 +60,16 @@ def run_command(cmd: str, description: str) -> bool:
                         line = process.stdout.readline()
                         if line:
                             print(f"[{description}] {line.strip()}")
-                            last_output_time = current_time
                     elif stream == process.stderr and process.stderr:
                         line = process.stderr.readline()
                         if line:
                             print(f"[{description} ERROR] {line.strip()}")
-                            last_output_time = current_time
                             
             except Exception as e:
                 print(f"[{description}] 读取输出时出错: {e}")
             
-            # 显示进度
-            if current_time - last_progress_time > 30:  # 每30秒显示一次进度
+            # 显示进度（每30秒显示一次）
+            if current_time - last_progress_time > 30:
                 print(f"⏱️  {description}运行中... 已用时: {int(elapsed)}秒")
                 last_progress_time = current_time
         

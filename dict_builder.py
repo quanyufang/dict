@@ -265,10 +265,17 @@ class DictionaryBuilder:
             # 修复JSON格式问题
             content = self._fix_json_format(content)
             word_data = json.loads(content)
-                
+            
+            # 创建已存在词语的集合，用于快速查找
+            existing_words = {w.word for w in words}
+            self.logger.info(f"已加载成语数量: {len(existing_words)}")
+            
+            processed_count = 0
+            skipped_count = 0
+            
             for item in word_data:
-                # 跳过已经在成语中的词
-                if not any(w.word == item['word'] for w in words):
+                # 使用集合进行快速查找，O(1)时间复杂度
+                if item['word'] not in existing_words:
                     # 处理缺少的字段，提供默认值
                     word = Word(
                         word=item['word'],
@@ -285,8 +292,16 @@ class DictionaryBuilder:
                         notice=item.get('notice')
                     )
                     words.append(word)
+                    existing_words.add(item['word'])  # 添加到集合中
+                    processed_count += 1
                     
-            self.logger.info(f"加载词语数据: {len(words)} 个")
+                    # 每处理1000个词语显示一次进度
+                    if processed_count % 1000 == 0:
+                        self.logger.info(f"加载词语进度: {processed_count} 个，跳过重复: {skipped_count} 个")
+                else:
+                    skipped_count += 1
+                    
+            self.logger.info(f"加载词语数据完成: 新增 {processed_count} 个，跳过重复 {skipped_count} 个，总计 {len(words)} 个")
         
         return words
     
@@ -306,6 +321,10 @@ class DictionaryBuilder:
             frequency_groups[freq].append(char)
         
         # 按频率顺序处理（0=最常用，1=较常用，2=次常用，3=二级字，4=三级字，5=生僻字）
+        total_chars = len(characters)
+        self.logger.info(f"开始处理 {total_chars} 个汉字...")
+        
+        processed_count = 0
         for freq in sorted(frequency_groups.keys()):
             chars = frequency_groups[freq]
             self.logger.info(f"处理频率 {freq} 的汉字: {len(chars)} 个")
@@ -328,6 +347,12 @@ class DictionaryBuilder:
                         char.variant,
                         json.dumps(char.explanations, ensure_ascii=False) if char.explanations else None
                     ))
+                    
+                    processed_count += 1
+                    # 每处理1000个汉字显示一次进度
+                    if processed_count % 1000 == 0:
+                        self.logger.info(f"汉字处理进度: {processed_count}/{total_chars} ({processed_count / total_chars * 100:.1f}%)")
+                        
                 except Exception as e:
                     self.logger.error(f"插入汉字失败 {char.char}: {e}")
         
@@ -347,8 +372,15 @@ class DictionaryBuilder:
         idiom_count = 0
         word_count = 0
         
-        for word in words:
+        total_words = len(words)
+        self.logger.info(f"开始处理 {total_words} 个词语...")
+        
+        for i, word in enumerate(words):
             try:
+                # 每处理1000个词语显示一次进度
+                if (i + 1) % 1000 == 0:
+                    self.logger.info(f"词语处理进度: {i + 1}/{total_words} ({((i + 1) / total_words * 100):.1f}%)")
+                
                 # 判断是否为成语（长度>=4且包含成语特征）
                 is_idiom = (len(word.word) >= 4 and 
                            (word.source or word.story or word.usage))
@@ -370,9 +402,9 @@ class DictionaryBuilder:
                     json.dumps(word.story, ensure_ascii=False) if word.story else None,
                     json.dumps(word.similar, ensure_ascii=False) if word.similar else None,
                     json.dumps(word.opposite, ensure_ascii=False) if word.opposite else None,
-                    word.example,
-                    word.usage,
-                    word.notice,
+                    json.dumps(word.example, ensure_ascii=False) if isinstance(word.example, dict) else word.example,
+                    json.dumps(word.usage, ensure_ascii=False) if isinstance(word.usage, dict) else word.usage,
+                    json.dumps(word.notice, ensure_ascii=False) if isinstance(word.notice, dict) else word.notice,
                     word_type
                 ))
                 
