@@ -326,7 +326,7 @@ SELECT * FROM words WHERE word LIKE '%一帆风顺%';
 如有问题或建议，请查看日志文件或联系开发团队。
 """
     
-    readme_path = Path(output_dir) / "README.md"
+    readme_path = Path(output_dir) / "HanyuPinyinDictionaryBuild.md"
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(readme_content)
     
