@@ -19,7 +19,7 @@ if __name__ == '__main__':
     try:
         db     = sqlite3.connect(sqliteDbName)
         cursor = db.cursor()
-        cursor.execute('create table wordIndex(`id` integer primary key, `word` varchar(128), `offset` integer, `length` integer, CONSTRAINT `word` unique (`word`))');
+        cursor.execute('create table wordIndex(`id` integer primary key, `word` varchar(128), `offset` integer, `length` integer)');
         print("数据库表创建成功")
 
         statResult = stat(idxFilename)
@@ -71,7 +71,7 @@ if __name__ == '__main__':
                 length = struct.unpack('>I', length_bytes)[0]  # 使用无符号整数
                 
                 #if word_count < 10:  # 只打印前10个单词的详细信息
-                print(f'处理单词: key={key}, offset={offset}, length={length}')
+                #print(f'处理单词: key={key}, offset={offset}, length={length}')
 
                 sql = 'INSERT INTO wordIndex(word, offset, length) VALUES (?, ?, ?)'
                 param = (key, offset, length)
@@ -80,7 +80,36 @@ if __name__ == '__main__':
                     db.commit()
                     word_count += 1
                 except sqlite3.IntegrityError as msg:
-                    print(f"重复单词 {key}: {msg}")
+                    print(f"\n=== 发现重复单词: {key} ===")
+                    
+                    # 获取已存在的单词信息
+                    cursor.execute('SELECT offset, length FROM wordIndex WHERE word = ?', (key,))
+                    existing_data = cursor.fetchone()
+                    if existing_data:
+                        existing_offset, existing_length = existing_data
+                        print(f"已存在的单词 - offset: {existing_offset}, length: {existing_length}")
+                        
+                        # 读取已存在单词的词义
+                        try:
+                            with open(dictFilename, 'rb') as dict_file:
+                                dict_file.seek(existing_offset)
+                                existing_definition = dict_file.read(existing_length).decode('utf-8', errors='ignore')
+                                print(f"已存在的词义: {existing_definition[:200]}{'...' if len(existing_definition) > 200 else ''}")
+                        except Exception as e:
+                            print(f"读取已存在词义失败: {e}")
+                    
+                    print(f"当前单词 - offset: {offset}, length: {length}")
+                    
+                    # 读取当前单词的词义
+                    try:
+                        with open(dictFilename, 'rb') as dict_file:
+                            dict_file.seek(offset)
+                            current_definition = dict_file.read(length).decode('utf-8', errors='ignore')
+                            print(f"当前的词义: {current_definition[:200]}{'...' if len(current_definition) > 200 else ''}")
+                    except Exception as e:
+                        print(f"读取当前词义失败: {e}")
+                    
+                    print("=" * 50)
 
         cursor.close()
         db.close()
