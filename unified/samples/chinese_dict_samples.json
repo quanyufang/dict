@@ -1,0 +1,94 @@
+{
+  "dictionary_id": "chinese_dict",
+  "dictionary_name": "汉语拼音词典",
+  "index_language": "zh",
+  "explanation_language": "zh",
+  "sample_count": 17,
+  "samples": [
+    {
+      "word": "一",
+      "raw_content": "<h2>一 [[\"yī\"]]</h2>\n<p><strong>笔画:</strong> 1画</p>\n<p><strong>部首:</strong> 一</p>",
+      "content_length": 80
+    },
+    {
+      "word": "人",
+      "raw_content": "<h2>人 [[\"rén\"]]</h2>\n<p><strong>笔画:</strong> 2画</p>\n<p><strong>部首:</strong> 人</p>",
+      "content_length": 81
+    },
+    {
+      "word": "大",
+      "raw_content": "<h2>大 [[\"dà\", \"dài\", \"tài\"]]</h2>\n<p><strong>笔画:</strong> 3画</p>\n<p><strong>部首:</strong> 大</p>",
+      "content_length": 94
+    },
+    {
+      "word": "中",
+      "raw_content": "<h2>中 [[\"zhōng\", \"zhòng\"]]</h2>\n<p><strong>笔画:</strong> 4画</p>\n<p><strong>部首:</strong> 丨</p>",
+      "content_length": 92
+    },
+    {
+      "word": "国",
+      "raw_content": "<h2>国 [[\"ɡuó\"]]</h2>\n<p><strong>笔画:</strong> 8画</p>\n<p><strong>部首:</strong> 囗</p>",
+      "content_length": 81
+    },
+    {
+      "word": "学习",
+      "raw_content": "<h2>学习 [xué xí]</h2>\n<p><strong>缩写:</strong> xx</p>\n<p><strong>解释:</strong> 个体由经验或练习引起的在能力或倾向方面的变化，也指变化的过程。是人类和动物普遍具有的活动。按内容可分为认知的、情感的、运动技能的；按是否理解可分为机械学习和意义学习。</p>",
+      "content_length": 163
+    },
+    {
+      "word": "工作",
+      "raw_content": "<h2>工作 [gōng zuò]</h2>\n<p><strong>缩写:</strong> gz</p>\n<p><strong>解释:</strong> 从事体力或脑力劳动，也泛指机器、工具受人操纵而发挥生产作用积极～ㄧ开始～ㄧ铲土机正在～； 职业找～ㄧ～没有贵贱之分； 业务；任务～量ㄧ宣传～ㄧ工会～ㄧ科学</p>\n<p><strong>近义词:</strong> [\"劳动\", \"劳作\"]</p>\n<p><strong>反义词:</strong> [\"休息\"]</p>",
+      "content_length": 237
+    },
+    {
+      "word": "朋友",
+      "raw_content": "<h2>朋友 [péng yǒu]</h2>\n<p><strong>缩写:</strong> py</p>\n<p><strong>解释:</strong> 同学;志同道合的人◇泛指交谊深厚的人； 明代士大夫对儒学生员之称； 特指恋人。</p>\n<p><strong>近义词:</strong> [\"友人\", \"对象\"]</p>\n<p><strong>反义词:</strong> [\"敌人\", \"冤家\"]</p>",
+      "content_length": 205
+    },
+    {
+      "word": "时间",
+      "raw_content": "<h2>时间 [shí jiān]</h2>\n<p><strong>缩写:</strong> sj</p>\n<p><strong>解释:</strong> 物质动动中的一种存在方式，由过去、现在、将来构成的连绵不断的系统。是物质的运动、变化的持续性、顺序性的表现；有起点和终点的一段时间：地球自转一周的～是二十四小时｜盖这么一所房子要多少～？；时间里的某一点：现在的～是三点十五分。</p>",
+      "content_length": 195
+    },
+    {
+      "word": "问题",
+      "raw_content": "<h2>问题 [wèn tí]</h2>\n<p><strong>缩写:</strong> wt</p>\n<p><strong>解释:</strong> 要求解答的题目考卷上有六个问题｜我提一个问题，请大家思考； 需要研究解决的疑难和矛盾交通问题｜不成问题｜没问题｜写什么是一个问题，怎么写又是一个问题； 关键；重点问题在于廉政｜问题在于资金； 意外事故出问题｜发生问题。</p>",
+      "content_length": 189
+    },
+    {
+      "word": "一帆风顺",
+      "raw_content": "<h2>一帆风顺 [yī fán fēng shùn]</h2>\n<p><strong>缩写:</strong> yffs</p>\n<p><strong>解释:</strong> 船挂着满帆顺风行驶。比喻非常顺利，没有任何阻碍。</p>\n<p><strong>来源:</strong> {\"text\": \"定知一日帆，使得千里风。\", \"book\": \"唐·孟郊《送崔爽之湖南》\"}</p>\n<p><strong>近义词:</strong> [\"无往不利\", \"一往无前\", \"一路顺风\"]</p>\n<p><strong>反义词:</strong> [\"一波三折\", \"暴风骤雨\", \"凶涛恶浪\"]</p>\n<p><strong>例句:</strong> {\"text\": \"栉霜沐露多劳顿，喜借得～。\", \"book\": \"清·李渔《怜香伴·蹴居》\"}</p>\n<p><strong>用法:</strong> 作谓语、定语、宾语；指非常顺利</p>",
+      "content_length": 425
+    },
+    {
+      "word": "画龙点睛",
+      "raw_content": "<h2>画龙点睛 [huà lóng diǎn jīng]</h2>\n<p><strong>缩写:</strong> hldj</p>\n<p><strong>解释:</strong> 原形容梁代画家张僧繇作画的神妙。后多比喻写文章或讲话时，在关键处用几句话点明实质，使内容生动有力。</p>\n<p><strong>来源:</strong> {\"text\": \"金陵安乐寺四白龙不点眼睛，每云：‘点睛即飞去。’人以为妄诞，固请点之。须臾，雷电破壁，两龙乘云腾去上天，二龙未点眼者见在。\", \"book\": \"唐·张彦远《历代名画记·张僧繇》\"}</p>\n<p><strong>典故:</strong> [\"南朝梁代著名书画家张僧繇特别擅长画龙，梁武帝在金陵建安乐寺，让张僧繇在墙上画龙，他画了四条龙栩栩如生，但都没有点眼睛。众人不解，怂恿他点上龙眼，他刚刚点了两条龙的眼睛，顿时闪电四起，两条龙腾空而去\"]</p>\n<p><strong>近义词:</strong> [\"锦上添花\", \"点石成金\"]</p>\n<p><strong>反义词:</strong> [\"弄巧成拙\", \"画蛇添足\", \"点金成铁\"]</p>\n<p><strong>例句:</strong> {\"text\": \"这然而一个好题目，却常常对作品有～之妙，激发人们阅读的兴趣。\", \"book\": \"秦牧《车窗文学欣赏》\"}</p>\n<p><strong>用法:</strong> 作主语、谓语、定语、状语；用于写文章等</p>",
+      "content_length": 647
+    },
+    {
+      "word": "守株待兔",
+      "raw_content": "<h2>守株待兔 [shǒu zhū dài tù]</h2>\n<p><strong>缩写:</strong> szdt</p>\n<p><strong>解释:</strong> 株：露出地面的树根。原比喻希图不经过努力而得到成功的侥幸心理。现也比喻死守狭隘经验，不知变通。</p>\n<p><strong>来源:</strong> {\"text\": \"《韩非子·五蠹》记载：战国时宋国有一个农民，看见一只兔子撞在树根上死了，便放下锄头在树根旁等待，希望再得到撞死的兔子。\"}</p>\n<p><strong>典故:</strong> [\"从前宋国有一个农夫在地里干活，忽然从远处跑来一只兔子，它十分慌张，一不小心就撞在树桩上死了。农夫很高兴，捡起这只死兔子回家美美地饱餐一顿。他想每天都有这样的好事就好了，于是他放下农具整天守在那颗树下，一无所获\"]</p>\n<p><strong>近义词:</strong> [\"刻舟求剑\", \"墨守成规\"]</p>\n<p><strong>反义词:</strong> [\"通达权变\"]</p>\n<p><strong>例句:</strong> {\"text\": \"吾料兄必定出身报国，岂是～之辈。\", \"book\": \"明·许仲琳《封神演义》第九十四\"}</p>\n<p><strong>用法:</strong> 作宾语、定语；指不知变通</p>",
+      "content_length": 586
+    },
+    {
+      "word": "行",
+      "raw_content": "<h2>行 [[\"xíng\", \"háng\", \"hàng\", \"héng\"]]</h2>\n<p><strong>笔画:</strong> 6画</p>\n<p><strong>部首:</strong> 行</p>",
+      "content_length": 106
+    },
+    {
+      "word": "了",
+      "raw_content": "<h2>了 [[\"liǎo\", \"le\"]]</h2>\n<p><strong>笔画:</strong> 2画</p>\n<p><strong>部首:</strong> 乛</p>",
+      "content_length": 88
+    },
+    {
+      "word": "着",
+      "raw_content": "<h2>着 [[\"zháo\", \"zhuó\", \"zhāo\"]]</h2>\n<p><strong>笔画:</strong> 11画</p>\n<p><strong>部首:</strong> 目</p>",
+      "content_length": 99
+    },
+    {
+      "word": "的",
+      "raw_content": "<h2>的 [[\"dí\", \"dì\", \"de\"]]</h2>\n<p><strong>笔画:</strong> 8画</p>\n<p><strong>部首:</strong> 白</p>",
+      "content_length": 92
+    }
+  ]
+}

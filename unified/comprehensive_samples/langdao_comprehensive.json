@@ -1,0 +1,1533 @@
+{
+  "dictionary_id": "langdao",
+  "dictionary_name": "朗道英汉词典",
+  "total_samples": 218,
+  "samples": [
+    {
+      "word": "a",
+      "raw_content": "*[ei]\nart. 一\n【计】 累加器, 加法器, 地址, 振幅, 模拟, 区域, 面积, 汇编, 组件, 异步\n【医】 热力效能",
+      "offset": 0,
+      "length": 132,
+      "source": "specified"
+    },
+    {
+      "word": "the",
+      "raw_content": "*[ðә]\nart. 那",
+      "offset": 12899462,
+      "length": 16,
+      "source": "specified"
+    },
+    {
+      "word": "is",
+      "raw_content": "*[iz]\nbe的现在式第三人称\n【计】 加下标次序, 信息系统, 国际标准, 中间系统\n相关词组:\n  as is",
+      "offset": 6856111,
+      "length": 122,
+      "source": "specified"
+    },
+    {
+      "word": "are",
+      "raw_content": "*[ɑ:]\nbe的现在时复数或第二人称单数",
+      "offset": 897281,
+      "length": 48,
+      "source": "specified"
+    },
+    {
+      "word": "be",
+      "raw_content": "*[bi:]\nvt. 是, 表示, 在\nvi. 是, 表示, 在\n【计】 后端, 总线允许\n【医】 铍(4号元素)\n相关词组:\n  be it that...\n  be it true or not\n  be that as it may\n  the...to be\n  so be it",
+      "offset": 1370488,
+      "length": 200,
+      "source": "specified"
+    },
+    {
+      "word": "have",
+      "raw_content": "*[hæv]\nvt. 有, 怀有, 拿, 进行\naux. 已经\n相关词组:\n  have it out with sb\n  have on\n  have only to...to...\n  have sb down\n  have sb in\n  have sb up\n  have sth back\n  have sth in\n  have sth out\n  have sth about sb\n  have a good time\n  have at\n  have done with...\n  have had it\n  have it all over sb\n  have it in for sb\n  Have you ever been to...\n  have it on sb",
+      "offset": 5869864,
+      "length": 371,
+      "source": "specified"
+    },
+    {
+      "word": "has",
+      "raw_content": "*[hæz]\nhave的第三人称单数现在式\n相关词组:\n  as Lu Hsun has it...",
+      "offset": 5862887,
+      "length": 79,
+      "source": "specified"
+    },
+    {
+      "word": "had",
+      "raw_content": "*[hæd]\nhave的过去式和过去分词\n相关词组:\n  had rather...than\n  be had",
+      "offset": 5787171,
+      "length": 82,
+      "source": "specified"
+    },
+    {
+      "word": "do",
+      "raw_content": "*[du:]\nvt. 做, 进行, 完成\nvi. 做, 进行, 完成\n相关词组:\n  do well\n  make do with something\n  do sb in\n  do sb out of sth\n  do one's damnedest\n  do oneself well\n  do or die\n  do out\n  do over\n  do right\n  do sb brown\n  do sb in the eye\n  do sb proud\n  do time\n  do up brown\n  do wrong\n  do by...\n  do down...\n  do for...\n  do in...\n  do a favour\n  to do the shopping\n  to do one's exercises\n  do it all\n  do one's best",
+      "offset": 4017736,
+      "length": 430,
+      "source": "specified"
+    },
+    {
+      "word": "did",
+      "raw_content": "*[did]\ndo的过去式",
+      "offset": 3793420,
+      "length": 21,
+      "source": "specified"
+    },
+    {
+      "word": "will",
+      "raw_content": "*[wil]\nn. 意志, 决心, 意愿, 意向, 干劲, 遗嘱\nvt. 用意志的力量驱使, 决意, 愿意, 立遗嘱\nvi. 下决心, 愿意\naux. 将, 愿意, 必须\n【法】 遗嘱, 愿望, 意志\n相关词组:\n  against one's will\n  at will\n  do the will of\n  have one's will\n  if you will",
+      "offset": 14051251,
+      "length": 286,
+      "source": "specified"
+    },
+    {
+      "word": "would",
+      "raw_content": "*[wud]\naux. 将, 愿意\n相关词组:\n  would you...?",
+      "offset": 14124551,
+      "length": 53,
+      "source": "specified"
+    },
+    {
+      "word": "can",
+      "raw_content": "*[kæn]\nvt. 装罐\nn. 罐头, 容器\naux. 能, 可以\n【计】 作废字符\n相关词组:\n  carry the can",
+      "offset": 2018877,
+      "length": 106,
+      "source": "specified"
+    },
+    {
+      "word": "could",
+      "raw_content": "*[kud]\naux. 可以, 能",
+      "offset": 3165828,
+      "length": 23,
+      "source": "specified"
+    },
+    {
+      "word": "good",
+      "raw_content": "*[gud]\nn. 善行, 好处, 利益\na. 好的, 优良的, 上等的, 愉快的, 有益的, 好心的, 慈善的, 虔诚的\n【经】 货物; 好的\n相关词组:\n  for good\n  for good or for evil\n  good and\n  good for\n  hold good for\n  in good time\n  make good\n  to the good\n  good-bye\n  say good-bye to sb\n  as good as",
+      "offset": 5632821,
+      "length": 316,
+      "source": "specified"
+    },
+    {
+      "word": "bad",
+      "raw_content": "*[bæd]\na. 坏的\nn. 坏\nad. 坏地\n【机】 坏, 不良, 品质不佳\n相关词组:\n  to have a bad time\n  to feel bad about sth\n  be in a bad way\n  be taken bad\n  to feel bad\n  to go from bad to worse\n  to go to the bad\n  in bad\n  be in bad with sb\n  not bad\n  to take the bad with the good\n  to make the best of a bad job\n  to the bad\n  with a bad grace",
+      "offset": 1249314,
+      "length": 357,
+      "source": "specified"
+    },
+    {
+      "word": "big",
+      "raw_content": "*[big]\na. 大的, 重要的\nad. 大量地\n相关词组:\n  as big as shot\n  be big with child\n  be big with rage\n  to go over big\n  to make big\n  to talk big\n  big talk\n  as big as life",
+      "offset": 1520388,
+      "length": 184,
+      "source": "specified"
+    },
+    {
+      "word": "small",
+      "raw_content": "*[smɒ:l]\na. 小的, 少的, 小型的, 低微的, 小气的, 细微的\nad. 些微地\nn. 狭小部分\n【法】 小的, 小型的, 锁细的\n相关词组:\n  look small\n  pay small heed to\n  think small of sb\n  by small and small\n  feel small",
+      "offset": 11858857,
+      "length": 241,
+      "source": "specified"
+    },
+    {
+      "word": "new",
+      "raw_content": "*[nju:]\na. 新的, 陌生的, 最近的, 不熟悉的\n【法】 新发现的, 新的, 重新开始的\n相关词组:\n  new to",
+      "offset": 8679919,
+      "length": 124,
+      "source": "specified"
+    },
+    {
+      "word": "old",
+      "raw_content": "*[әuld]\nn. 以前, 往昔\na. 老的, 旧的, 古老的, 年长的, 老练的\n相关词组:\n  be old enough to know better\n  for old sake's sake\n  from of old\n  of old\n  as of old\n  old and young\n  as old as the hills",
+      "offset": 8978855,
+      "length": 217,
+      "source": "specified"
+    },
+    {
+      "word": "long",
+      "raw_content": "*[lɒŋ]\na. 长的, 长久的, 冗长的, 做多头的\nvi. 渴望, 热望, 极想\nad. 长久, 始终\nn. 长时间, 长信号, 长整型\n【计】 长, 长整型\n【经】 长期的, 远期的\n相关词组:\n  long since\n  so long as\n  not by a long chalk\n  the long and the short of it\n  a long shot gamble\n  long for\n  in the long run\n  so long\n  all day long\n  all night long\n  as long as\n  before long\n  for long\n  long after\n  long before\n  long ago\n  long long ago",
+      "offset": 7571615,
+      "length": 468,
+      "source": "specified"
+    },
+    {
+      "word": "short",
+      "raw_content": "*[ʃɒ:t]\na. 短的, 近的, 矮的, 短期的, 简短的, 少量的\nad. 简短地, 突然\nn. 扼要, 短片, 缺乏\nvt. 故意少给, 使短路\n【经】 短少的, 短缺的, 短期的\n相关词组:\n  pull up short\n  be caught short\n  The short of it is...\n  be short and sweet\n  be taken short\n  for short\n  short for\n  in short\n  little short of\n  short of\n  be short of\n  make a long story short\n  bring sb up short\n  take sb up short",
+      "offset": 11690408,
+      "length": 439,
+      "source": "specified"
+    },
+    {
+      "word": "go",
+      "raw_content": "*[gou]\nvi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下\nvt. 以...打赌, 对付, 忍受, 出产, 为被捕者出(保释金)\nn. 去, 尝试, 进行\n相关词组:\n  from the word go\n  go about sth\n  go about doing\n  go about\n  go ahead\n  go all out\n  go along\n  go along with\n  go at sb\n  go and do\n  to go\n  go beyond\n  go by\n  go by sth\n  go by the name of\n  go easy\n  go down\n  go far\n  go far towards\n  go flop\n  go for nothing\n  go for little\n  go forward\n  go hang\n  go hard with sb\n  go home\n  go ill\n  go ill with\n  go in\n  go in at\n  go in for sth\n  go in for doing\n  go into sth\n  go off\n  go off with\n  go on\n  go on sth\n  go out\n  go out doing\n  go over\n  go some\n  go through\n  go through sth\n  go through with sth\n  go to sth\n  go together\n  go too far\n  go under\n  go up\n  go with sb\n  go with sth\n  go wrong\n  go it",
+      "offset": 5602364,
+      "length": 882,
+      "source": "specified"
+    },
+    {
+      "word": "come",
+      "raw_content": "*[kʌm]\nvi. 过来, 来, 到达, 出现, 开始\ninterj. 喂\n相关词组:\n  come back\n  come before\n  come by\n  come by sth\n  come clean\n  come down\n  come down heavy on sb\n  come down to earth\n  come down to sth\n  come down with sth\n  come for\n  come forth\n  come forward\n  come from sth\n  come home\n  come home to sb\n  come in\n  come in for sth\n  come in on sth\n  come into sth\n  come into the world\n  come into power\n  come into one's own\n  to come into fashion\n  to come into existence\n  to come into force\n  to come into consideration\n  come it strong\n  come near\n  come of sth\n  come of age\n  come off\n  come off it\n  come on\n  come out\n  come out in sth\n  I am determined to...whatever may come to me.\n  come out victorious\n  come out first\n  come out with sth\n  come over\n  come over sb\n  come round\n  come round sb by cajoling\n  come through\n  come to sth\n  come to sb\n  come to\n  come to little\n  come to a decision\n  come to an understanding\n  come to oneself\n  come to stay\n  to come to an end\n  come to pass\n  come under sth\n  come under sb's notice\n  come under the influence of\n  come under fire\n  come unstuck\n  come up\n  come upon sb for sth\n  come up to sth\n  come up with sth\n  come up in the world\n  come within\n  to come\n  come apart\n  come high\n  come across\n  come after\n  come again\n  come alive\n  come along\n  come and go\n  come into use",
+      "offset": 2753931,
+      "length": 1362,
+      "source": "specified"
+    },
+    {
+      "word": "make",
+      "raw_content": "*[meik]\nvt. 制造, 安排, 创造, 构成, 使得, 产生, 造成, 整理, 布置, 引起, 到达, 进行\nvi. 开始, 前进, 增大, 被制造, 被处理\nn. 制造, 构造, 性情\n【医】 通, 关(电路)\n相关词组:\n  make an answer\n  make a decision\n  make progress\n  make a promise\n  make new contributions\n  make believe\n  make do with something\n  make camp\n  make a fire\n  make tea\n  make trouble\n  make no sense\n  make no difference\n  make no doubt of it\n  make profits\n  make money\n  make a living\n  make friends with sb\n  make sb's acquaintance\n  make enemies\n  make war\n  make peace\n  make bold\n  make sure\n  make ready\n  make merry\n  at make\n  make after\n  make against\n  make at\n  make away\n  make away with oneself\n  make down\n  make for\n  make from\n  make in\n  make into\n  make it\n  make like\n  make sth of sth\n  make of\n  make a self-criticism\n  make off\n  make off with\n  make or break\n  make out of\n  make through with\n  make out\n  make sth out\n  make up to sb\n  make it up to someone\n  make up\n  make it up with sb\n  shake hands and make up\n  make up a bed\n  make one's way to\n  to make a noise\n  to make a fire\n  make the beds\n  make with\n  on the make\n  make a summing-up\n  make good\n  make the best of\n  make the most of",
+      "offset": 7753434,
+      "length": 1246,
+      "source": "specified"
+    },
+    {
+      "word": "take",
+      "raw_content": "*[teik]\nvt. 拿, 取, 抓, 带领, 获得, 就座, 接受, 吃, 吸引, 采取, 乘, 需要, 花费\nvi. 吃掉对方棋子, 抓住, 起作用, 依法获得财产\nn. 拿, 取, 收成, 奏效\n【经】 取消禁运\n相关词组:\n  to take sb about sth\n  to take...into account\n  to take air\n  take sb by the hand\n  take sth on one's shoulder\n  take hold of sth\n  take sb at a disadvantage\n  take a day off\n  take one's leave\n  take office\n  take one's time\n  take the chair\n  take the floor\n  take harbour\n  take sb's advice\n  take sb into one's confidence\n  take the blame\n  take things as they are\n  take it from me\n  take one's time over\n  take place\n  take the law into one's own hands\n  take the rough with the smooth\n  take action\n  take notes\n  take a letter\n  take a photo\n  if I take you correctly\n  take sth as settled\n  take an interest in\n  take pity on\n  take for example\n  take a bath\n  take a look\n  take a rest\n  take no notice\n  take ill\n  take pretty surly\n  be able to take it\n  take sb aback\n  take after sb\n  take against\n  take ammiss\n  take sth apart\n  take as\n  take away\n  take sth down\n  take five\n  take for\n  take from\n  take the situation in\n  take in the meaning of\n  take it or leave it\n  take it out in\n  take it out of sb\n  take it out on sb\n  take sth off\n  take sb off\n  take off\n  take on\n  take sb on\n  take sth on\n  take out\n  take sth out on sb\n  take oneself off\n  take the conceit out of sb\n  take sth over\n  take sth hard\n  take sth ill\n  take ten\n  take to sth\n  take sth up\n  take up\n  take sth up with\n  take sb up\n  take sb up on sth\n  take up the matter with\n  take up a post\n  take up one's residence at\n  take upon oneself\n  take seriously\n  to take the air",
+      "offset": 12694375,
+      "length": 1704,
+      "source": "specified"
+    },
+    {
+      "word": "get",
+      "raw_content": "*[get]\nvt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上\nvi. 到达, 成为, 变得\nn. (网球等)救球, 生殖, 幼兽\n【计】 取得指令, 获取文件\n相关词组:\n  get about\n  get above oneself\n  get across\n  get after\n  get ahead\n  get along\n  get away\n  get away with it\n  get back\n  get back at someone\n  get behind\n  get by\n  get done with sth\n  get down\n  get sb down\n  get down on...\n  get home\n  get in\n  get sb in\n  get sth in\n  get in with...\n  get into\n  get sb into sth\n  get into sth\n  get nowhere\n  get off\n  get off with sb\n  get on to sb the trick\n  get on with...\n  get on for sth\n  get out\n  get sb out\n  get sth out of sb\n  get sth out of sth\n  get over...\n  get round\n  get round to do\n  get through\n  get to\n  get under\n  get up\n  get oneself up as\n  get up with it\n  get up to sth\n  get hold of...\n  get sb to do\n  get something done\n  to get up early",
+      "offset": 5509767,
+      "length": 899,
+      "source": "specified"
+    },
+    {
+      "word": "put",
+      "raw_content": "*[put]\nvt. 放, 摆, 安置, 移动, 发射, 投掷, 写上, 表达, 使从事, 使受到, 驱使, 赋予\nvi. 出发, 航行, 发芽\nn. 掷, 股票出售权, 笨蛋\na. 固定不动的\n【计】 发送文件\n【经】 期货买卖, 卖方选择权; 放\n相关词组:\n  put sb to trial\n  put sb to shame\n  be hard put to it\n  put paid to\n  put about\n  feel put about\n  put across\n  put apart\n  put sth aside\n  put sth away\n  put sb away\n  put sth back\n  put behind one\n  put by\n  put sb down for sth\n  put forth\n  put inside\n  put into\n  put into operation\n  put into practice\n  put into effect\n  put it on\n  put it over\n  I put it to you that...\n  put in\n  put in for sth\n  put sth on sth\n  put sb onto sth\n  put out\n  put oneself out\n  put over\n  put sb on to\n  put through\n  put sb through sth\n  put sb through drills\n  put sb through a trial\n  put sb through to\n  put to\n  put together\n  put to it\n  put up\n  put sb up to sth\n  put a stay put\n  put under\n  put upon\n  be put upon by sb\n  put one's foot down\n  to put on airs\n  put faith in\n  be put into action\n  be put out of action\n  be put into production\n  put sb to death",
+      "offset": 10504298,
+      "length": 1128,
+      "source": "specified"
+    },
+    {
+      "word": "give",
+      "raw_content": "*[giv]\nn. 弹性, 适应性\nvt. 给, 授予, 供给, 产生, 发表, 付出, 献出, 让出\nvi. 捐赠, 支持不住, 让步\n相关词组:\n  give or take\n  give sb back sth\n  give back\n  give forth\n  give in\n  give into\n  give off\n  give on\n  give out\n  give sb what for\n  give up\n  give sb up\n  give up doing\n  give way\n  give rise to\n  give oneself over to\n  to give oneself airs",
+      "offset": 5536766,
+      "length": 381,
+      "source": "specified"
+    },
+    {
+      "word": "keep",
+      "raw_content": "*[ki:p]\nn. 生计, 维持, 保持\nvt. 保持, 保存, 遵守, 看守, 整理, 维持, 履行, 经营, 拘留, 记帐\nvi. 保持, 继续不断\n【经】 保持, 遵守, 记(帐)\n相关词组:\n  keep in with sb\n  keep one's head\n  keep someone company\n  earn one's keep\n  keep at\n  keep away\n  keep back\n  keep sth back\n  keep down\n  keep from\n  keep sth back from sb\n  keep in\n  keep in with\n  keep off\n  keep sth on\n  keep on at\n  keep oneself to oneself\n  keep out of\n  keep pace with\n  keep sb going in sth\n  keep under\n  keep to sth\n  keep to the subject\n  keep sth to oneself\n  keep sth up\n  keep up sth\n  keep sb up late\n  keep up with the Joneses\n  keep alive\n  keep an eye on\n  keep good time\n  keep one's bed\n  keep one's word\n  keep regular hours",
+      "offset": 7023748,
+      "length": 755,
+      "source": "specified"
+    },
+    {
+      "word": "say",
+      "raw_content": "*[sei]\nvt. 说, 讲, 念, 说明, 指明\nvi. 说, 讲\nn. 意见, 发言权\n相关词组:\n  have sth to say\n  I have heard say that...\n  say all one knows\n  have a say in the matter\n  have no say in the matter\n  have not much say in the matter\n  have one's say\n  have all the say\n  as much as to say\n  I dare say\n  I say\n  not to say\n  say one's say\n  say over\n  that is to say\n  they say\n  to say nothing of",
+      "offset": 11351316,
+      "length": 407,
+      "source": "specified"
+    },
+    {
+      "word": "tell",
+      "raw_content": "*[tel]\nvt. 告诉, 说, 吩咐, 断定, 知道\nvi. 讲述, 泄密, 告发, 表明\n相关词组:\n  Don't tell me...\n  tell it like it is\n  tell off\n  tell sb off\n  tell sb off for being so rude\n  tell sb where to get off\n  tell the world\n  tell apart\n  tell A from B\n  tell the truth\n  tell a lie\n  tell on sb\n  tell the time\n  tell upon sth\n  according to sb's tell",
+      "offset": 12799570,
+      "length": 365,
+      "source": "specified"
+    },
+    {
+      "word": "ask",
+      "raw_content": "*[ɑ:sk]\nvi. 问, 要求\nvt. 问, 要求, 邀请, 需要\n【经】 讨价\n相关词组:\n  to ask for trouble\n  to ask after...\n  to ask for sth\n  to ask sb for sth\n  to ask for...\n  to ask for it",
+      "offset": 996503,
+      "length": 195,
+      "source": "specified"
+    },
+    {
+      "word": "see",
+      "raw_content": "*[si:]\nvt. 看见, 查看, 参观, 游览, 理解, 知道, 同意\nvi. 看, 观看, 注意, 知道, 考虑\nn. 主教的职位\n【经】 预期\n相关词组:\n  see things\n  see after\n  see sb through\n  see sth through\n  see sb through sth\n  see with\n  you see\n  see fit to\n  see one's way to\n  see red\n  see stars\n  see the light",
+      "offset": 11491099,
+      "length": 327,
+      "source": "specified"
+    },
+    {
+      "word": "look",
+      "raw_content": "*[luk]\nn. 一看, 神色, 样子, 面容\nvi. 看, 注意, 朝着, 显得\nvt. 打量, 看上去与...一样, 以眼色(或脸色)显示, 期待\n【法】 看, 注意, 留神\n相关词组:\n  give sb a dirty look\n  look about\n  look after\n  look down\n  look for\n  look back\n  not much to look at\n  look ahead\n  never look back\n  look in\n  look into sth\n  look on\n  look oneself\n  look sth out\n  look sth over\n  look through sth\n  look to\n  look to sb for help\n  look to sb to do sth\n  look up\n  look sth up\n  look sb up\n  look up to sb\n  look ill\n  look well\n  upon the look\n  give sb a look-in\n  have a look-in\n  look here\n  look black\n  look blue\n  look big\n  look small\n  look sb in the face\n  look sb up and down\n  look daggers at sb\n  give sb a look\n  steal a look",
+      "offset": 7584441,
+      "length": 766,
+      "source": "specified"
+    },
+    {
+      "word": "find",
+      "raw_content": "*[faind]\nvt. 发现, 感到, 找到, 认为, 得到\nvi. 裁决\nn. 发现\n【计】 查找; DOS外部命令:在指定的文件或从键盘输入的文本行中\n             寻找指定的字符串, 将符合条件的行或行数输出到标准输出设备上\n相关词组:\n  find out\n  find A to do\n  find it impossible to do",
+      "offset": 4990695,
+      "length": 325,
+      "source": "specified"
+    },
+    {
+      "word": "know",
+      "raw_content": "*[nәu]\nvt. 知道, 了解, 认识, 确信\nvi. 知道, 了解, 认识, 确信\n相关词组:\n  know no bounds\n  know a thing or two\n  know one's business\n  know sth backwards\n  know one's own mind\n  you know\n  know nothing of\n  know no ends\n  know sb by name\n  know sb by sight\n  know right from wrong\n  in the know\n  Not that I know of\n  know oneself\n  know for certain that...\n  don't you know",
+      "offset": 7092139,
+      "length": 394,
+      "source": "specified"
+    },
+    {
+      "word": "think",
+      "raw_content": "*[θiŋk]\nvt. 想, 考虑, 想起, 想像, 打算, 认为\nvi. 思考, 料想\nn. 想法\na. 思想的\n相关词组:\n  think to oneself\n  think oneself silly\n  think oneself into a dilemma\n  think no harm in doing sth\n  think fit to do sth\n  think much of\n  think little of\n  think long\n  think of A as B\n  What do you think of...?\n  think no end of\n  to think big\n  think twice\n  think aloud\n  think better of\n  not think much of\n  think nothing of\n  think nothing of it\n  think on\n  think out\n  think sth over\n  think sth through\n  think sth up",
+      "offset": 12950000,
+      "length": 543,
+      "source": "specified"
+    },
+    {
+      "word": "run",
+      "raw_content": "*[rʌn]\nn. 跑, 赛跑, 奔跑, 奔跑的路程, 趋向, 流出, 运转时间, 连续\nvi. 跑, 奔跑, 跑步, 赛跑, 竞赛, 行驶, 运转, 进行, 蔓延\nvt. 使跑, 参赛, 追究, 驾驶, 开动, 管理, 经营, 使流出, 运行\na. 熔化的, 融化的, 浇铸的\nrun的过去式和过去分词\n【计】 运行\n相关词组:\n  run rampant\n  run the streets\n  run sb into difficulties\n  run the risk of\n  be out of the common run\n  in the long run\n  in the short run\n  keep the run of\n  on the run\n  run across\n  run after\n  run against\n  run along\n  run at\n  run away with\n  for many years run\n  run around\n  run back over\n  run counter to\n  run down\n  run for\n  run into debt\n  run off\n  run on\n  run oneself out\n  run out\n  run out of sth\n  run over\n  run through sth\n  run sth through sth\n  run to\n  run to fat\n  run to waste\n  run sth up\n  run up against\n  run upon\n  run up to\n  run low\n  run short\n  run into the ground",
+      "offset": 11223844,
+      "length": 933,
+      "source": "specified"
+    },
+    {
+      "word": "set",
+      "raw_content": "*[set]\nn. 日落, 同伙, 组合, 集合, 装置\nvt. 放, 安置, 放置, 设定, 使凝结, 点燃, 确定, 点缀, 使就位, 树立, 分配, 调整\nvi. 日落, 凝固, 定型, 搁住, 结果, 适合\na. 决心的, 规定的, 故意的, 持久的, 固定的, 老套的, 准备好的\n【计】 设置; DOS内部命令:改变或显示分配给环境变量的值\n【化】 凝结; 套; 组; 装置; 机组\n【医】 凝固; 套\n【经】 组; 创\n相关词组:\n  set one's affections on sth\n  set sb's heart at rest\n  set sb's heart at ease\n  set one's house in order\n  set sb to a task\n  set someone's teeth on edge\n  set store by\n  set the pace\n  set to rights\n  set to work\n  set sail\n  be all set\n  be set in one's ways\n  be dead set on having one's own way\n  be hard set\n  set apart\n  set sth aside\n  set at\n  set sth back\n  set sb back sth\n  set before\n  set by\n  set sth down\n  set sb down\n  set forth\n  set forward\n  set in\n  set in motion\n  set little by\n  set light by\n  set off\n  set sth off\n  set off sth\n  set sb off doing\n  set on\n  set oneself against\n  set oneself up as\n  set out\n  set sth out\n  set over\n  set to\n  set up\n  set up for\n  set sb up as sth\n  set a watch\n  set the watch\n  set one's affections on sb",
+      "offset": 11614470,
+      "length": 1228,
+      "source": "specified"
+    },
+    {
+      "word": "take",
+      "raw_content": "*[teik]\nvt. 拿, 取, 抓, 带领, 获得, 就座, 接受, 吃, 吸引, 采取, 乘, 需要, 花费\nvi. 吃掉对方棋子, 抓住, 起作用, 依法获得财产\nn. 拿, 取, 收成, 奏效\n【经】 取消禁运\n相关词组:\n  to take sb about sth\n  to take...into account\n  to take air\n  take sb by the hand\n  take sth on one's shoulder\n  take hold of sth\n  take sb at a disadvantage\n  take a day off\n  take one's leave\n  take office\n  take one's time\n  take the chair\n  take the floor\n  take harbour\n  take sb's advice\n  take sb into one's confidence\n  take the blame\n  take things as they are\n  take it from me\n  take one's time over\n  take place\n  take the law into one's own hands\n  take the rough with the smooth\n  take action\n  take notes\n  take a letter\n  take a photo\n  if I take you correctly\n  take sth as settled\n  take an interest in\n  take pity on\n  take for example\n  take a bath\n  take a look\n  take a rest\n  take no notice\n  take ill\n  take pretty surly\n  be able to take it\n  take sb aback\n  take after sb\n  take against\n  take ammiss\n  take sth apart\n  take as\n  take away\n  take sth down\n  take five\n  take for\n  take from\n  take the situation in\n  take in the meaning of\n  take it or leave it\n  take it out in\n  take it out of sb\n  take it out on sb\n  take sth off\n  take sb off\n  take off\n  take on\n  take sb on\n  take sth on\n  take out\n  take sth out on sb\n  take oneself off\n  take the conceit out of sb\n  take sth over\n  take sth hard\n  take sth ill\n  take ten\n  take to sth\n  take sth up\n  take up\n  take sth up with\n  take sb up\n  take sb up on sth\n  take up the matter with\n  take up a post\n  take up one's residence at\n  take upon oneself\n  take seriously\n  to take the air",
+      "offset": 12694375,
+      "length": 1704,
+      "source": "specified"
+    },
+    {
+      "word": "get",
+      "raw_content": "*[get]\nvt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上\nvi. 到达, 成为, 变得\nn. (网球等)救球, 生殖, 幼兽\n【计】 取得指令, 获取文件\n相关词组:\n  get about\n  get above oneself\n  get across\n  get after\n  get ahead\n  get along\n  get away\n  get away with it\n  get back\n  get back at someone\n  get behind\n  get by\n  get done with sth\n  get down\n  get sb down\n  get down on...\n  get home\n  get in\n  get sb in\n  get sth in\n  get in with...\n  get into\n  get sb into sth\n  get into sth\n  get nowhere\n  get off\n  get off with sb\n  get on to sb the trick\n  get on with...\n  get on for sth\n  get out\n  get sb out\n  get sth out of sb\n  get sth out of sth\n  get over...\n  get round\n  get round to do\n  get through\n  get to\n  get under\n  get up\n  get oneself up as\n  get up with it\n  get up to sth\n  get hold of...\n  get sb to do\n  get something done\n  to get up early",
+      "offset": 5509767,
+      "length": 899,
+      "source": "specified"
+    },
+    {
+      "word": "put",
+      "raw_content": "*[put]\nvt. 放, 摆, 安置, 移动, 发射, 投掷, 写上, 表达, 使从事, 使受到, 驱使, 赋予\nvi. 出发, 航行, 发芽\nn. 掷, 股票出售权, 笨蛋\na. 固定不动的\n【计】 发送文件\n【经】 期货买卖, 卖方选择权; 放\n相关词组:\n  put sb to trial\n  put sb to shame\n  be hard put to it\n  put paid to\n  put about\n  feel put about\n  put across\n  put apart\n  put sth aside\n  put sth away\n  put sb away\n  put sth back\n  put behind one\n  put by\n  put sb down for sth\n  put forth\n  put inside\n  put into\n  put into operation\n  put into practice\n  put into effect\n  put it on\n  put it over\n  I put it to you that...\n  put in\n  put in for sth\n  put sth on sth\n  put sb onto sth\n  put out\n  put oneself out\n  put over\n  put sb on to\n  put through\n  put sb through sth\n  put sb through drills\n  put sb through a trial\n  put sb through to\n  put to\n  put together\n  put to it\n  put up\n  put sb up to sth\n  put a stay put\n  put under\n  put upon\n  be put upon by sb\n  put one's foot down\n  to put on airs\n  put faith in\n  be put into action\n  be put out of action\n  be put into production\n  put sb to death",
+      "offset": 10504298,
+      "length": 1128,
+      "source": "specified"
+    },
+    {
+      "word": "turn",
+      "raw_content": "*[tә:n]\nn. 转弯, 转动, 旋转, 翻转, 一圈, 顺次, 改动, 变化, 性格, 特色, 形状, 转折\nvt. 使旋转, 转弯, 转动, 使转向, 驱赶, 阻挡, 兑换, 改写, 使作对, 绕过, 使流通\nvi. 转动, 转弯, 转向, 翻转, 回转, 改变, 转身, 变成, 变质, 晕眩, 易脱手\n【医】 转; 转变; 倒转(胎)\n【经】 转为\n相关词组:\n  turn one's hand to\n  turn one's stomach\n  do sb a good turn\n  do sb a bad turn\n  at every turn\n  call the turn\n  turn to the left\n  in the turn of a hand\n  in turn\n  not do a hand's turn\n  on the turn\n  out of turn\n  serve sb's turn\n  serve the turn\n  to a turn\n  a good turn\n  to the turn of a hair\n  turn about\n  turn and turn about\n  turn aside\n  turn away\n  turn sb away\n  turn back\n  turn back to\n  turn in\n  turn oneself in\n  turn inside out\n  turn into\n  turn loose\n  turn off\n  turn sb off\n  turn sth on\n  turn on sb\n  turn sb on\n  turn out\n  turn out sth\n  turn out to be\n  turn out to do\n  turn out well\n  turn sth over\n  turn over\n  turn round\n  turn to sb for help\n  turn to a task\n  turn up sth\n  turn up doing\n  turn up\n  turn upside down\n  turn the facts upside down\n  not turn a hair",
+      "offset": 13383914,
+      "length": 1171,
+      "source": "specified"
+    },
+    {
+      "word": "break",
+      "raw_content": "*[breik]\nn. 休息, 中断, 破裂处, 绝交, 破晓, 突变\nvt. 打破, 弄破, 弄坏, 破坏, 违反, 打断, 削弱, 放弃\nvi. 破碎, 决裂, 破晓, 突变, 变弱, 暂停\nn. 分隔符\n【计】 分隔符; 中断; DOS内部命令:设定扫描中断按键的时机\n【医】 切断, 中断, 断(电路)\n【经】 暴落, 跌价, 破产倒闭\n相关词组:\n  break in\n  break into sth\n  break sb of sth\n  break sb of smoking\n  break sth off\n  break off\n  break out\n  break short\n  break sth up\n  break up\n  break sb up\n  without a break\n  break through\n  break the back of...\n  break sth down\n  break down\n  break forth...\n  break even\n  break sth in",
+      "offset": 1768519,
+      "length": 656,
+      "source": "specified"
+    },
+    {
+      "word": "fall",
+      "raw_content": "*[fɒ:l]\nn. 落下, 瀑布, 采伐量, 下降, 落差, 降低, 堕落, 秋天\nvi. 倒下, 落下, 来临, 失守, 阵亡, 下跌, 减弱, 倾斜, 垮台, 轮到, 变成, 降低\na. 秋天的\n【经】 下跌; 下滑\n相关词组:\n  fall apart\n  fall away\n  fall back\n  fall behind\n  fall flat\n  fall for...\n  fall foul of...\n  fall on one's feet\n  fall in\n  fall into...\n  fall in with...\n  fall off\n  fall out of...\n  fall over oneself\n  fall short of...\n  fall through\n  fall to doing\n  fall under...\n  fall in with sb's plan\n  fall about\n  fall to",
+      "offset": 4818907,
+      "length": 549,
+      "source": "specified"
+    },
+    {
+      "word": "hold",
+      "raw_content": "*[hәuld]\nn. 把握, 把持力, 柄, 控制, 掌握, 监禁\nvt. 保存, 握住, 拿住, 占据, 持有, 拥有\nvi. 支持, 持续, 有效\nn. 保留\n【计】 保留\n【经】 持平, 保持\n相关词组:\n  hold one's head high\n  hold sb responsible for\n  hold in place\n  hold on to\n  hold sth against sb\n  hold sb to his word\n  take a firm hold of sth\n  have a firm hold over sb\n  hold aloof\n  hold sb back from doing sth\n  hold by\n  hold sth down\n  hold in\n  hold oneself in\n  hold on\n  hold out sth\n  hold out\n  hold out for sth\n  hold sth over\n  hold sth over sb's head\n  hold sb to sth\n  hold to\n  hold sth together\n  hold with sth\n  have a hold over\n  hold one's breath\n  hold sb in great esteem\n  hold sth dear\n  hold sth cheap\n  hold the view that...\n  hold to one's opinions\n  hold the enemy at bay",
+      "offset": 6100103,
+      "length": 806,
+      "source": "specified"
+    },
+    {
+      "word": "stand",
+      "raw_content": "*[stænd]\nn. 站立, 站住, 停顿, 讲台, 看台, 立场, 法院证人席\nvi. 站, 立, 坐落, 停滞, 位于, 坚持, 维持原状\nvt. 忍受, 使站立, 抵挡\n【医】 支架\n相关词组:\n  stand firm\n  stand fast\n  stand facts on their heads\n  stand wear and tear\n  come to a stand\n  be brought to a stand\n  take a stand for sth\n  take a stand against sth\n  take the stand\n  at a stand\n  make a stand\n  stand aside\n  stand back\n  stand by\n  stand clear\n  stand down\n  stand for sth\n  stand in\n  stand in with\n  stand off\n  stand or fall\n  stand out\n  stand over\n  stand something on its head\n  stand to\n  stand to one's word\n  stand to one's post\n  stand to one's principles\n  stand to one's guns\n  We stand to it that...\n  stand up\n  stand up to\n  stand well with sb\n  stand a chance\n  have a stand-in with sb\n  make sb's hair stand on end\n  stand still\n  as things stand\n  stand surety for sb\n  stand to attention",
+      "offset": 12164382,
+      "length": 925,
+      "source": "specified"
+    },
+    {
+      "word": "sit",
+      "raw_content": "*[sit]\nvi. 坐, 就座, 坐落\nvt. 使就座, 骑\nn. 坐, 衣服合身\n【法】 位于, 就座, 使就座\n相关词组:\n  sit on sb\n  sit sth out\n  sit sb out\n  sit with a baby\n  sit by\n  sit down\n  sit down under\n  sit easy on\n  sit heavy on\n  sit loose\n  sit over\n  sit pretty\n  sit through\n  sit tight\n  sit under\n  sit up\n  sit up and take notice\n  sit about\n  sit back\n  sit on sth",
+      "offset": 11801358,
+      "length": 387,
+      "source": "specified"
+    },
+    {
+      "word": "lie",
+      "raw_content": "*[lai]\nn. 谎言, 假象, 位置\nvi. 躺着, 说谎, 位于, 展现, 存在, 停泊\nvt. 谎骗\n【法】 展现, 伸展, 处于某种状态\n相关词组:\n  lie at sb's door\n  lie by\n  lie doggo\n  lie down\n  lie down on the job\n  lie down under\n  lie idle\n  lie in\n  lie in wait for\n  lie low\n  lie off\n  lie over\n  lie to\n  lie under\n  lie up\n  lie with\n  lie about\n  lie about sth to sb\n  lie sb out of sth\n  to tell a lie\n  act a lie\n  give sb the lie in his throat\n  give the lie to sth\n  lie behind sth\n  lie like a gas meter\n  live a lie\n  nail a lie to the counter\n  the big lie\n  throw a lie in sb's face\n  lie in bed\n  lie on one's back\n  lie on one's side\n  lie face downwards",
+      "offset": 7382270,
+      "length": 685,
+      "source": "specified"
+    },
+    {
+      "word": "cut",
+      "raw_content": "*[kʌt]\nn. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路\na. 经切割的, 缩减的\nvt. 切, 割, 减少, 刺痛, 开辟, 雕刻, 删节, 缩短, 停止, 排斥, 切断, 关, 显出\nvi. 切, 割, 砍, 刺痛, 相交, 抄近路, 剪辑\n【计】 剪切\n【医】 切伤, 刀伤; 切磨(牙); 切面\n【经】 削减\n相关词组:\n  cut into\n  cut it\n  cut it fat\n  cut it fine\n  cut corners\n  cut one's losses\n  cut sb off\n  cut on\n  cut out\n  be cut out for\n  cut out doing\n  cut round\n  cut short\n  cut sb short\n  cut through\n  cut under\n  cut up\n  cut sb up\n  cut up a matter with sb\n  cut up fat\n  cut up rough\n  give sb the cut direct\n  cut sb to the heart\n  cut a smart figure\n  cut classes\n  a cut above\n  a cut below\n  cut about\n  cut across sth\n  cut adrift\n  cut after\n  cut and carve\n  cut and run\n  cut and thrust\n  cut at\n  cut away\n  cut back\n  cut both ways\n  cut down\n  cut sb down",
+      "offset": 3373009,
+      "length": 933,
+      "source": "specified"
+    },
+    {
+      "word": "draw",
+      "raw_content": "*[drɒ:]\nvi. 拉, 拖, 拔剑\nvt. 拖拉, 挨近, 领取, 打成平局, 引导, 抽签决定, 画, 描写, 制订, 草拟, 吸引\nn. 拉, 拖, 拔出, 抽签, 平局\n【计】 翻牌, 绘图\n【医】 促化脓, 拔牙\n【经】 开给(支票等), 提款, 取款\n相关词组:\n  draw off\n  draw oneself up\n  draw round\n  draw together\n  draw sth up\n  draw one's knife on sb\n  draw forth\n  draw in",
+      "offset": 4099964,
+      "length": 396,
+      "source": "specified"
+    },
+    {
+      "word": "play",
+      "raw_content": "*[plei]\nn. 游戏, 游玩, 玩笑, 运动, 比赛, 赌博, 跳动, 表演, 剧本\nvt. 玩, 游戏, 假装, 开玩笑, 比赛, 扮演, 演奏, 演戏, 传摇曳, (使)跳动\nvi. 玩, 游戏, 假装, 开玩笑, 比赛, 扮演, 演奏, 演戏, 传摇曳, (使)跳动\nvt. 播放\nvi. 播放\n【计】 播放\n【化】 窜动; 间隙; 游隙\n相关词组:\n  play at sb in print\n  play a joke on sb\n  play sb a dirty trick\n  play a good fork and knife\n  play the conversation in a gay manner\n  play havoc\n  allow full play to\n  as good as a play\n  come into play\n  come into full play\n  give free play to\n  in play\n  make a play for\n  make play\n  out of play\n  play along with\n  play along with sb's plot\n  play at\n  play away\n  play sth back\n  play sth down\n  play fast and loose\n  play for time\n  play hard\n  play hard to get\n  play high\n  play...in\n  play...out\n  play down\n  play off\n  play out\n  play into someone's hands\n  play it by ear\n  play it safe\n  play safe\n  play smash with\n  play up\n  play sb up\n  play up to\n  play one's cards right\n  play the fool\n  play the game\n  play with fire\n  play dead",
+      "offset": 9881976,
+      "length": 1103,
+      "source": "specified"
+    },
+    {
+      "word": "work",
+      "raw_content": "*[wә:k]\nn. 工作, 劳动, 职业, 行为, 功, 作品, 成果, 产品, 工程\nvi. 工作, 劳动, 做, 运转, 起作用, 被加工\nvt. 使工作, 使转动, 开动, 使用, 经营, 使逐渐变得, 造成\n【化】 功\n相关词组:\n  work on\n  work one's will upon sb\n  go to work\n  look for work\n  at work\n  at work on\n  in work\n  make sad work of it\n  make short work of\n  out of work\n  set about one's work\n  work against time\n  work at\n  work away\n  work in\n  work in with\n  work to rule\n  work it\n  work sth off\n  work out\n  work over\n  work up sth\n  work up to\n  work sb up",
+      "offset": 14102875,
+      "length": 583,
+      "source": "specified"
+    },
+    {
+      "word": "call",
+      "raw_content": "*[kɒ:l]\nn. 呼叫, 访问, 打电话, 号召, 召集, 要求\nvt. 呼叫, 召集, 打电话\nvi. 叫喊, 访问, 叫牌\n【计】 调用; 呼叫; DOS内部命令:在批处理文件中调用另一个批处理文件\n【经】 要求, 叫价\n相关词组:\n  call black white\n  call after\n  call a spade a spade\n  call away\n  call back\n  call down\n  call sb down for\n  call for\n  call forth\n  call by\n  call A B\n  call at\n  call off\n  call sb out\n  call over\n  call sb's attention to sth\n  call together\n  call up\n  on call\n  within call\n  no call for\n  call out\n  call sb up",
+      "offset": 1992867,
+      "length": 570,
+      "source": "specified"
+    },
+    {
+      "word": "point",
+      "raw_content": "*[pɒint]\nn. 点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位\nvt. 弄尖, 强调, 指出, 加标点于, 瞄准\nvi. 指, 指向, 表明\n【医】 点, 尖, 出现脓头, 穴[位](针灸)\n【经】 点\n相关词组:\n  at the point of\n  come to a point\n  in point\n  a case in point\n  in point of...\n  in point of fact\n  keep to the point\n  make a point of doing...\n  to a point\n  to the point\n  to the point of\n  point of no return\n  point the finger at\n  point out\n  point to sb",
+      "offset": 9941232,
+      "length": 506,
+      "source": "specified"
+    },
+    {
+      "word": "hand",
+      "raw_content": "*[hænd]\nn. 手, 爪, 指针, 掌握, 协助, 人手, 手艺, 手迹, 支配, 插手\nvt. 交给, 支持, 搀扶\n【医】 手\n相关词组:\n  cross sb's hand\n  force sb's hand\n  from hand to hand\n  from hand to mouth\n  give one's hand to sb\n  give sb a hand\n  give sb a free hand\n  grease the hand of\n  hand and foot\n  bind sb hand and foot\n  hand sth in\n  hand in glove with\n  hand in hand\n  hand it to sb\n  hand sth on\n  hand over fist\n  hand over hand\n  hand to fist\n  hand to hand\n  have a hand in\n  have an open hand\n  have to hand it to someone\n  hold one's hand\n  in hand\n  put sth in hand\n  keep a firm hand on\n  keep a slack hand\n  kiss one's hand to\n  lend a hand\n  lend a hand in doing sth\n  lift one's hand\n  light in hand\n  not lift a hand\n  offer one's hand\n  off hand\n  put one's right hand to the work\n  on hand\n  on the mending hand\n  on the one hand...on the other hand\n  on the one hand\n  on the other hand\n  out of hand\n  deal with sth out of hand\n  play a lone hand\n  play for one's own hand\n  set one's hand to\n  shake sb's hand\n  show one's hand\n  strengthen sb's hand\n  take in hand\n  lose the upper hand\n  throw in one's hand\n  tip one's hand\n  to hand\n  turn one's hand to\n  with a bold hand\n  with a firm hand\n  with a free hand\n  with a heavy hand\n  with a high hand\n  with an iron hand\n  with an iron hand in a velvet glove\n  with a strong hand\n  have a hand in sth\n  on every hand\n  hand sb a blow\n  at hand\n  bear a hand\n  by hand\n  come to hand",
+      "offset": 5821052,
+      "length": 1476,
+      "source": "specified"
+    },
+    {
+      "word": "face",
+      "raw_content": "*[feis]\nn. 脸, 面容, 正面, 外观\nvt. 面对, 朝, 正视, 面临\nvi. 朝, 向\n【计】 现场可改变的控制元件\n【化】 端面\n【医】 [颜]面, 面容\n【经】 票面, 额面; 面对\n相关词组:\n  have the face to do sth\n  accept the face of...\n  face down\n  face sth out\n  face up to...\n  fly in the face of...\n  hide one's face from...\n  in the face of...\n  face to face with...\n  face to face\n  on the face of it\n  save one's face\n  put a new face on sth\n  set one's face against...\n  show one's face\n  slap sb in the face\n  stare sb in the face\n  to sb's face\n  criticize sb to his face\n  hit sb in the face",
+      "offset": 4787165,
+      "length": 632,
+      "source": "specified"
+    },
+    {
+      "word": "head",
+      "raw_content": "*[hed]\nn. 头, 头脑, 领袖, 脑袋, 最前的部分\nvt. 为首, 朝向, 前进, 用头顶\nvi. 朝特定方向行进, (作物)结穗\na. 头的, 在顶端的, 主要的\n【计】 磁头; 冲头\n【化】 顶盖\n【医】 头\n【经】 领导阶层; 领导\n相关词组:\n  beat sb's head off\n  head for sth\n  head sb off\n  be light in the head\n  be off of one's head\n  be weak in the head\n  bring sth to a head\n  bury one's head in the sand\n  come to a head\n  from head to foot\n  eat one's head off\n  gather head\n  get sth out of one's head\n  give one's head for the washing\n  go to sb's head\n  have a cool head\n  have a good head for\n  have a hard head\n  have a head\n  have a head like a sieve\n  have a long head\n  have one's head in a tar barrel\n  have one's head in the clouds\n  have one's head screwed on the right way\n  have swelled head\n  head and ears\n  head and shoulders above\n  head on\n  head over heels\n  head over heels in love\n  head to head\n  head up\n  hide one's diminished head\n  hold one's head high\n  keep one's head\n  keep one's head above water\n  knock sb's head off\n  laugh one's head off\n  run one's head off\n  scream one's head off\n  lift up one's head\n  lose one's head\n  make head\n  make head with sth\n  make head against\n  make neither head nor tail of sth\n  over sb's head\n  put a head on sb\n  put sth into sb's head\n  put sth out of sb's head\n  put sth out of one's head\n  ram sth into sb's head\n  run one's head against a wall\n  scratch one's head\n  show one's head\n  talk sb's head off\n  turn sb's head\n  above someone's head\n  at the head of",
+      "offset": 5887631,
+      "length": 1572,
+      "source": "specified"
+    },
+    {
+      "word": "back",
+      "raw_content": "*[bæk]\na. 后面的\nvt. 使后退, 支持\nvi. 倒退, 背靠\nad. 向后地\nn. 背部, 后面\n【医】 背部, 背, 靠背\n【经】 支持, 订货; 向后地\n相关词组:\n  back of beyond\n  be glad to see the back of...\n  behind someone's back\n  in back of...\n  to put someone's back up\n  to back down\n  to back onto sth\n  at sb's back\n  to back of...\n  back to back\n  behind sb's back\n  be on one's back\n  be on sb's back\n  to break sb's back\n  to break the back of sth\n  to cast sth behind one's back\n  to get off sb's back\n  on the back of...\n  to put one's back into sth\n  to rip up the back\n  to see the back of sb\n  to talk through the back of one's neck\n  with one's back to the wall",
+      "offset": 1222996,
+      "length": 693,
+      "source": "specified"
+    },
+    {
+      "word": "part",
+      "raw_content": "*[pɑ:t]\nn. 部分, 局部, 零件, 要素, 等分, 职责, 角色, 部位\nvt. 分开, 分离, 断绝, 区别, 分配\nvi. 分开, 断裂, 分手\na. 部分的, 局部的\nad. 部分地, 有些\n【医】 部, 部分\n【经】 部份, 零件, 部件\n相关词组:\n  part company with\n  have a small part in\n  part with sth\n  hate to part with sth\n  bear a part in\n  do one's part\n  for one's part\n  for my part\n  for the most part\n  have neither part nor lot in\n  in part\n  on the part of\n  part and parcel\n  take...in good part\n  take an active part in\n  take part with\n  take the part of\n  the best part\n  the better part",
+      "offset": 9420863,
+      "length": 619,
+      "source": "specified"
+    },
+    {
+      "word": "side",
+      "raw_content": "*[said]\nn. 旁边, 侧, 方面, 胁, 侧边, 血统\na. 旁的, 侧的, 次要的\nvt. 同意, 支持\nvi. 支持, 赞助\n【机】 边, 侧, 侧面\n相关词组:\n  have no side\n  by the side of\n  get out of bed on the wrong side\n  go over the side\n  laugh on the wrong side of one's mouth\n  laugh out of the wrong side of one's mouth\n  laugh on the other side of one's face\n  laugh out of the other side of one's face\n  on the safe side\n  on the side\n  on the small side\n  on the sunny side of\n  on the shady side of\n  on the windy side of\n  on the short side\n  on the easy side\n  on the low side\n  on this side the grave\n  over the side\n  put sth on one side\n  side by side\n  stand by sb's side\n  take sb on one side\n  the wrong side out\n  this side of\n  put on side\n  side with\n  have too much side",
+      "offset": 11722109,
+      "length": 798,
+      "source": "specified"
+    },
+    {
+      "word": "book",
+      "raw_content": "*[buk]\nn. 书, 书籍, 帐簿, 名册, 工作簿\nvt. 登记, 预订\nvi. 登记, 预订\n【计】 工作簿\n【经】 帐本, 注册, 挂号; 登记入册, 预定\n相关词组:\n  suit sb's book\n  throw the book at...\n  without book\n  throw the book at someone\n  book sth up\n  take a leaf out of someone's book\n  bring sb to book for sth\n  by the book\n  know like a book\n  make book",
+      "offset": 1691031,
+      "length": 380,
+      "source": "specified"
+    },
+    {
+      "word": "water",
+      "raw_content": "*['wɒ:tә]\nn. 水, 雨水, 海水, 水位, 水面, 流水\nvt. 给...浇水, 供以水, 注入水, 使湿\nvi. 流泪, 流口水, 加水\na. 水的, 水上的, 水生的, 含水的\n【化】 水\n【医】 水, 水剂\n【经】 水, 水费, 虚设发行\n相关词组:\n  above water\n  be in hot water\n  get into hot water\n  bring the water to sb's mouth\n  make sb's mouth water\n  go through fire and water\n  hold water\n  throw cold water on\n  water sth down\n  in deep water\n  in low water\n  in rough water\n  in smooth water\n  keep oneself above water\n  one's head above water\n  like a fish out of water\n  like water off a duck's back\n  pass water\n  make water\n  on the water\n  spend money like water",
+      "offset": 13953085,
+      "length": 695,
+      "source": "specified"
+    },
+    {
+      "word": "time",
+      "raw_content": "*[taim]\nn. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间\nvt. 测定...的时间, 记录...的时间, 计时, 定时\na. 时间的, 记时的, 定时的, 定期的, 分期的\n【计】 DOS内部命令:用于显示或设定系统的时间\n【化】 时间\n【医】 时间, 期\n【经】 时间, 时期; 分期的\n相关词组:\n  as time goes on\n  at any time\n  at a time\n  at no time\n  at one time\n  at that time\n  at the same time\n  at the time of\n  at this time of day\n  before one's time\n  behind time\n  bide one's time\n  buy time\n  by the time...\n  by this time\n  come to time\n  do time\n  every time\n  for a time\n  for the time being\n  from time to time\n  gain time\n  give sb time\n  give the time of day\n  half the time\n  have a good time\n  have the time of one's life\n  in one's own good time\n  have a rough time\n  have a royal time\n  have time to burn\n  in good time\n  in jig time\n  in no time\n  in sb's time\n  in time\n  keep good time\n  keep bad time\n  kill time\n  know the time of day\n  lose time\n  make time\n  many a time\n  many a time and oft\n  many and many a time\n  mark time\n  not give sb the time of day\n  off time\n  of the time\n  once upon a time\n  one time with another\n  on one's own time\n  on short time\n  on time\n  out of time\n  play for time\n  serve the time\n  some time or other\n  take one's time\n  take sb all his time\n  talk against time\n  the time of one's life\n  give sb the time of his life\n  time after time\n  time and again\n  time and a half\n  time enough\n  time out of mind\n  Time was when...\n  to the end of time\n  up to time\n  watch one's time\n  have a nice time of it\n  be pressed for time\n  have no time to do sth\n  have no time for\n  fix a time for doing sth\n  lose no time in doing sth\n  the time\n  be serving one's time\n  for the first time\n  for the last time\n  this time\n  last time\n  next time\n  go at double time\n  keep time\n  make up time\n  ask for one's time\n  against time\n  work against time\n  ahead of time\n  all the time",
+      "offset": 13028322,
+      "length": 1995,
+      "source": "specified"
+    },
+    {
+      "word": "people",
+      "raw_content": "*['pi:pl]\nn. 人, 人民, 民族, 平民\nvt. 使住满人, 居住于\n【法】 人民, 平民, 公民\n相关词组:\n  People say that...\n  go to the people",
+      "offset": 9552131,
+      "length": 155,
+      "source": "specified"
+    },
+    {
+      "word": "world",
+      "raw_content": "*[wә:ld]\nn. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量\n【法】 世界, 地球, 世人\n相关词组:\n  in the world\n  All the world knows...\n  All the whole world knows...\n  see much of the world\n  be broke to the world\n  before the world\n  come into the world\n  for all the world\n  give to the world\n  go out of this world\n  go to the better world\n  not for the world\n  make a noise in the world\n  out of this world\n  renounce the world\n  retire from the world\n  rise in the world\n  set the world on fire\n  tell the world\n  to the world\n  be tired to the world\n  world without end",
+      "offset": 14116935,
+      "length": 633,
+      "source": "specified"
+    },
+    {
+      "word": "day",
+      "raw_content": "*[dei]\nn. 天, 日子, 白天, 工作日\n【医】 日(一昼夜), 昼, 白天\n相关词组:\n  all day long\n  all the day\n  any day\n  by the day\n  call it a day\n  carry the day\n  clear as day\n  day and night\n  day by day\n  day in day out\n  from day to day\n  day after day\n  have one's day\n  if a day\n  some day\n  the other day\n  to this day\n  without day\n  with each passing day\n  make someone's day\n  in a day or two\n  win the day\n  lose the day\n  against a rainy day",
+      "offset": 3485107,
+      "length": 468,
+      "source": "specified"
+    },
+    {
+      "word": "year",
+      "raw_content": "*[jiә]\nn. 年, 年度, 年龄\n【经】 年度\n相关词组:\n  year in year out\n  all the year round\n  from year to year\n  last year\n  next year\n  the next year\n  the year after next\n  the year before last\n  this day year\n  this year\n  year after year",
+      "offset": 14166964,
+      "length": 252,
+      "source": "specified"
+    },
+    {
+      "word": "life",
+      "raw_content": "*[laif]\nn. 生活, 生命, 人生, 世事, 生物, 寿命, 一生, 生命力, 灵魂, 无期徒刑\n【医】 生活, 生存, 生命, 寿命\n相关词组:\n  come to life\n  escape with bare life\n  escape with life and limb\n  for life\n  for the life of me\n  get on in life\n  in life\n  lead sb a dog's life\n  lead sb a life\n  nothing in life\n  on your life\n  not on your life\n  upon my life\n  seek sb' life\n  see life\n  sell one's life dearly\n  take one's life in one's hand\n  to the life\n  true to life\n  put one's life on the line\n  all one's life\n  a matter of life and death\n  bring to life\n  carry one's life in one's hands",
+      "offset": 7387509,
+      "length": 624,
+      "source": "specified"
+    },
+    {
+      "word": "man",
+      "raw_content": "*[mæn]\nn. 男人, 人类, 人\nvt. 为...配备人手, 操纵, 使振奋\n【计】 城域网, 手册\n【医】 人\n相关词组:\n  between man and man\n  every man jack\n  make a man of sb\n  as a man\n  as one man\n  be one's own man\n  to a man",
+      "offset": 7793302,
+      "length": 240,
+      "source": "specified"
+    },
+    {
+      "word": "woman",
+      "raw_content": "*['wumәn]\nn. 女人, 妇女, 女仆\na. 女用的, 女性的, 妇女的\nvt. 贬称...为女人, 使成女人腔",
+      "offset": 14092285,
+      "length": 111,
+      "source": "specified"
+    },
+    {
+      "word": "child",
+      "raw_content": "*[tʃaild]\nn. 孩子, 产物, 追随者\n【医】 儿童\n相关词组:\n  from a child\n  get someone with child\n  be with child",
+      "offset": 2389602,
+      "length": 126,
+      "source": "specified"
+    },
+    {
+      "word": "house",
+      "raw_content": "*[haus]\nn. 房子, 住宅, 机构, 议院, 家族, 家庭\nvt. 给...房子住, 收藏\nvi. 住, 躲藏\n【经】 商店\n相关词组:\n  give sb a lot of house\n  keep a good house\n  keep house\n  keep open house\n  keep the house\n  on the house\n  play house\n  from house to house\n  manage the house\n  as safe as a house\n  bring down the house\n  carry the house\n  clean house\n  count the house\n  eat sb out of house and home\n  get on like a house on fire",
+      "offset": 6173154,
+      "length": 449,
+      "source": "specified"
+    },
+    {
+      "word": "school",
+      "raw_content": "*[sku:l]\nn. 学校, 鱼群, 门派, 学派\nvt. 教育, 训练, 培养\nvi. 成群地游\n【医】 学校, 学派\n相关词组:\n  after school\n  at school\n  finish school\n  go to school\n  go to school to sb\n  in school\n  leave school\n  teach school\n  go to the school",
+      "offset": 11397790,
+      "length": 265,
+      "source": "specified"
+    },
+    {
+      "word": "company",
+      "raw_content": "*['kʌmpәni]\nn. 公司, 友伴, 交往, 连队, 朋友, 一群\nvt. 陪伴\nvi. 交往\n【医】 队; 公司\n相关词组:\n  inflict one's company upon sb\n  keep company with\n  keep sb company\n  part company\n  part company halfway\n  in the company of\n  fall into company with\n  for company\n  in company with",
+      "offset": 2801283,
+      "length": 306,
+      "source": "specified"
+    },
+    {
+      "word": "system",
+      "raw_content": "*['sistәm]\nn. 系统, 体系, 制度, 方式, 秩序, 分类原则\n【计】 系统; 体制; 体系\n【化】 系统; 体系\n【医】 系统, 系, 制度, 制, 学派\n【经】 系统, 体系, 制度\n相关词组:\n  have system in one's work\n  lack system in one's work",
+      "offset": 12659283,
+      "length": 271,
+      "source": "specified"
+    },
+    {
+      "word": "problem",
+      "raw_content": "*['prɒblәm]\nn. 问题, 难题\na. 成问题的, 难处理的\n【法】 问题, 难题",
+      "offset": 10249270,
+      "length": 86,
+      "source": "specified"
+    },
+    {
+      "word": "question",
+      "raw_content": "*['kwestʃәn]\nn. 问题, 询问\nvt. 询问, 审问, 怀疑\nvi. 询问, 审问, 怀疑\n【计】 询问\n相关词组:\n  ask a question of sb\n  put sb to the question\n  beside the question\n  call sth in question\n  in question\n  out of the question\n  out of question\n  There is no question but that\n  There's no question about\n  come into question\n  make no question of\n  past question\n  put a question to sb\n  There is no question of\n  to the question\n  without question\n  ask sb a question",
+      "offset": 10584474,
+      "length": 489,
+      "source": "specified"
+    },
+    {
+      "word": "answer",
+      "raw_content": "*['ɑ:nsә]\nn. 答案, 回答, 回报, 答辩\nvt. 回答, 反驳, 适应, 响应, 符合\nvi. 回答, 答应, 负责, 符合, 成功\n【计】 用户问题及答案新闻组\n相关词组:\n  to answer for...\n  to answer sb's hopes\n  to answer for sb's purpose\n  to answer to the name of...\n  in answer to...\n  to answer to...",
+      "offset": 732088,
+      "length": 323,
+      "source": "specified"
+    },
+    {
+      "word": "idea",
+      "raw_content": "*[ai'diә]\nn. 主意, 办法, 理想, 思想, 概念, 意见\n【医】 观念, 思想\n相关词组:\n  have no idea of",
+      "offset": 6332484,
+      "length": 117,
+      "source": "specified"
+    },
+    {
+      "word": "fact",
+      "raw_content": "*[fækt]\nn. 事实, 真实性, 真相, 细节, 论据\n相关词组:\n  in fact\n  in point of fact\n  as a matter of fact",
+      "offset": 4797965,
+      "length": 118,
+      "source": "specified"
+    },
+    {
+      "word": "reason",
+      "raw_content": "*['ri:zn]\nn. 理由, 原因, 理智, 道理, 前提, 理性\nvt. 说服, 推论, 辩论\nvi. 推论, 劝说, 思考\n【法】 理由, 原因, 道理; 推理, 推想, 思考\n相关词组:\n  bring sb to reason\n  reason with sb for\n  reason with sb against\n  as reason was\n  by reason of\n  by reason that\n  for no other reason than that\n  out of all reason\n  with reason\n  without reason\n  It stands to reason that...",
+      "offset": 10746094,
+      "length": 412,
+      "source": "specified"
+    },
+    {
+      "word": "case",
+      "raw_content": "*[keis]\nn. 情形, 情况, 箱, 容器, 事实, 病例, 案例, 框子\nvt. 装箱, 包盖\n【化】 外壳; 机壳; 壳体\n【医】 箱, 修复体, 病例, 病案\n相关词组:\n  This is the case with\n  as the case may be\n  as the case stands\n  in any case\n  in case of\n  in no case\n  in the case of",
+      "offset": 2144508,
+      "length": 300,
+      "source": "specified"
+    },
+    {
+      "word": "beautiful",
+      "raw_content": "*['bju:tiful]\na. 美丽的",
+      "offset": 1412456,
+      "length": 26,
+      "source": "specified"
+    },
+    {
+      "word": "important",
+      "raw_content": "*[im'pɒ:tәnt]\na. 重要的, 有地位的, 大量的, 显要的, 自负的\n【计】 要点",
+      "offset": 6411067,
+      "length": 92,
+      "source": "specified"
+    },
+    {
+      "word": "different",
+      "raw_content": "*['difәrәnt]\na. 不同的\n【机】 差动, 微分的, 差速器",
+      "offset": 3808562,
+      "length": 66,
+      "source": "specified"
+    },
+    {
+      "word": "possible",
+      "raw_content": "*['pɒsәbl]\na. 可能的, 潜在的, 合适的\nn. 可能性, 可能的事物\n【经】 可能的\n相关词组:\n  be possible of\n  It is possible that\n  as...as possible\n  do one's possible\n  if possible",
+      "offset": 10046512,
+      "length": 203,
+      "source": "specified"
+    },
+    {
+      "word": "available",
+      "raw_content": "*[ә'veilәbl]\na. 可利用的, 可获得的, 有效的\n【医】 有效的, 可得的\n【经】 有效的, 可采用的\n相关词组:\n  be available to...\n  be available for...\n  to employ all available means",
+      "offset": 1161043,
+      "length": 209,
+      "source": "specified"
+    },
+    {
+      "word": "great",
+      "raw_content": "*[greit]\na. 大的, 非常的, 主要的, 重大的, 崇高的, 伟大的\nad. 顺利地, 得意地\nn. 全部, 大人物, 大师\n相关词组:\n  in great detail\n  great at\n  great on\n  great with\n  a great many\n  a great deal",
+      "offset": 5697088,
+      "length": 224,
+      "source": "specified"
+    },
+    {
+      "word": "little",
+      "raw_content": "*['litl]\nn. 一点点, 少许, 一会儿, 短时间\na. 小的, 很少的, 幼小的, 琐碎的, 短暂的, 矮小的\nad. 很少, 稍微, 完全不\n相关词组:\n  take no little pains over sth\n  give sb not a little trouble\n  be not a little bewildered\n  set little by\n  think little of\n  not a little\n  little by little\n  make little of\n  a little\n  after a little\n  for a little\n  in little\n  little or nothing",
+      "offset": 7512537,
+      "length": 412,
+      "source": "specified"
+    },
+    {
+      "word": "high",
+      "raw_content": "*[hai]\nn. 高度, 高处\na. 高的, 高级的, 主要的, 高尚的, 高原的, 高音的, 昂贵的, 傲慢的\nad. 高度地, 奢侈地\n【机】 高的\n相关词组:\n  high on\n  high wide and handsome\n  on high\n  It is high time that...\n  be for the high jump\n  in high spirits\n  talk in high language\n  high and dry\n  high and low\n  high and mighty",
+      "offset": 6047230,
+      "length": 351,
+      "source": "specified"
+    },
+    {
+      "word": "low",
+      "raw_content": "*[lәu]\nn. 低点, 低价, 低, 牛叫声\na. 低的, 消沉的, 低等的, 浅的, 卑贱的\nad. 低下地, 谦卑地, 低\nvi. 牛叫\n【经】 低点; 低廉的, 低下的\n相关词组:\n  be in low spirits\n  fall low\n  bring low\n  burn low\n  lay low\n  lie low\n  run low\n  low blow\n  at low water\n  in low water\n  have a low opinion of\n  feel low",
+      "offset": 7614177,
+      "length": 346,
+      "source": "specified"
+    },
+    {
+      "word": "large",
+      "raw_content": "*[lɑ:dʒ]\na. 大的, 大量的, 宽大的, 广博的\nad. 大大地, 夸大地\n相关词组:\n  talk large\n  as large as life\n  at large\n  talk at large\n  sail large\n  by and large",
+      "offset": 7200343,
+      "length": 179,
+      "source": "specified"
+    },
+    {
+      "word": "young",
+      "raw_content": "*[jʌŋ]\na. 年轻的, 无经验的, 朝气蓬勃的\nn. 青年们, 幼小动物, 崽\n【法】 少年的, 年轻的, 年龄较小的",
+      "offset": 14177768,
+      "length": 132,
+      "source": "specified"
+    },
+    {
+      "word": "right",
+      "raw_content": "*[rait]\nn. 权利, 右边, 正义, 右派, 公正\na. 正确的, 对的, 恰当的, 正常的, 正直的, 正面的, 右方的\nad. 正确地, 以有利结果, 一直, 直接, 向右\nvt. 扶直, 整理, 纠正, 伸冤, 使昭雪\nvi. 恢复平衡\n【计】 右, 权利\n【经】 权利, 认股权; 正确的\n相关词组:\n  Nothing goes right with...\n  tell sth right\n  go right home\n  walk right on\n  right opposite\n  right in the middle\n  right here and now\n  turn right round\n  be right glad to hear...\n  know right well\n  distinguish between right and wrong\n  be in the right\n  by right of...\n  by right\n  do sb right\n  get right\n  get sth right\n  in one's own right\n  in right of sb\n  of right\n  put right\n  right along\n  right and left\n  right away\n  right enough\n  in the right\n  right now\n  right on\n  right or wrong\n  serve sb right\n  all right ad.a.\n  be right in one's head\n  be in one's right mind\n  at right angles with",
+      "offset": 11101884,
+      "length": 929,
+      "source": "specified"
+    },
+    {
+      "word": "wrong",
+      "raw_content": "*[rɒŋ]\na. 错误的, 不正当的, 失常的\nad. 错误地\n【法】 过失, 过错行为, 错误; 不正当的, 不法的, 邪恶的; 伤害, 冤枉, 屈待\n相关词组:\n  be wrong in the head\n  lead sb wrong\n  wrong sb out of sth\n  be in the wrong\n  do sb wrong\n  do wrong\n  get in wrong with sb\n  get sb in wrong\n  get it wrong\n  go wrong\n  to know right from wrong\n  on the wrong side of\n  put sb in the wrong\n  There is nothing wrong with...\n  What's wrong with...?",
+      "offset": 14138119,
+      "length": 473,
+      "source": "specified"
+    },
+    {
+      "word": "public",
+      "raw_content": "*['pʌblik]\nn. 公众, 民众\na. 公众的, 公共的, 公立的, 公用的\n【经】 公(有)的, 公共的, 公众的\n相关词组:\n  in public\n  in the public eye",
+      "offset": 10441108,
+      "length": 165,
+      "source": "specified"
+    },
+    {
+      "word": "private",
+      "raw_content": "*['praivit]\na. 私人的, 秘密的, 私立的, 隐蔽的\nn. 士兵, 隐士, 阴部\n【计】 私人的\n【经】 私人的, 个人的, 私营的\n相关词组:\n  in private",
+      "offset": 10234645,
+      "length": 172,
+      "source": "specified"
+    },
+    {
+      "word": "local",
+      "raw_content": "*['lәukәl]\na. 地方性的, 当地的, 局部的, 乡土的, 本地的\nn. 当地居民, 本地新闻, 局部\n【计】 本地的; 局部\n【化】 局部的; 现场的\n【医】 局部的, 局限性\n【经】 当地交货, 当场交货价, 即期(外汇); 当地的",
+      "offset": 7539985,
+      "length": 267,
+      "source": "specified"
+    },
+    {
+      "word": "national",
+      "raw_content": "*['næʃәnәl]\na. 国家的, 国立的, 全国性的, 民族的\n【经】 全国性的, 国家的, 国民的",
+      "offset": 8560645,
+      "length": 109,
+      "source": "specified"
+    },
+    {
+      "word": "international",
+      "raw_content": "*[,intә'næʃәnәl]\na. 国际的\nn. 国别设定\n【计】 国别设定\n【经】 国际的, 世界的",
+      "offset": 6726749,
+      "length": 104,
+      "source": "specified"
+    },
+    {
+      "word": "running",
+      "raw_content": "*['rʌniŋ]\nn. 赛跑, 流出, 运转\na. 流动的, 跑着的, 连续的\n【经】 流动的, 连续的, 接连的\n相关词组:\n  in running order\n  in the running\n  out of the running",
+      "offset": 11232568,
+      "length": 185,
+      "source": "specified"
+    },
+    {
+      "word": "taken",
+      "raw_content": "*['teikәn]\ntake的过去分词\n相关词组:\n  be taken in by\n  be taken up with\n  be taken short\n  be taken ill\n  be taken aback\n  be taken with a fit of anger\n  taken one with another\n  be taken down",
+      "offset": 12708276,
+      "length": 202,
+      "source": "specified"
+    },
+    {
+      "word": "went",
+      "raw_content": "*[went]\ngo的过去式",
+      "offset": 14009778,
+      "length": 22,
+      "source": "specified"
+    },
+    {
+      "word": "gone",
+      "raw_content": "*[gɒn]\na. 离去的, 死去的, 用完的\ngo的过去分词\n相关词组:\n  be gone on sb",
+      "offset": 5628853,
+      "length": 90,
+      "source": "specified"
+    },
+    {
+      "word": "better",
+      "raw_content": "*['betә]\na. 较好的\nad. 比较好\n相关词组:\n  a change for the better\n  get the better of...\n  all the better\n  be better off\n  be the better for it\n  no better than...\n  none the better for it\n  not better than...\n  the better part of...\n  to make alterations for the better\n  one's better half\n  the better part\n  had better",
+      "offset": 1496720,
+      "length": 333,
+      "source": "specified"
+    },
+    {
+      "word": "best",
+      "raw_content": "*[best]\na. 最好的\nad. 最好地\nn. 最好的人\n【法】 最好的, 最有利的\n相关词组:\n  the best part of...\n  as best one can\n  as best as one can\n  at best\n  at one's best\n  best of all\n  do one's best\n  do one's level best\n  give sb best\n  had best\n  make the best of...\n  make the best of things\n  to the best of my belief\n  try one's best\n  with the best\n  to look one's best\n  to make the best of a bad job\n  to the best of one's ability\n  make the best of everything",
+      "offset": 1487017,
+      "length": 485,
+      "source": "specified"
+    },
+    {
+      "word": "worse",
+      "raw_content": "*[wә:s]\nn. 更坏的事, 更恶劣的事, 败局\na. 更坏的, 更恶劣的\nad. 更坏地, 更恶劣地\n相关词组:\n  to make the matter worse\n  and what is worse\n  worse than all\n  have the worse\n  none the worse\n  none the worse for\n  think none the worse of sb\n  put sb to the worse\n  so much the worse\n  worse and worse\n  worse off",
+      "offset": 14121749,
+      "length": 338,
+      "source": "specified"
+    },
+    {
+      "word": "worst",
+      "raw_content": "*[wә:st]\nn. 最坏, 最坏的时候\na. 最坏的, 最恶劣的, 最不利的\nad. 最坏, 最糟\n相关词组:\n  at worst\n  give sb the worst of it\n  if worst comes to worst\n  make the worst of\n  do one's worst\n  get the worst of it",
+      "offset": 14122593,
+      "length": 232,
+      "source": "specified"
+    },
+    {
+      "word": "being",
+      "raw_content": "*['bi:iŋ]\nn. 存在, 性质, 生命, 人, 生物, be的现在分词\n相关词组:\n  come into being\n  for the time being\n  in being",
+      "offset": 1432448,
+      "length": 132,
+      "source": "specified"
+    },
+    {
+      "word": "having",
+      "raw_content": "n. 财产, 所有物",
+      "offset": 5882156,
+      "length": 20,
+      "source": "specified"
+    },
+    {
+      "word": "doing",
+      "raw_content": "*['du:iŋ]\nn. 行为, 活动",
+      "offset": 4037438,
+      "length": 28,
+      "source": "specified"
+    },
+    {
+      "word": "saying",
+      "raw_content": "*['seiiŋ]\nn. 叙述, 话, 说, 言论\n相关词组:\n  it goes without saying\n  There is no saying...",
+      "offset": 11352196,
+      "length": 101,
+      "source": "specified"
+    },
+    {
+      "word": "going",
+      "raw_content": "*['gәuiŋ]\nn. 去, 离去, 工作情况, 地面状况, 行为\na. 进行中的, 流行的, 成功的, 现存的\n【法】 进行情况, 工作条件, 行为\n相关词组:\n  to be going with",
+      "offset": 5617470,
+      "length": 189,
+      "source": "specified"
+    },
+    {
+      "word": "coming",
+      "raw_content": "*['kʌmiŋ]\nn. 来临\na. 就要来的, 接着的\n相关词组:\n  coming in\n  see sb coming\n  have it coming",
+      "offset": 2762317,
+      "length": 107,
+      "source": "specified"
+    },
+    {
+      "word": "making",
+      "raw_content": "n. 制造, (手工)制造业, 制作, 形成, 发展, 要素, 内在因素, 赚头, 制造物",
+      "offset": 7767222,
+      "length": 93,
+      "source": "specified"
+    },
+    {
+      "word": "algorithm",
+      "raw_content": "*['ælgәriðm]\nn. 算法\n【计】 算法\n【化】 算法\n【经】 算法",
+      "offset": 447906,
+      "length": 76,
+      "source": "specified"
+    },
+    {
+      "word": "database",
+      "raw_content": "*['deitәbeis]\nn. 数据库\n【计】 数据库",
+      "offset": 3476687,
+      "length": 47,
+      "source": "specified"
+    },
+    {
+      "word": "philosophy",
+      "raw_content": "*[fi'lɒsәfi]\nn. 哲学, 人生观, 哲学思想, 哲理, 基本原理, 见解, 达观, 沉着",
+      "offset": 9703523,
+      "length": 95,
+      "source": "specified"
+    },
+    {
+      "word": "psychology",
+      "raw_content": "*[sai'kɒlәdʒi]\nn. 心理学, 心理状态\n【医】 心理学",
+      "offset": 10431645,
+      "length": 64,
+      "source": "specified"
+    },
+    {
+      "word": "economy",
+      "raw_content": "*[i'kɒnәmi]\nn. 经济, 理财, 节约\n【医】 经济, 整体\n【经】 经济, 节约",
+      "offset": 4238652,
+      "length": 89,
+      "source": "specified"
+    },
+    {
+      "word": "technology",
+      "raw_content": "*[tek'nɒlәdʒi]\nn. 技术, 工业技术, 术语\n【医】 技术学, 工艺学\n【经】 技术, 工艺, 工艺学",
+      "offset": 12775824,
+      "length": 116,
+      "source": "specified"
+    },
+    {
+      "word": "environment",
+      "raw_content": "*[in'vairәnmәnt]\nn. 环境, 外界, 围绕\n【计】 环境\n【医】 环境",
+      "offset": 4472627,
+      "length": 78,
+      "source": "specified"
+    },
+    {
+      "word": "government",
+      "raw_content": "*['gʌvәnmәnt]\nn. 政府, 内阁\n【经】 政府, 政治, 政体",
+      "offset": 5647203,
+      "length": 67,
+      "source": "specified"
+    },
+    {
+      "word": "development",
+      "raw_content": "*[di'velәpmәnt]\nn. 发展\n【化】 展开\n【医】 发育, 显影, 显像, 显层(色谱法)\n【经】 发展, 开发",
+      "offset": 3729554,
+      "length": 121,
+      "source": "specified"
+    },
+    {
+      "word": "management",
+      "raw_content": "*['mænidʒmәnt]\nn. 经营, 支配, 管理\n【化】 管理处\n【经】 经营, 管理, 管理处, 董事会",
+      "offset": 7796581,
+      "length": 110,
+      "source": "specified"
+    },
+    {
+      "word": "computer",
+      "raw_content": "*[kәm'pju:tә]\nn. 电脑, 电子计算机\n【计】 计算机\n【经】 电子计算机, 电脑",
+      "offset": 2861316,
+      "length": 96,
+      "source": "specified"
+    },
+    {
+      "word": "software",
+      "raw_content": "*['sɒftwєә]\nn. 软件\n【计】 软设备\n【经】 软件",
+      "offset": 11927041,
+      "length": 61,
+      "source": "specified"
+    },
+    {
+      "word": "hardware",
+      "raw_content": "*['hɑ:dwєә]\nn. 硬件, 五金器具, 零件\n【计】 硬件\n【化】 硬件\n【经】 (电脑)硬体, 金属元件",
+      "offset": 5851743,
+      "length": 119,
+      "source": "specified"
+    },
+    {
+      "word": "network",
+      "raw_content": "*['netwә:k]\nn. 网络, 广播网, 网状物\n【计】 网络\n【化】 网络\n【医】 网, 网状构造\n【经】 网络",
+      "offset": 8649997,
+      "length": 123,
+      "source": "specified"
+    },
+    {
+      "word": "internet",
+      "raw_content": "【计】 因特网, 国际互连网, 网际网络, 互连网络, 广域网",
+      "offset": 6738852,
+      "length": 75,
+      "source": "specified"
+    },
+    {
+      "word": "science",
+      "raw_content": "*['saiәns]\nn. 科学, 学科, 学问, 自然科学\n【医】 科学",
+      "offset": 11407465,
+      "length": 68,
+      "source": "specified"
+    },
+    {
+      "word": "research",
+      "raw_content": "*[ri'sә:tʃ]\nn. 研究, 调查, 考察\nvi. 研究, 调查\n【医】 研究",
+      "offset": 10960112,
+      "length": 75,
+      "source": "specified"
+    },
+    {
+      "word": "analysis",
+      "raw_content": "*[ә'nælәsis]\nn. 分析\n【计】 分析机; 分析员; 分析; 分析程序\n【化】 分析; 解析\n【医】 分析, 检验\n【经】 分析(法,学)研究, 验定\n相关词组:\n  on analysis",
+      "offset": 640825,
+      "length": 196,
+      "source": "specified"
+    },
+    {
+      "word": "theory",
+      "raw_content": "*['θiәri]\nn. 理论, 学说, 原理, 意见, 推测\n【化】 理论\n【医】 理论; 学说\n【经】 理论学说\n相关词组:\n  My theory is that...",
+      "offset": 12914934,
+      "length": 155,
+      "source": "specified"
+    },
+    {
+      "word": "method",
+      "raw_content": "*['meθәd]\nn. 方法, 办法, 条理, 秩序\n【医】 [方]法",
+      "offset": 8094590,
+      "length": 64,
+      "source": "specified"
+    },
+    {
+      "word": "give up",
+      "raw_content": "放弃, 停止, 献出, 抛弃, 认输, 把...送交\n【法】 放弃, 停止, 把...送交",
+      "offset": 5543983,
+      "length": 91,
+      "source": "specified"
+    },
+    {
+      "word": "look for",
+      "raw_content": "寻找, 期待",
+      "offset": 7585665,
+      "length": 14,
+      "source": "specified"
+    },
+    {
+      "word": "come up",
+      "raw_content": "走上前来, 发芽, 发生, 被提到, 流行\n【建】 按照指标达到质量标准",
+      "offset": 2759584,
+      "length": 88,
+      "source": "specified"
+    },
+    {
+      "word": "go on",
+      "raw_content": "继续下去, 过去, 发生, 进行, 接近, (演员)上, (运动员)上场, 依靠, 依据, 责骂\n【电】 继续",
+      "offset": 5606719,
+      "length": 117,
+      "source": "specified"
+    },
+    {
+      "word": "take off",
+      "raw_content": "拿掉, 取消, 脱下, 领走, 减去, 复制, 起飞, 离开, 岔开\n【经】 取消",
+      "offset": 12699918,
+      "length": 87,
+      "source": "specified"
+    },
+    {
+      "word": "serendipity",
+      "raw_content": "n. 偶然发现珍宝的运气/才能, 易遇奇缘的运气",
+      "offset": 11586642,
+      "length": 60,
+      "source": "specified"
+    },
+    {
+      "word": "ephemeral",
+      "raw_content": "*[i'femәrәl]\na. 朝生暮死的, 短命的, 短暂的\n【医】 暂时的",
+      "offset": 4481552,
+      "length": 75,
+      "source": "specified"
+    },
+    {
+      "word": "ubiquitous",
+      "raw_content": "*[ju:'bikwitәs]\na. 无所不在的, 到处存在的, 普遍存在的",
+      "offset": 13430149,
+      "length": 69,
+      "source": "specified"
+    },
+    {
+      "word": "paradigm",
+      "raw_content": "*['pærәdaim]\nn. 范例, 式样, 词形变化表, 纵聚合关系语言项",
+      "offset": 9362668,
+      "length": 75,
+      "source": "specified"
+    },
+    {
+      "word": "synergy",
+      "raw_content": "n. 协同作用\n【医】 协同, 协作, 增效, 协作(指药物)\n【经】 协同作用, 协同效果",
+      "offset": 12641519,
+      "length": 104,
+      "source": "specified"
+    },
+    {
+      "word": "ameliorate",
+      "raw_content": "*[ә'mi:ljәreit]\nvt. 改善, 改良, 改进\nvi. 改善, 改良, 改进",
+      "offset": 563040,
+      "length": 71,
+      "source": "specified"
+    },
+    {
+      "word": "exacerbate",
+      "raw_content": "*[ek'sæsәbeit]\nvt. 使恶化, 使增剧, 激怒, 使加剧",
+      "offset": 4651977,
+      "length": 60,
+      "source": "specified"
+    },
+    {
+      "word": "facilitate",
+      "raw_content": "*[fә'siliteit]\nvt. 使容易, 促进, 帮助\n【法】 使容易, 使便利, 推进",
+      "offset": 4795625,
+      "length": 84,
+      "source": "specified"
+    },
+    {
+      "word": "implement",
+      "raw_content": "*['implimәnt]\nn. 工具, 器具, 手段\nvt. 实现, 使生效, 执行\n【经】 用具, 工具; 履行, 施行",
+      "offset": 6403978,
+      "length": 111,
+      "source": "specified"
+    },
+    {
+      "word": "constitute",
+      "raw_content": "*[kәn'stitjut]\nvt. 构成, 组成, 任命\n【建】 构造, 组成",
+      "offset": 2970158,
+      "length": 67,
+      "source": "specified"
+    },
+    {
+      "word": "affect",
+      "raw_content": "*[ә'fekt]\nvt. 影响, 感动, 假装, 模仿, 爱好, 倾向于\nn. 自觉感情\n【医】 感情, 情感",
+      "offset": 342303,
+      "length": 105,
+      "source": "specified"
+    },
+    {
+      "word": "effect",
+      "raw_content": "*[i'fekt]\nn. 结果, 影响, 效果, 印象\nvt. 实行, 引起, 完成\n【计】 效果\n【医】 效应, 作用\n【经】 结果, 效果, 效力\n相关词组:\n  be of effect\n  be of no effect\n  exert an effect on...\n  have an effect on...\n  give effect to...\n  in effect\n  take effect\n  to the effect that...",
+      "offset": 4259548,
+      "length": 309,
+      "source": "specified"
+    },
+    {
+      "word": "accept",
+      "raw_content": "*[әk'sept]\nvt. 接受, 承认, 同意, 相信, 赞成, 承担, 承兑, 采纳, 接纳, 容忍\nvi. 同意\n【经】 接受, 认可",
+      "offset": 84050,
+      "length": 130,
+      "source": "specified"
+    },
+    {
+      "word": "except",
+      "raw_content": "*[ik'sept]\nvt. 除, 除外\nvi. 反对\nprep. 除了...之外, 若不是, 除非\nconj. 只是\n相关词组:\n  except for...",
+      "offset": 4659001,
+      "length": 121,
+      "source": "specified"
+    },
+    {
+      "word": "advice",
+      "raw_content": "*[әd'vais]\nn. 忠告, 劝告, 意见, 报道, 通知\n【经】 通知书, 通知, 建议\n相关词组:\n  to ask for sb's advice",
+      "offset": 321123,
+      "length": 128,
+      "source": "specified"
+    },
+    {
+      "word": "advise",
+      "raw_content": "*[әd'vaiz]\nvt. 劝告, 给...出主意, 通知, 建议\nvi. 提意见, 商量\n【经】 通知(书), 通知, 建议\n相关词组:\n  to advise sb of sth\n  to advise sb to do\n  to advise that...\n  to advise sb against doing",
+      "offset": 322331,
+      "length": 221,
+      "source": "specified"
+    },
+    {
+      "word": "lose",
+      "raw_content": "*[lu:z]\nvt. 遗失, 损失, 丢失, 使失去, 错过, 浪费, 迷失, 使迷路, 输去, 使沉溺于\nvi. 受损失, 失败\n【法】 遗失, 丧失, 失败\n相关词组:\n  lose out\n  lose face\n  lose one's head\n  lose one's temper\n  lose trace of\n  lose one's way\n  lose oneself in thought",
+      "offset": 7600547,
+      "length": 291,
+      "source": "specified"
+    },
+    {
+      "word": "loose",
+      "raw_content": "*[lu:s]\nn. 发射, 放任, 放纵\na. 宽松的, 松的, 宽的, 不牢固的, 散漫的, 自由的, 不精确的\nvt. 释放, 放枪, 开船\nvi. 变松, 开火\nad. 松散地\n【机】 松动, 松弛的\n相关词组:\n  have a loose tongue\n  lead a loose life\n  be on the loose\n  break loose\n  cut loose\n  hold loose\n  let loose\n  at a loose end\n  on the loose",
+      "offset": 7592734,
+      "length": 357,
+      "source": "specified"
+    },
+    {
+      "word": "than",
+      "raw_content": "*[ðæn]\nconj. 比, 除...外\nprep. 比\n相关词组:\n  no more than\n  no other than",
+      "offset": 12896687,
+      "length": 84,
+      "source": "specified"
+    },
+    {
+      "word": "then",
+      "raw_content": "*[ðen]\nad. 然后, 当时\nconj. 然后, 当时\nn. 那时\n相关词组:\n  and then\n  and then some\n  but then\n  there and then\n  by then\n  from then on\n  since then\n  till then",
+      "offset": 12909605,
+      "length": 176,
+      "source": "specified"
+    },
+    {
+      "word": "their",
+      "raw_content": "*[ðєә]\npron. 他们的",
+      "offset": 12907963,
+      "length": 25,
+      "source": "specified"
+    },
+    {
+      "word": "there",
+      "raw_content": "*[ðєә]\nad. 在那里\n相关词组:\n  over there\n  there and back\n  there and there abouts\n  from there\n  be in there",
+      "offset": 12918173,
+      "length": 119,
+      "source": "specified"
+    },
+    {
+      "word": "etc",
+      "raw_content": "及其他, 等等",
+      "offset": 4585341,
+      "length": 17,
+      "source": "specified"
+    },
+    {
+      "word": "ie",
+      "raw_content": "【计】 中断启动",
+      "offset": 6348791,
+      "length": 22,
+      "source": "specified"
+    },
+    {
+      "word": "vs",
+      "raw_content": "prep. 对\n【经】 对",
+      "offset": 13905733,
+      "length": 23,
+      "source": "specified"
+    },
+    {
+      "word": "ok",
+      "raw_content": "*['әu'kei]\na. 好, 不错, 可以\nad. 好, 不错, 可以\nn. 批准, 认可\n【计】 确定",
+      "offset": 8978049,
+      "length": 93,
+      "source": "specified"
+    },
+    {
+      "word": "threadless",
+      "raw_content": "a. 无线的, 无螺纹的",
+      "offset": 12977929,
+      "length": 26,
+      "source": "random"
+    },
+    {
+      "word": "irregular gout",
+      "raw_content": "【医】 关节外痛风, 非典型痛风",
+      "offset": 6848489,
+      "length": 42,
+      "source": "random"
+    },
+    {
+      "word": "ricord's treatment",
+      "raw_content": "【医】 雷坦氏疗法(治肠套迭)",
+      "offset": 11095457,
+      "length": 39,
+      "source": "random"
+    },
+    {
+      "word": "systolic retraction",
+      "raw_content": "【医】 [心尖区]收缩期回缩",
+      "offset": 12667213,
+      "length": 36,
+      "source": "random"
+    },
+    {
+      "word": "irisopsia",
+      "raw_content": "【医】 虹视",
+      "offset": 6838443,
+      "length": 16,
+      "source": "random"
+    },
+    {
+      "word": "vpsovesiculectomy",
+      "raw_content": "【医】 输精管精囊切除术",
+      "offset": 13905604,
+      "length": 34,
+      "source": "random"
+    },
+    {
+      "word": "hyperbola",
+      "raw_content": "*[hai'pә:bәlә]\nn. 双曲线\n【电】 双曲线",
+      "offset": 6261785,
+      "length": 50,
+      "source": "random"
+    },
+    {
+      "word": "neuropathic eschar",
+      "raw_content": "【医】 神经病性褥疮",
+      "offset": 8665360,
+      "length": 28,
+      "source": "random"
+    },
+    {
+      "word": "hold sway",
+      "raw_content": "支配",
+      "offset": 6103477,
+      "length": 6,
+      "source": "random"
+    },
+    {
+      "word": "dental film",
+      "raw_content": "【医】 牙照片",
+      "offset": 3639158,
+      "length": 19,
+      "source": "random"
+    },
+    {
+      "word": "winking",
+      "raw_content": "【医】 瞬目",
+      "offset": 14065880,
+      "length": 16,
+      "source": "random"
+    },
+    {
+      "word": "malformation",
+      "raw_content": "*[,mælfɒ:'meiʃәn]\nn. 变形(体), 畸形\n【医】 畸形, 变形",
+      "offset": 7777661,
+      "length": 69,
+      "source": "random"
+    },
+    {
+      "word": "memory scan option",
+      "raw_content": "【电】 内存扫描选择",
+      "offset": 8003654,
+      "length": 28,
+      "source": "random"
+    },
+    {
+      "word": "candidate solution graph",
+      "raw_content": "【计】 候选解图",
+      "offset": 2027623,
+      "length": 22,
+      "source": "random"
+    },
+    {
+      "word": "pyridine hemochromogen",
+      "raw_content": "【医】 吡啶血色原",
+      "offset": 10532522,
+      "length": 25,
+      "source": "random"
+    },
+    {
+      "word": "hashing",
+      "raw_content": "【计】 散列法",
+      "offset": 5864160,
+      "length": 19,
+      "source": "random"
+    },
+    {
+      "word": "input-power",
+      "raw_content": "【电】 输入电力",
+      "offset": 6616774,
+      "length": 22,
+      "source": "random"
+    },
+    {
+      "word": "arsenical bath",
+      "raw_content": "【医】 砷(砒)浴",
+      "offset": 940473,
+      "length": 21,
+      "source": "random"
+    },
+    {
+      "word": "diatussin",
+      "raw_content": "【医】 迪阿图辛",
+      "offset": 3772326,
+      "length": 22,
+      "source": "random"
+    },
+    {
+      "word": "lower toxic limit",
+      "raw_content": "【化】 毒物浓度下限",
+      "offset": 7627801,
+      "length": 28,
+      "source": "random"
+    },
+    {
+      "word": "lily-rash",
+      "raw_content": "【医】 百合花疹",
+      "offset": 7420051,
+      "length": 22,
+      "source": "random"
+    },
+    {
+      "word": "ceratonia siliqua l.",
+      "raw_content": "【医】 长角豆",
+      "offset": 2268799,
+      "length": 19,
+      "source": "random"
+    },
+    {
+      "word": "law presumption",
+      "raw_content": "【法】 法律推定",
+      "offset": 7248818,
+      "length": 22,
+      "source": "random"
+    },
+    {
+      "word": "amido bond",
+      "raw_content": "【化】 酰胺键",
+      "offset": 573334,
+      "length": 19,
+      "source": "random"
+    },
+    {
+      "word": "expense related to bond retirement",
+      "raw_content": "【经】 收回公司债费用",
+      "offset": 4713195,
+      "length": 31,
+      "source": "random"
+    },
+    {
+      "word": "polymerization chemicals",
+      "raw_content": "【化】 聚合剂",
+      "offset": 9990061,
+      "length": 19,
+      "source": "random"
+    },
+    {
+      "word": "passive bonds",
+      "raw_content": "【经】 无利息债券",
+      "offset": 9450836,
+      "length": 25,
+      "source": "random"
+    },
+    {
+      "word": "gerhardt's test",
+      "raw_content": "【医】 格哈特氏试验(检尿中丙酮、乙酰乙酸、胆色素)",
+      "offset": 5501938,
+      "length": 72,
+      "source": "random"
+    },
+    {
+      "word": "lend a hand",
+      "raw_content": "帮助",
+      "offset": 7318361,
+      "length": 6,
+      "source": "random"
+    },
+    {
+      "word": "soap-boiler",
+      "raw_content": "n. 煮皂工",
+      "offset": 11892132,
+      "length": 12,
+      "source": "random"
+    },
+    {
+      "word": "turn a blind eye to...",
+      "raw_content": "对...假装看不见",
+      "offset": 13385097,
+      "length": 21,
+      "source": "random"
+    },
+    {
+      "word": "metrotome",
+      "raw_content": "【医】 子宫刀",
+      "offset": 8128731,
+      "length": 19,
+      "source": "random"
+    },
+    {
+      "word": "primary proteose",
+      "raw_content": "【化】 初\n【医】 初ж, 原ж",
+      "offset": 10204723,
+      "length": 39,
+      "source": "random"
+    },
+    {
+      "word": "appear against sb",
+      "raw_content": "【法】 出庭控告某人",
+      "offset": 840525,
+      "length": 28,
+      "source": "random"
+    },
+    {
+      "word": "dolichoris testa",
+      "raw_content": "【医】 扁豆衣",
+      "offset": 4039333,
+      "length": 19,
+      "source": "random"
+    },
+    {
+      "word": "osteoseplum",
+      "raw_content": "【医】 骨性[鼻]中隔",
+      "offset": 9168637,
+      "length": 27,
+      "source": "random"
+    },
+    {
+      "word": "relay output",
+      "raw_content": "【计】 继电器输出",
+      "offset": 10891012,
+      "length": 25,
+      "source": "random"
+    },
+    {
+      "word": "tail bracket",
+      "raw_content": "【化】 尾架; 尾轴承架",
+      "offset": 12690103,
+      "length": 30,
+      "source": "random"
+    },
+    {
+      "word": "precedents",
+      "raw_content": "【计】 引用单元",
+      "offset": 10115927,
+      "length": 22,
+      "source": "random"
+    },
+    {
+      "word": "truck-bolster",
+      "raw_content": "n. 车架承梁",
+      "offset": 13331134,
+      "length": 15,
+      "source": "random"
+    },
+    {
+      "word": "tetanism",
+      "raw_content": "【医】 破伤风样病, 假破伤风",
+      "offset": 12867628,
+      "length": 39,
+      "source": "random"
+    },
+    {
+      "word": "social control",
+      "raw_content": "【法】 社会控制",
+      "offset": 11894771,
+      "length": 22,
+      "source": "random"
+    },
+    {
+      "word": "speculation market",
+      "raw_content": "【经】 投机市场",
+      "offset": 12032778,
+      "length": 22,
+      "source": "random"
+    },
+    {
+      "word": "sintering of catalyst",
+      "raw_content": "【化】 催化剂烧结",
+      "offset": 11794497,
+      "length": 25,
+      "source": "random"
+    },
+    {
+      "word": "supplementary account",
+      "raw_content": "【经】 补助帐户(科目)",
+      "offset": 12540383,
+      "length": 30,
+      "source": "random"
+    },
+    {
+      "word": "early write cycle",
+      "raw_content": "【计】 初期写入周期",
+      "offset": 4208656,
+      "length": 28,
+      "source": "random"
+    },
+    {
+      "word": "or line interface unit",
+      "raw_content": "【计】 \"或\"线接口单元",
+      "offset": 9094720,
+      "length": 30,
+      "source": "random"
+    },
+    {
+      "word": "hydatid resonance",
+      "raw_content": "【医】 棘球囊叩响",
+      "offset": 6212698,
+      "length": 25,
+      "source": "random"
+    },
+    {
+      "word": "postcentral",
+      "raw_content": "【医】 中央后的, 中枢后的",
+      "offset": 10053451,
+      "length": 36,
+      "source": "random"
+    },
+    {
+      "word": "the international standards organization standard generalized markup",
+      "raw_content": "【电】 国际标准通用",
+      "offset": 12901142,
+      "length": 28,
+      "source": "random"
+    }
+  ]
+}

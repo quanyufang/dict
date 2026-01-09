@@ -1,0 +1,17 @@
+{
+  "total_dictionaries": 5,
+  "dictionaries": [
+    "oxford",
+    "xiandaihanyucidian",
+    "gcide",
+    "langdao",
+    "chinese_dict"
+  ],
+  "samples_per_dict": {
+    "oxford": 25,
+    "xiandaihanyucidian": 16,
+    "gcide": 25,
+    "langdao": 25,
+    "chinese_dict": 17
+  }
+}

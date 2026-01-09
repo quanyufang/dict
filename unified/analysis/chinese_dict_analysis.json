@@ -1,0 +1,128 @@
+{
+  "dictionary_id": "chinese_dict",
+  "dictionary_name": "汉语拼音词典",
+  "format_description": "JSON格式，结构化数据",
+  "identified_patterns": [],
+  "sample_analysis": [
+    {
+      "word": "一",
+      "length": 80,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "人",
+      "length": 81,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "大",
+      "length": 94,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "中",
+      "length": 92,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "国",
+      "length": 81,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "学习",
+      "length": 163,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "工作",
+      "length": 237,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "朋友",
+      "length": 205,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "时间",
+      "length": 195,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "问题",
+      "length": 189,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "一帆风顺",
+      "length": 425,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "画龙点睛",
+      "length": 647,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "守株待兔",
+      "length": 586,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "行",
+      "length": 106,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "了",
+      "length": 88,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "着",
+      "length": 99,
+      "features": [
+        "非JSON格式"
+      ]
+    },
+    {
+      "word": "的",
+      "length": 92,
+      "features": [
+        "非JSON格式"
+      ]
+    }
+  ],
+  "format_summary": "\n## 汉语拼音词典格式总结\n\n### 基本结构\n- JSON格式存储\n- 包含拼音、释义、例句等字段\n- 结构化数据，易于解析\n\n### 语言特点\n- 标准JSON格式\n- 拼音使用数字声调或带调字母\n- 适合程序化处理\n"
+}

@@ -1,0 +1,134 @@
+{
+  "dictionary_id": "langdao",
+  "dictionary_name": "朗道英汉词典",
+  "index_language": "en",
+  "explanation_language": "zh",
+  "sample_count": 25,
+  "samples": [
+    {
+      "word": "good",
+      "raw_content": "*[gud]\nn. 善行, 好处, 利益\na. 好的, 优良的, 上等的, 愉快的, 有益的, 好心的, 慈善的, 虔诚的\n【经】 货物; 好的\n相关词组:\n  for good\n  for good or for evil\n  good and\n  good for\n  hold good for\n  in good time\n  make good\n  to the good\n  good-bye\n  say good-bye to sb\n  as good as",
+      "content_length": 236
+    },
+    {
+      "word": "bad",
+      "raw_content": "*[bæd]\na. 坏的\nn. 坏\nad. 坏地\n【机】 坏, 不良, 品质不佳\n相关词组:\n  to have a bad time\n  to feel bad about sth\n  be in a bad way\n  be taken bad\n  to feel bad\n  to go from bad to worse\n  to go to the bad\n  in bad\n  be in bad with sb\n  not bad\n  to take the bad with the good\n  to make the best of a bad job\n  to the bad\n  with a bad grace",
+      "content_length": 318
+    },
+    {
+      "word": "go",
+      "raw_content": "*[gou]\nvi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下\nvt. 以...打赌, 对付, 忍受, 出产, 为被捕者出(保释金)\nn. 去, 尝试, 进行\n相关词组:\n  from the word go\n  go about sth\n  go about doing\n  go about\n  go ahead\n  go all out\n  go along\n  go along with\n  go at sb\n  go and do\n  to go\n  go beyond\n  go by\n  go by sth\n  go by the name of\n  go easy\n  go down\n  go far\n  go far towards\n  go flop\n  go for nothing\n  go for little\n  go forward\n  go hang\n  go hard with sb\n  go home\n  go ill\n  go ill with\n  go in\n  go in at\n  go in for sth\n  go in for doing\n  go into sth\n  go off\n  go off with\n  go on\n  go on sth\n  go out\n  go out doing\n  go over\n  go some\n  go through\n  go through sth\n  go through with sth\n  go to sth\n  go together\n  go too far\n  go under\n  go up\n  go with sb\n  go with sth\n  go wrong\n  go it",
+      "content_length": 782
+    },
+    {
+      "word": "come",
+      "raw_content": "*[kʌm]\nvi. 过来, 来, 到达, 出现, 开始\ninterj. 喂\n相关词组:\n  come back\n  come before\n  come by\n  come by sth\n  come clean\n  come down\n  come down heavy on sb\n  come down to earth\n  come down to sth\n  come down with sth\n  come for\n  come forth\n  come forward\n  come from sth\n  come home\n  come home to sb\n  come in\n  come in for sth\n  come in on sth\n  come into sth\n  come into the world\n  come into power\n  come into one's own\n  to come into fashion\n  to come into existence\n  to come into force\n  to come into consideration\n  come it strong\n  come near\n  come of sth\n  come of age\n  come off\n  come off it\n  come on\n  come out\n  come out in sth\n  I am determined to...whatever may come to me.\n  come out victorious\n  come out first\n  come out with sth\n  come over\n  come over sb\n  come round\n  come round sb by cajoling\n  come through\n  come to sth\n  come to sb\n  come to\n  come to little\n  come to a decision\n  come to an understanding\n  come to oneself\n  come to stay\n  to come to an end\n  come to pass\n  come under sth\n  come under sb's notice\n  come under the influence of\n  come under fire\n  come unstuck\n  come up\n  come upon sb for sth\n  come up to sth\n  come up with sth\n  come up in the world\n  come within\n  to come\n  come apart\n  come high\n  come across\n  come after\n  come again\n  come alive\n  come along\n  come and go\n  come into use",
+      "content_length": 1333
+    },
+    {
+      "word": "make",
+      "raw_content": "*[meik]\nvt. 制造, 安排, 创造, 构成, 使得, 产生, 造成, 整理, 布置, 引起, 到达, 进行\nvi. 开始, 前进, 增大, 被制造, 被处理\nn. 制造, 构造, 性情\n【医】 通, 关(电路)\n相关词组:\n  make an answer\n  make a decision\n  make progress\n  make a promise\n  make new contributions\n  make believe\n  make do with something\n  make camp\n  make a fire\n  make tea\n  make trouble\n  make no sense\n  make no difference\n  make no doubt of it\n  make profits\n  make money\n  make a living\n  make friends with sb\n  make sb's acquaintance\n  make enemies\n  make war\n  make peace\n  make bold\n  make sure\n  make ready\n  make merry\n  at make\n  make after\n  make against\n  make at\n  make away\n  make away with oneself\n  make down\n  make for\n  make from\n  make in\n  make into\n  make it\n  make like\n  make sth of sth\n  make of\n  make a self-criticism\n  make off\n  make off with\n  make or break\n  make out of\n  make through with\n  make out\n  make sth out\n  make up to sb\n  make it up to someone\n  make up\n  make it up with sb\n  shake hands and make up\n  make up a bed\n  make one's way to\n  to make a noise\n  to make a fire\n  make the beds\n  make with\n  on the make\n  make a summing-up\n  make good\n  make the best of\n  make the most of",
+      "content_length": 1140
+    },
+    {
+      "word": "run",
+      "raw_content": "*[rʌn]\nn. 跑, 赛跑, 奔跑, 奔跑的路程, 趋向, 流出, 运转时间, 连续\nvi. 跑, 奔跑, 跑步, 赛跑, 竞赛, 行驶, 运转, 进行, 蔓延\nvt. 使跑, 参赛, 追究, 驾驶, 开动, 管理, 经营, 使流出, 运行\na. 熔化的, 融化的, 浇铸的\nrun的过去式和过去分词\n【计】 运行\n相关词组:\n  run rampant\n  run the streets\n  run sb into difficulties\n  run the risk of\n  be out of the common run\n  in the long run\n  in the short run\n  keep the run of\n  on the run\n  run across\n  run after\n  run against\n  run along\n  run at\n  run away with\n  for many years run\n  run around\n  run back over\n  run counter to\n  run down\n  run for\n  run into debt\n  run off\n  run on\n  run oneself out\n  run out\n  run out of sth\n  run over\n  run through sth\n  run sth through sth\n  run to\n  run to fat\n  run to waste\n  run sth up\n  run up against\n  run upon\n  run up to\n  run low\n  run short\n  run into the ground",
+      "content_length": 766
+    },
+    {
+      "word": "set",
+      "raw_content": "*[set]\nn. 日落, 同伙, 组合, 集合, 装置\nvt. 放, 安置, 放置, 设定, 使凝结, 点燃, 确定, 点缀, 使就位, 树立, 分配, 调整\nvi. 日落, 凝固, 定型, 搁住, 结果, 适合\na. 决心的, 规定的, 故意的, 持久的, 固定的, 老套的, 准备好的\n【计】 设置; DOS内部命令:改变或显示分配给环境变量的值\n【化】 凝结; 套; 组; 装置; 机组\n【医】 凝固; 套\n【经】 组; 创\n相关词组:\n  set one's affections on sth\n  set sb's heart at rest\n  set sb's heart at ease\n  set one's house in order\n  set sb to a task\n  set someone's teeth on edge\n  set store by\n  set the pace\n  set to rights\n  set to work\n  set sail\n  be all set\n  be set in one's ways\n  be dead set on having one's own way\n  be hard set\n  set apart\n  set sth aside\n  set at\n  set sth back\n  set sb back sth\n  set before\n  set by\n  set sth down\n  set sb down\n  set forth\n  set forward\n  set in\n  set in motion\n  set little by\n  set light by\n  set off\n  set sth off\n  set off sth\n  set sb off doing\n  set on\n  set oneself against\n  set oneself up as\n  set out\n  set sth out\n  set over\n  set to\n  set up\n  set up for\n  set sb up as sth\n  set a watch\n  set the watch\n  set one's affections on sb",
+      "content_length": 992
+    },
+    {
+      "word": "take",
+      "raw_content": "*[teik]\nvt. 拿, 取, 抓, 带领, 获得, 就座, 接受, 吃, 吸引, 采取, 乘, 需要, 花费\nvi. 吃掉对方棋子, 抓住, 起作用, 依法获得财产\nn. 拿, 取, 收成, 奏效\n【经】 取消禁运\n相关词组:\n  to take sb about sth\n  to take...into account\n  to take air\n  take sb by the hand\n  take sth on one's shoulder\n  take hold of sth\n  take sb at a disadvantage\n  take a day off\n  take one's leave\n  take office\n  take one's time\n  take the chair\n  take the floor\n  take harbour\n  take sb's advice\n  take sb into one's confidence\n  take the blame\n  take things as they are\n  take it from me\n  take one's time over\n  take place\n  take the law into one's own hands\n  take the rough with the smooth\n  take action\n  take notes\n  take a letter\n  take a photo\n  if I take you correctly\n  take sth as settled\n  take an interest in\n  take pity on\n  take for example\n  take a bath\n  take a look\n  take a rest\n  take no notice\n  take ill\n  take pretty surly\n  be able to take it\n  take sb aback\n  take after sb\n  take against\n  take ammiss\n  take sth apart\n  take as\n  take away\n  take sth down\n  take five\n  take for\n  take from\n  take the situation in\n  take in the meaning of\n  take it or leave it\n  take it out in\n  take it out of sb\n  take it out on sb\n  take sth off\n  take sb off\n  take off\n  take on\n  take sb on\n  take sth on\n  take out\n  take sth out on sb\n  take oneself off\n  take the conceit out of sb\n  take sth over\n  take sth hard\n  take sth ill\n  take ten\n  take to sth\n  take sth up\n  take up\n  take sth up with\n  take sb up\n  take sb up on sth\n  take up the matter with\n  take up a post\n  take up one's residence at\n  take upon oneself\n  take seriously\n  to take the air",
+      "content_length": 1594
+    },
+    {
+      "word": "get",
+      "raw_content": "*[get]\nvt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上\nvi. 到达, 成为, 变得\nn. (网球等)救球, 生殖, 幼兽\n【计】 取得指令, 获取文件\n相关词组:\n  get about\n  get above oneself\n  get across\n  get after\n  get ahead\n  get along\n  get away\n  get away with it\n  get back\n  get back at someone\n  get behind\n  get by\n  get done with sth\n  get down\n  get sb down\n  get down on...\n  get home\n  get in\n  get sb in\n  get sth in\n  get in with...\n  get into\n  get sb into sth\n  get into sth\n  get nowhere\n  get off\n  get off with sb\n  get on to sb the trick\n  get on with...\n  get on for sth\n  get out\n  get sb out\n  get sth out of sb\n  get sth out of sth\n  get over...\n  get round\n  get round to do\n  get through\n  get to\n  get under\n  get up\n  get oneself up as\n  get up with it\n  get up to sth\n  get hold of...\n  get sb to do\n  get something done\n  to get up early",
+      "content_length": 807
+    },
+    {
+      "word": "put",
+      "raw_content": "*[put]\nvt. 放, 摆, 安置, 移动, 发射, 投掷, 写上, 表达, 使从事, 使受到, 驱使, 赋予\nvi. 出发, 航行, 发芽\nn. 掷, 股票出售权, 笨蛋\na. 固定不动的\n【计】 发送文件\n【经】 期货买卖, 卖方选择权; 放\n相关词组:\n  put sb to trial\n  put sb to shame\n  be hard put to it\n  put paid to\n  put about\n  feel put about\n  put across\n  put apart\n  put sth aside\n  put sth away\n  put sb away\n  put sth back\n  put behind one\n  put by\n  put sb down for sth\n  put forth\n  put inside\n  put into\n  put into operation\n  put into practice\n  put into effect\n  put it on\n  put it over\n  I put it to you that...\n  put in\n  put in for sth\n  put sth on sth\n  put sb onto sth\n  put out\n  put oneself out\n  put over\n  put sb on to\n  put through\n  put sb through sth\n  put sb through drills\n  put sb through a trial\n  put sb through to\n  put to\n  put together\n  put to it\n  put up\n  put sb up to sth\n  put a stay put\n  put under\n  put upon\n  be put upon by sb\n  put one's foot down\n  to put on airs\n  put faith in\n  be put into action\n  be put out of action\n  be put into production\n  put sb to death",
+      "content_length": 994
+    },
+    {
+      "word": "book",
+      "raw_content": "*[buk]\nn. 书, 书籍, 帐簿, 名册, 工作簿\nvt. 登记, 预订\nvi. 登记, 预订\n【计】 工作簿\n【经】 帐本, 注册, 挂号; 登记入册, 预定\n相关词组:\n  suit sb's book\n  throw the book at...\n  without book\n  throw the book at someone\n  book sth up\n  take a leaf out of someone's book\n  bring sb to book for sth\n  by the book\n  know like a book\n  make book",
+      "content_length": 294
+    },
+    {
+      "word": "water",
+      "raw_content": "*['wɒ:tә]\nn. 水, 雨水, 海水, 水位, 水面, 流水\nvt. 给...浇水, 供以水, 注入水, 使湿\nvi. 流泪, 流口水, 加水\na. 水的, 水上的, 水生的, 含水的\n【化】 水\n【医】 水, 水剂\n【经】 水, 水费, 虚设发行\n相关词组:\n  above water\n  be in hot water\n  get into hot water\n  bring the water to sb's mouth\n  make sb's mouth water\n  go through fire and water\n  hold water\n  throw cold water on\n  water sth down\n  in deep water\n  in low water\n  in rough water\n  in smooth water\n  keep oneself above water\n  one's head above water\n  like a fish out of water\n  like water off a duck's back\n  pass water\n  make water\n  on the water\n  spend money like water",
+      "content_length": 565
+    },
+    {
+      "word": "time",
+      "raw_content": "*[taim]\nn. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间\nvt. 测定...的时间, 记录...的时间, 计时, 定时\na. 时间的, 记时的, 定时的, 定期的, 分期的\n【计】 DOS内部命令:用于显示或设定系统的时间\n【化】 时间\n【医】 时间, 期\n【经】 时间, 时期; 分期的\n相关词组:\n  as time goes on\n  at any time\n  at a time\n  at no time\n  at one time\n  at that time\n  at the same time\n  at the time of\n  at this time of day\n  before one's time\n  behind time\n  bide one's time\n  buy time\n  by the time...\n  by this time\n  come to time\n  do time\n  every time\n  for a time\n  for the time being\n  from time to time\n  gain time\n  give sb time\n  give the time of day\n  half the time\n  have a good time\n  have the time of one's life\n  in one's own good time\n  have a rough time\n  have a royal time\n  have time to burn\n  in good time\n  in jig time\n  in no time\n  in sb's time\n  in time\n  keep good time\n  keep bad time\n  kill time\n  know the time of day\n  lose time\n  make time\n  many a time\n  many a time and oft\n  many and many a time\n  mark time\n  not give sb the time of day\n  off time\n  of the time\n  once upon a time\n  one time with another\n  on one's own time\n  on short time\n  on time\n  out of time\n  play for time\n  serve the time\n  some time or other\n  take one's time\n  take sb all his time\n  talk against time\n  the time of one's life\n  give sb the time of his life\n  time after time\n  time and again\n  time and a half\n  time enough\n  time out of mind\n  Time was when...\n  to the end of time\n  up to time\n  watch one's time\n  have a nice time of it\n  be pressed for time\n  have no time to do sth\n  have no time for\n  fix a time for doing sth\n  lose no time in doing sth\n  the time\n  be serving one's time\n  for the first time\n  for the last time\n  this time\n  last time\n  next time\n  go at double time\n  keep time\n  make up time\n  ask for one's time\n  against time\n  work against time\n  ahead of time\n  all the time",
+      "content_length": 1809
+    },
+    {
+      "word": "people",
+      "raw_content": "*['pi:pl]\nn. 人, 人民, 民族, 平民\nvt. 使住满人, 居住于\n【法】 人民, 平民, 公民\n相关词组:\n  People say that...\n  go to the people",
+      "content_length": 101
+    },
+    {
+      "word": "world",
+      "raw_content": "*[wә:ld]\nn. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量\n【法】 世界, 地球, 世人\n相关词组:\n  in the world\n  All the world knows...\n  All the whole world knows...\n  see much of the world\n  be broke to the world\n  before the world\n  come into the world\n  for all the world\n  give to the world\n  go out of this world\n  go to the better world\n  not for the world\n  make a noise in the world\n  out of this world\n  renounce the world\n  retire from the world\n  rise in the world\n  set the world on fire\n  tell the world\n  to the world\n  be tired to the world\n  world without end",
+      "content_length": 558
+    },
+    {
+      "word": "beautiful",
+      "raw_content": "*['bju:tiful]\na. 美丽的",
+      "content_length": 20
+    },
+    {
+      "word": "important",
+      "raw_content": "*[im'pɒ:tәnt]\na. 重要的, 有地位的, 大量的, 显要的, 自负的\n【计】 要点",
+      "content_length": 48
+    },
+    {
+      "word": "different",
+      "raw_content": "*['difәrәnt]\na. 不同的\n【机】 差动, 微分的, 差速器",
+      "content_length": 36
+    },
+    {
+      "word": "running",
+      "raw_content": "*['rʌniŋ]\nn. 赛跑, 流出, 运转\na. 流动的, 跑着的, 连续的\n【经】 流动的, 连续的, 接连的\n相关词组:\n  in running order\n  in the running\n  out of the running",
+      "content_length": 121
+    },
+    {
+      "word": "went",
+      "raw_content": "*[went]\ngo的过去式",
+      "content_length": 14
+    },
+    {
+      "word": "better",
+      "raw_content": "*['betә]\na. 较好的\nad. 比较好\n相关词组:\n  a change for the better\n  get the better of...\n  all the better\n  be better off\n  be the better for it\n  no better than...\n  none the better for it\n  not better than...\n  the better part of...\n  to make alterations for the better\n  one's better half\n  the better part\n  had better",
+      "content_length": 312
+    },
+    {
+      "word": "best",
+      "raw_content": "*[best]\na. 最好的\nad. 最好地\nn. 最好的人\n【法】 最好的, 最有利的\n相关词组:\n  the best part of...\n  as best one can\n  as best as one can\n  at best\n  at one's best\n  best of all\n  do one's best\n  do one's level best\n  give sb best\n  had best\n  make the best of...\n  make the best of things\n  to the best of my belief\n  try one's best\n  with the best\n  to look one's best\n  to make the best of a bad job\n  to the best of one's ability\n  make the best of everything",
+      "content_length": 437
+    },
+    {
+      "word": "algorithm",
+      "raw_content": "*['ælgәriðm]\nn. 算法\n【计】 算法\n【化】 算法\n【经】 算法",
+      "content_length": 39
+    },
+    {
+      "word": "database",
+      "raw_content": "*['deitәbeis]\nn. 数据库\n【计】 数据库",
+      "content_length": 28
+    },
+    {
+      "word": "philosophy",
+      "raw_content": "*[fi'lɒsәfi]\nn. 哲学, 人生观, 哲学思想, 哲理, 基本原理, 见解, 达观, 沉着",
+      "content_length": 51
+    }
+  ]
+}

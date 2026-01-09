@@ -1,0 +1,352 @@
+{
+  "total_samples": 218,
+  "format_patterns": {
+    "phonetic_star_bracket": 157,
+    "phonetic_slash": 0,
+    "pos_with_dot": 154,
+    "domain_bracket": 163,
+    "related_phrases_section": 110,
+    "multiline": 164,
+    "single_line": 54
+  },
+  "statistics": {
+    "has_phonetic": 157,
+    "has_pos": 154,
+    "has_domain": 163,
+    "has_related_phrases": 110,
+    "avg_length": 219.44036697247705,
+    "max_length": 1809,
+    "min_length": 2,
+    "pos_distribution": {
+      "vt.": 71,
+      "vi.": 61,
+      "n.": 123,
+      "a.": 55,
+      "ad.": 23,
+      "interj.": 1,
+      "prep.": 3,
+      "conj.": 3,
+      "pron.": 1
+    },
+    "domain_distribution": {
+      "计": 49,
+      "医": 65,
+      "法": 20,
+      "经": 63,
+      "机": 5,
+      "化": 23,
+      "建": 2,
+      "电": 5
+    }
+  },
+  "special_cases": [
+    {
+      "type": "very_short",
+      "word": "the",
+      "content": "*[ðә]\nart. 那",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "did",
+      "content": "*[did]\ndo的过去式",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "could",
+      "content": "*[kud]\naux. 可以, 能",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "went",
+      "content": "*[went]\ngo的过去式",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "having",
+      "content": "n. 财产, 所有物",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "doing",
+      "content": "*['du:iŋ]\nn. 行为, 活动",
+      "note": "内容极短"
+    },
+    {
+      "type": "unusual_start",
+      "word": "give up",
+      "content": "放弃, 停止, 献出, 抛弃, 认输, 把...送交\n【法】 放弃, 停止, 把...送交",
+      "note": "开头格式异常"
+    },
+    {
+      "type": "very_short",
+      "word": "look for",
+      "content": "寻找, 期待",
+      "note": "内容极短"
+    },
+    {
+      "type": "unusual_start",
+      "word": "look for",
+      "content": "寻找, 期待",
+      "note": "开头格式异常"
+    },
+    {
+      "type": "unusual_start",
+      "word": "come up",
+      "content": "走上前来, 发芽, 发生, 被提到, 流行\n【建】 按照指标达到质量标准",
+      "note": "开头格式异常"
+    },
+    {
+      "type": "unusual_start",
+      "word": "go on",
+      "content": "继续下去, 过去, 发生, 进行, 接近, (演员)上, (运动员)上场, 依靠, 依据, 责骂\n【电】 继续",
+      "note": "开头格式异常"
+    },
+    {
+      "type": "unusual_start",
+      "word": "take off",
+      "content": "拿掉, 取消, 脱下, 领走, 减去, 复制, 起飞, 离开, 岔开\n【经】 取消",
+      "note": "开头格式异常"
+    },
+    {
+      "type": "very_short",
+      "word": "their",
+      "content": "*[ðєә]\npron. 他们的",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "etc",
+      "content": "及其他, 等等",
+      "note": "内容极短"
+    },
+    {
+      "type": "unusual_start",
+      "word": "etc",
+      "content": "及其他, 等等",
+      "note": "开头格式异常"
+    },
+    {
+      "type": "very_short",
+      "word": "ie",
+      "content": "【计】 中断启动",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "vs",
+      "content": "prep. 对\n【经】 对",
+      "note": "内容极短"
+    },
+    {
+      "type": "unusual_start",
+      "word": "vs",
+      "content": "prep. 对\n【经】 对",
+      "note": "开头格式异常"
+    },
+    {
+      "type": "very_short",
+      "word": "threadless",
+      "content": "a. 无线的, 无螺纹的",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "irregular gout",
+      "content": "【医】 关节外痛风, 非典型痛风",
+      "note": "内容极短"
+    }
+  ],
+  "samples_by_category": {
+    "basic_words": [],
+    "multi_sense": [
+      {
+        "word": "bad",
+        "raw_content": "*[bæd]\na. 坏的\nn. 坏\nad. 坏地\n【机】 坏, 不良, 品质不佳\n相关词组:\n  to have a bad time\n  to feel bad about sth\n  be in a bad way\n  be taken bad\n  to feel bad\n  to go from bad to worse\n  to go to the bad\n  in bad\n  be in bad with sb\n  not bad\n  to take the bad with the good\n  to make the best of a bad job\n  to the bad\n  with a bad grace",
+        "offset": 1249314,
+        "length": 357,
+        "source": "specified"
+      },
+      {
+        "word": "small",
+        "raw_content": "*[smɒ:l]\na. 小的, 少的, 小型的, 低微的, 小气的, 细微的\nad. 些微地\nn. 狭小部分\n【法】 小的, 小型的, 锁细的\n相关词组:\n  look small\n  pay small heed to\n  think small of sb\n  by small and small\n  feel small",
+        "offset": 11858857,
+        "length": 241,
+        "source": "specified"
+      },
+      {
+        "word": "long",
+        "raw_content": "*[lɒŋ]\na. 长的, 长久的, 冗长的, 做多头的\nvi. 渴望, 热望, 极想\nad. 长久, 始终\nn. 长时间, 长信号, 长整型\n【计】 长, 长整型\n【经】 长期的, 远期的\n相关词组:\n  long since\n  so long as\n  not by a long chalk\n  the long and the short of it\n  a long shot gamble\n  long for\n  in the long run\n  so long\n  all day long\n  all night long\n  as long as\n  before long\n  for long\n  long after\n  long before\n  long ago\n  long long ago",
+        "offset": 7571615,
+        "length": 468,
+        "source": "specified"
+      },
+      {
+        "word": "short",
+        "raw_content": "*[ʃɒ:t]\na. 短的, 近的, 矮的, 短期的, 简短的, 少量的\nad. 简短地, 突然\nn. 扼要, 短片, 缺乏\nvt. 故意少给, 使短路\n【经】 短少的, 短缺的, 短期的\n相关词组:\n  pull up short\n  be caught short\n  The short of it is...\n  be short and sweet\n  be taken short\n  for short\n  short for\n  in short\n  little short of\n  short of\n  be short of\n  make a long story short\n  bring sb up short\n  take sb up short",
+        "offset": 11690408,
+        "length": 439,
+        "source": "specified"
+      },
+      {
+        "word": "come",
+        "raw_content": "*[kʌm]\nvi. 过来, 来, 到达, 出现, 开始\ninterj. 喂\n相关词组:\n  come back\n  come before\n  come by\n  come by sth\n  come clean\n  come down\n  come down heavy on sb\n  come down to earth\n  come down to sth\n  come down with sth\n  come for\n  come forth\n  come forward\n  come from sth\n  come home\n  come home to sb\n  come in\n  come in for sth\n  come in on sth\n  come into sth\n  come into the world\n  come into power\n  come into one's own\n  to come into fashion\n  to come into existence\n  to come into force\n  to come into consideration\n  come it strong\n  come near\n  come of sth\n  come of age\n  come off\n  come off it\n  come on\n  come out\n  come out in sth\n  I am determined to...whatever may come to me.\n  come out victorious\n  come out first\n  come out with sth\n  come over\n  come over sb\n  come round\n  come round sb by cajoling\n  come through\n  come to sth\n  come to sb\n  come to\n  come to little\n  come to a decision\n  come to an understanding\n  come to oneself\n  come to stay\n  to come to an end\n  come to pass\n  come under sth\n  come under sb's notice\n  come under the influence of\n  come under fire\n  come unstuck\n  come up\n  come upon sb for sth\n  come up to sth\n  come up with sth\n  come up in the world\n  come within\n  to come\n  come apart\n  come high\n  come across\n  come after\n  come again\n  come alive\n  come along\n  come and go\n  come into use",
+        "offset": 2753931,
+        "length": 1362,
+        "source": "specified"
+      }
+    ],
+    "with_domain": [
+      {
+        "word": "a",
+        "raw_content": "*[ei]\nart. 一\n【计】 累加器, 加法器, 地址, 振幅, 模拟, 区域, 面积, 汇编, 组件, 异步\n【医】 热力效能",
+        "offset": 0,
+        "length": 132,
+        "source": "specified"
+      },
+      {
+        "word": "is",
+        "raw_content": "*[iz]\nbe的现在式第三人称\n【计】 加下标次序, 信息系统, 国际标准, 中间系统\n相关词组:\n  as is",
+        "offset": 6856111,
+        "length": 122,
+        "source": "specified"
+      },
+      {
+        "word": "be",
+        "raw_content": "*[bi:]\nvt. 是, 表示, 在\nvi. 是, 表示, 在\n【计】 后端, 总线允许\n【医】 铍(4号元素)\n相关词组:\n  be it that...\n  be it true or not\n  be that as it may\n  the...to be\n  so be it",
+        "offset": 1370488,
+        "length": 200,
+        "source": "specified"
+      },
+      {
+        "word": "will",
+        "raw_content": "*[wil]\nn. 意志, 决心, 意愿, 意向, 干劲, 遗嘱\nvt. 用意志的力量驱使, 决意, 愿意, 立遗嘱\nvi. 下决心, 愿意\naux. 将, 愿意, 必须\n【法】 遗嘱, 愿望, 意志\n相关词组:\n  against one's will\n  at will\n  do the will of\n  have one's will\n  if you will",
+        "offset": 14051251,
+        "length": 286,
+        "source": "specified"
+      },
+      {
+        "word": "can",
+        "raw_content": "*[kæn]\nvt. 装罐\nn. 罐头, 容器\naux. 能, 可以\n【计】 作废字符\n相关词组:\n  carry the can",
+        "offset": 2018877,
+        "length": 106,
+        "source": "specified"
+      }
+    ],
+    "with_phrases": [
+      {
+        "word": "is",
+        "raw_content": "*[iz]\nbe的现在式第三人称\n【计】 加下标次序, 信息系统, 国际标准, 中间系统\n相关词组:\n  as is",
+        "offset": 6856111,
+        "length": 122,
+        "source": "specified"
+      },
+      {
+        "word": "be",
+        "raw_content": "*[bi:]\nvt. 是, 表示, 在\nvi. 是, 表示, 在\n【计】 后端, 总线允许\n【医】 铍(4号元素)\n相关词组:\n  be it that...\n  be it true or not\n  be that as it may\n  the...to be\n  so be it",
+        "offset": 1370488,
+        "length": 200,
+        "source": "specified"
+      },
+      {
+        "word": "have",
+        "raw_content": "*[hæv]\nvt. 有, 怀有, 拿, 进行\naux. 已经\n相关词组:\n  have it out with sb\n  have on\n  have only to...to...\n  have sb down\n  have sb in\n  have sb up\n  have sth back\n  have sth in\n  have sth out\n  have sth about sb\n  have a good time\n  have at\n  have done with...\n  have had it\n  have it all over sb\n  have it in for sb\n  Have you ever been to...\n  have it on sb",
+        "offset": 5869864,
+        "length": 371,
+        "source": "specified"
+      },
+      {
+        "word": "has",
+        "raw_content": "*[hæz]\nhave的第三人称单数现在式\n相关词组:\n  as Lu Hsun has it...",
+        "offset": 5862887,
+        "length": 79,
+        "source": "specified"
+      },
+      {
+        "word": "had",
+        "raw_content": "*[hæd]\nhave的过去式和过去分词\n相关词组:\n  had rather...than\n  be had",
+        "offset": 5787171,
+        "length": 82,
+        "source": "specified"
+      }
+    ],
+    "short_entries": [
+      {
+        "word": "a",
+        "raw_content": "*[ei]\nart. 一\n【计】 累加器, 加法器, 地址, 振幅, 模拟, 区域, 面积, 汇编, 组件, 异步\n【医】 热力效能",
+        "offset": 0,
+        "length": 132,
+        "source": "specified"
+      },
+      {
+        "word": "the",
+        "raw_content": "*[ðә]\nart. 那",
+        "offset": 12899462,
+        "length": 16,
+        "source": "specified"
+      },
+      {
+        "word": "is",
+        "raw_content": "*[iz]\nbe的现在式第三人称\n【计】 加下标次序, 信息系统, 国际标准, 中间系统\n相关词组:\n  as is",
+        "offset": 6856111,
+        "length": 122,
+        "source": "specified"
+      },
+      {
+        "word": "are",
+        "raw_content": "*[ɑ:]\nbe的现在时复数或第二人称单数",
+        "offset": 897281,
+        "length": 48,
+        "source": "specified"
+      },
+      {
+        "word": "has",
+        "raw_content": "*[hæz]\nhave的第三人称单数现在式\n相关词组:\n  as Lu Hsun has it...",
+        "offset": 5862887,
+        "length": 79,
+        "source": "specified"
+      }
+    ],
+    "long_entries": [
+      {
+        "word": "go",
+        "raw_content": "*[gou]\nvi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下\nvt. 以...打赌, 对付, 忍受, 出产, 为被捕者出(保释金)\nn. 去, 尝试, 进行\n相关词组:\n  from the word go\n  go about sth\n  go about doing\n  go about\n  go ahead\n  go all out\n  go along\n  go along with\n  go at sb\n  go and do\n  to go\n  go beyond\n  go by\n  go by sth\n  go by the name of\n  go easy\n  go down\n  go far\n  go far towards\n  go flop\n  go for nothing\n  go for little\n  go forward\n  go hang\n  go hard with sb\n  go home\n  go ill\n  go ill with\n  go in\n  go in at\n  go in for sth\n  go in for doing\n  go into sth\n  go off\n  go off with\n  go on\n  go on sth\n  go out\n  go out doing\n  go over\n  go some\n  go through\n  go through sth\n  go through with sth\n  go to sth\n  go together\n  go too far\n  go under\n  go up\n  go with sb\n  go with sth\n  go wrong\n  go it",
+        "offset": 5602364,
+        "length": 882,
+        "source": "specified"
+      },
+      {
+        "word": "come",
+        "raw_content": "*[kʌm]\nvi. 过来, 来, 到达, 出现, 开始\ninterj. 喂\n相关词组:\n  come back\n  come before\n  come by\n  come by sth\n  come clean\n  come down\n  come down heavy on sb\n  come down to earth\n  come down to sth\n  come down with sth\n  come for\n  come forth\n  come forward\n  come from sth\n  come home\n  come home to sb\n  come in\n  come in for sth\n  come in on sth\n  come into sth\n  come into the world\n  come into power\n  come into one's own\n  to come into fashion\n  to come into existence\n  to come into force\n  to come into consideration\n  come it strong\n  come near\n  come of sth\n  come of age\n  come off\n  come off it\n  come on\n  come out\n  come out in sth\n  I am determined to...whatever may come to me.\n  come out victorious\n  come out first\n  come out with sth\n  come over\n  come over sb\n  come round\n  come round sb by cajoling\n  come through\n  come to sth\n  come to sb\n  come to\n  come to little\n  come to a decision\n  come to an understanding\n  come to oneself\n  come to stay\n  to come to an end\n  come to pass\n  come under sth\n  come under sb's notice\n  come under the influence of\n  come under fire\n  come unstuck\n  come up\n  come upon sb for sth\n  come up to sth\n  come up with sth\n  come up in the world\n  come within\n  to come\n  come apart\n  come high\n  come across\n  come after\n  come again\n  come alive\n  come along\n  come and go\n  come into use",
+        "offset": 2753931,
+        "length": 1362,
+        "source": "specified"
+      },
+      {
+        "word": "make",
+        "raw_content": "*[meik]\nvt. 制造, 安排, 创造, 构成, 使得, 产生, 造成, 整理, 布置, 引起, 到达, 进行\nvi. 开始, 前进, 增大, 被制造, 被处理\nn. 制造, 构造, 性情\n【医】 通, 关(电路)\n相关词组:\n  make an answer\n  make a decision\n  make progress\n  make a promise\n  make new contributions\n  make believe\n  make do with something\n  make camp\n  make a fire\n  make tea\n  make trouble\n  make no sense\n  make no difference\n  make no doubt of it\n  make profits\n  make money\n  make a living\n  make friends with sb\n  make sb's acquaintance\n  make enemies\n  make war\n  make peace\n  make bold\n  make sure\n  make ready\n  make merry\n  at make\n  make after\n  make against\n  make at\n  make away\n  make away with oneself\n  make down\n  make for\n  make from\n  make in\n  make into\n  make it\n  make like\n  make sth of sth\n  make of\n  make a self-criticism\n  make off\n  make off with\n  make or break\n  make out of\n  make through with\n  make out\n  make sth out\n  make up to sb\n  make it up to someone\n  make up\n  make it up with sb\n  shake hands and make up\n  make up a bed\n  make one's way to\n  to make a noise\n  to make a fire\n  make the beds\n  make with\n  on the make\n  make a summing-up\n  make good\n  make the best of\n  make the most of",
+        "offset": 7753434,
+        "length": 1246,
+        "source": "specified"
+      },
+      {
+        "word": "take",
+        "raw_content": "*[teik]\nvt. 拿, 取, 抓, 带领, 获得, 就座, 接受, 吃, 吸引, 采取, 乘, 需要, 花费\nvi. 吃掉对方棋子, 抓住, 起作用, 依法获得财产\nn. 拿, 取, 收成, 奏效\n【经】 取消禁运\n相关词组:\n  to take sb about sth\n  to take...into account\n  to take air\n  take sb by the hand\n  take sth on one's shoulder\n  take hold of sth\n  take sb at a disadvantage\n  take a day off\n  take one's leave\n  take office\n  take one's time\n  take the chair\n  take the floor\n  take harbour\n  take sb's advice\n  take sb into one's confidence\n  take the blame\n  take things as they are\n  take it from me\n  take one's time over\n  take place\n  take the law into one's own hands\n  take the rough with the smooth\n  take action\n  take notes\n  take a letter\n  take a photo\n  if I take you correctly\n  take sth as settled\n  take an interest in\n  take pity on\n  take for example\n  take a bath\n  take a look\n  take a rest\n  take no notice\n  take ill\n  take pretty surly\n  be able to take it\n  take sb aback\n  take after sb\n  take against\n  take ammiss\n  take sth apart\n  take as\n  take away\n  take sth down\n  take five\n  take for\n  take from\n  take the situation in\n  take in the meaning of\n  take it or leave it\n  take it out in\n  take it out of sb\n  take it out on sb\n  take sth off\n  take sb off\n  take off\n  take on\n  take sb on\n  take sth on\n  take out\n  take sth out on sb\n  take oneself off\n  take the conceit out of sb\n  take sth over\n  take sth hard\n  take sth ill\n  take ten\n  take to sth\n  take sth up\n  take up\n  take sth up with\n  take sb up\n  take sb up on sth\n  take up the matter with\n  take up a post\n  take up one's residence at\n  take upon oneself\n  take seriously\n  to take the air",
+        "offset": 12694375,
+        "length": 1704,
+        "source": "specified"
+      },
+      {
+        "word": "get",
+        "raw_content": "*[get]\nvt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上\nvi. 到达, 成为, 变得\nn. (网球等)救球, 生殖, 幼兽\n【计】 取得指令, 获取文件\n相关词组:\n  get about\n  get above oneself\n  get across\n  get after\n  get ahead\n  get along\n  get away\n  get away with it\n  get back\n  get back at someone\n  get behind\n  get by\n  get done with sth\n  get down\n  get sb down\n  get down on...\n  get home\n  get in\n  get sb in\n  get sth in\n  get in with...\n  get into\n  get sb into sth\n  get into sth\n  get nowhere\n  get off\n  get off with sb\n  get on to sb the trick\n  get on with...\n  get on for sth\n  get out\n  get sb out\n  get sth out of sb\n  get sth out of sth\n  get over...\n  get round\n  get round to do\n  get through\n  get to\n  get under\n  get up\n  get oneself up as\n  get up with it\n  get up to sth\n  get hold of...\n  get sb to do\n  get something done\n  to get up early",
+        "offset": 5509767,
+        "length": 899,
+        "source": "specified"
+      }
+    ]
+  }
+}

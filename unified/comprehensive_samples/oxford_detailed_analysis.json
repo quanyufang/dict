@@ -1,0 +1,188 @@
+{
+  "total_samples": 174,
+  "format_patterns": {
+    "phonetic_slash_separated": 146,
+    "phonetic_single": 4,
+    "pos_standard": 156,
+    "sense_numbers": 126,
+    "sense_letters": 99,
+    "example_star": 127,
+    "grammar_bracket": 124,
+    "idm_section": 0,
+    "phr_v_section": 0,
+    "cross_ref_arrow": 96
+  },
+  "statistics": {
+    "has_phonetic": 150,
+    "has_uk_us_phonetic": 146,
+    "has_pos": 156,
+    "has_numbered_senses": 126,
+    "has_lettered_senses": 99,
+    "has_examples": 127,
+    "has_grammar_notes": 124,
+    "has_idm": 0,
+    "has_phr_v": 0,
+    "has_cross_ref": 96,
+    "avg_length": 3463.212643678161,
+    "max_length": 17744,
+    "min_length": 6,
+    "pos_distribution": {
+      "n": 234,
+      "art": 7,
+      "adj": 37,
+      "v": 163,
+      "adv": 34,
+      "aux": 4,
+      "modal": 4,
+      "conj": 1,
+      "interj": 6,
+      "det": 2,
+      "pron": 1,
+      "prep": 1
+    },
+    "grammar_notes": [
+      "杀死某人",
+      "不对",
+      "不（太）好",
+      "很长时间",
+      "赢得",
+      "使某人玩得很痛快",
+      "昆虫",
+      "sing or pl v",
+      "迟缓",
+      "I, Ipr, Ip, Tn, Tn.p",
+      "Cn.a, Cn.n",
+      "没看见",
+      "Tn, Tf, Tw, Tng, Tni",
+      "La, I",
+      "I, Tn, Tf, Tw",
+      "由于肤色",
+      "税款/租金",
+      "Tn, Tw",
+      "坏处",
+      "Ip"
+    ]
+  },
+  "special_cases": [
+    {
+      "type": "very_long",
+      "word": "be",
+      "length": 5182,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "have",
+      "length": 13800,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_short",
+      "word": "has",
+      "content": "=> have.",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "had",
+      "content": "pt, pp of have.",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_long",
+      "word": "do",
+      "length": 11083,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_short",
+      "word": "does",
+      "content": "=> do.",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_short",
+      "word": "did",
+      "content": "pt of do.",
+      "note": "内容极短"
+    },
+    {
+      "type": "very_long",
+      "word": "good",
+      "length": 7026,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "old",
+      "length": 6107,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "long",
+      "length": 6139,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "short",
+      "length": 7406,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "go",
+      "length": 17744,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "come",
+      "length": 8248,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "make",
+      "length": 10330,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "take",
+      "length": 13923,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "get",
+      "length": 12246,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "give",
+      "length": 9697,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "keep",
+      "length": 6263,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "say",
+      "length": 10040,
+      "note": "内容极长"
+    },
+    {
+      "type": "very_long",
+      "word": "tell",
+      "length": 5140,
+      "note": "内容极长"
+    }
+  ]
+}
