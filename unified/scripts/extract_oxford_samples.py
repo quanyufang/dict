@@ -15,7 +15,7 @@ import random
 
 # 词典文件目录
 DICT_BASE_PATH = Path(__file__).parent.parent.parent / "app_dictfiles"
-OUTPUT_PATH = Path(__file__).parent / "comprehensive_samples"
+OUTPUT_PATH = Path(__file__).parent.parent / "comprehensive_samples"
 
 
 # Oxford样例词汇 - 覆盖各种复杂情况

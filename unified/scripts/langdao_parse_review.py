@@ -15,8 +15,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from unified.parsers.langdao import LangdaoParser
 from unified.models.entry import DictionaryEntry
 
-SAMPLES_PATH = Path(__file__).parent / "comprehensive_samples"
-OUTPUT_PATH = Path(__file__).parent / "comprehensive_samples"
+SAMPLES_PATH = Path(__file__).parent.parent / "comprehensive_samples"
+OUTPUT_PATH = Path(__file__).parent.parent / "comprehensive_samples"
 
 
 def parse_and_compare():
