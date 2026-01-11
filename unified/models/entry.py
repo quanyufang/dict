@@ -113,6 +113,9 @@ class Sense:
     
     # 原始标记（保留用于调试）
     raw_markers: List[str] = field(default_factory=list)
+    
+    # 原始内容（遵循"不丢失内容"原则）
+    raw_content: Optional[str] = None    # 原始内容，用于调试和恢复
 
 
 @dataclass

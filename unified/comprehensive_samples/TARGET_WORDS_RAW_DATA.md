@@ -1,61 +1,13 @@
 # 目标词条原始数据
 
-> 用于手工拆解分析  
-> 生成时间: 2026-01-08
+> 用于手工拆解分析
+> 更新时间: 2026-01-08
 
 这些词条在分析中被标记为"定义文本问题"，需要手工拆解以优化解析规则。
 
 ---
 
-## a
-
-**长度**: 1126字符
-
-**原始数据**:
-
-```
-/eɪ; e/ n (pl A's, a's / eIz; ez/)  1 the first letter of the English alphabet 英语字母表的第一个字母: `Ann' begins with (an) A/`A'. Ann一字以A字母开始.  2 (music 音) the sixth note in the scale of C major  C大调音阶中的第六音或音符.  3 academic mark indicating the highest standard of work 学业成绩达最高标准的评价符号: get (an) A/`A' in biology 生物（学科）得A.  4 (used to designate a range of standard paper sizes 用以标明一系列标准纸张的规格): [attrib 作定语] an A4 folder  A4纸张大小的文件夹  即297 x 210 mm.  5 (idm 习语) A1 / 7eI 5wQn; `e`wQn/(infml 口) excellent; first rate 极好的; 头等的; 第一流的: an 7A1 5dinner 一顿美餐 * I'm feeling A1, ie very well. 我身体好极了. from A to B from one place to another 从一处到另一处: I don't care what a car looks like as long as it gets me from A to B. 我倒不在乎汽车的样子, 只要能把我从一处载到另一处就行了. from A to Z from beginning to end; thoroughly 从头到尾; 彻底地: know a subject from A to Z 精通一科目.
-
-abbr 缩写 =  1 ampere(s): 13A, eg on a fuse 13安（如标于保险丝上者）.  2 answer. Cf 参看 Q.  3 (in academic degrees 在学位方面) Associate of: ARCM, ie Associate of the Royal College of Music 皇家音乐学院副研究员. Cf 参看 F2.
-
-/eɪ; e/ symb 符号 (Brit) (of roads) major （指公路）A级（主干公路）: the A40 to Oxford 通往牛津的A级40号公路 * an A-road 一条A级公路. Cf 参看 B.
-```
-
----
-
-## the
-
-**长度**: 3235字符
-
-**原始数据**:
-
-```
-/ðə, ðɪ; ðə, ðɪ; strong form 强读式 ðiː; ði/ 见词条使用详细说明 6.2. =>Usage at a2 用法见a2. def art (used to make the following n refer to a specific person, thing, event or group 用于名词前, 表示为特指的人、物、事或群体)  1 (when it has already been mentioned or implied 指已提到过的或已知所指的人、物、事或群体): A boy and a girl were sitting on a bench. The boy was smiling but the girl looked angry. 一个男孩和一个女孩坐在长凳上. 那男孩在微笑, 那女孩像在生气. * There was an accident here yesterday. A car hit a tree. The driver was killed. 昨天这里出事了. 有一辆汽车撞在树上了. 司机死了.  2 (when a n is followed by a phrase that restricts its meaning 用于後接限定性短语的名词): the centre of town 市中心 * the topic of conversation 谈话的主题 * the man of her dreams 她梦想的男子 * the house that Jack built 杰克盖的房子.  3 (a) (when it has unique reference 用以指独一无二的人或事物): the sun 太阳 * the moon 月亮 * the stars 星星. (b) (used with some parts of the natural world without a preceding adj 与表示自然界某部分之名词连用, 该名词前须无形容词): The sky was blue. 天空是蓝的. (Cf 参看 There was a blue sky.) * The sea is rough. 海上波涛　涌. (Cf 参看 There's a rough sea.) * The atmosphere wasstuffy. 空气不流通. (Cf 参看 There was a stuffy atmosphere.)4 (when the person or thing that is referred to is obvious within the situation 用以指不言而喻的人或事物): The milkman was late this morning. 送牛奶的人今晨来晚了. * Have you seen the paper? 你看见报纸了吗? * The children are in the garden. 孩子都在花园里呢. * Would you pass the salt, please? 劳驾把盐递给我.  5 (used with superlative adjs, first, last, next, etc 与形容词最高级, 以及first、last、next等连用): the best day of your life 你一生中最美好的一天 * the hottest day of the holiday 假日中最热的一天 * What was the last thing I said? 我最後说的是什么?  6 (used with an adj to refer to all members of a class or nationality 与形容词连用, 表示某类或某国的全体分子或成员): trying to do the impossible 试图做做不到的事 * The rich get richer and the poor get poorer. 富的越富, 穷的越穷. * The French are famous for their cooking. 法国人以善烹调着称.  7 (used with a singular [C] n to mean the whole class 与可数名词的单数连用, 指这一类的全体): The chimpanzee is an endangered species. 黑猩猩是濒于灭种的动物. * The poodle is a popular house pet. 卷毛狗是很多人都喜爱的宠物.  8 (used for inventions in general 用以泛指发明的东西): Who invented the zip-fastener? 是谁发明的拉链? * The motor car has been with us for almost a century. 汽车问世已近百年了. * Let's not waste time re-inventing the wheel, ie working to develop sth that has already been produced. 我们别浪费时间再去发明别人已经做出来的东西了.  9 (used in front of a unit of measure to mean `every' 用于量度单位前, 表示｀每一＇): My car does forty miles to the gallon. 我的汽车每加仑汽油跑四十英里. * I work free-lance and am paid by the hour. 我是自由职业者, 按小时计酬. * The price is 50p the dozen. 价格是每打50便士.  10 (used to indicate that the person or thing referred to is well-known or important 用以表明所指的人或事物是出名的或重要的): Michael Crawford? Not `the Michael Crawford? 迈克尔·克劳福德? 莫不是那个迈克尔·克劳福德? * The royal wedding was `the social event of the year. 皇室婚礼是当年社会生活中的大事.  11 (idm 习语) the more, less, etc...the more, less, etc... (used to show that the increase/decrease in one amount or degree of sth continues at the same rate as another 用以表示某事物与另一事物在数量或程度方面以相同的比例增加[减少]): The more she thought about it, the more depressed she became. 她越想越别扭. * The more beautiful the hat, the more expensive it usually is. 帽子越好看, 一般来说价钱就越贵. * I want you out of here, and the sooner the better. 你给我走开, 越快越好. * The less said about the whole affair, the happier I'll be. 对整件事谈得越少我越高兴.
-```
-
----
-
-## be
-
-**长度**: 5182字符
-
-**原始数据**:
-
-```
-/bɪ; bɪ; strong form 强读式 biː; bi/ v =>Usage at be2 用法见be2.  1 (used after there and before a/an, no, some, etc+ n 用于there之後及a/an、no、some等+名词之前) (a) exist; occur; live 有; 存在; 生存: Is there a God? 有上帝吗? * For there to be life there must be air and water. 一定要有空气和水才有生命. * There are no easy answers. 现成的答案是没有的. * There are many such people. 这样的人多的是. * Once upon a time there was a princess. 从前有一个公主. * There have been cows in that field since my grandfather's time. 从我祖父那时候起, 那片地上就养着牛. (b) be present; stand 在; 在场: There's a bus-stop down the road 路的前方有一个公共汽车站. (Cf 参看 The bus-stop is down the road.) There were no books on the shelf. 书架上没有书. * There are some good photographs in this exhibition. 这一展览会上有些好照片.  2 (with an adv or a prepositional phrase indicating position in space or time 与表示地点或时间的副词或介词短语连用) (a) be situated 位于; 处于: The lamp is on the table. 灯在桌子上. * The stable is a mile away. 马房距此一英里远. * Mary's upstairs. 玛丽在楼上. * John's out in the garden. 约翰在外面花园里. * They are on holiday in the Lake District. 他们在英格兰湖区度假. (b) happen; occur; take place 发生; 产生; 举行: The party is after work. 聚会在下班後举行. * The election was on Monday. 选举是在星期一进行的. * The concert will be in the school hall. 音乐会将在学校的礼堂内举行. * The meetings are on Tuesdays and Thursdays in the main hall. 会议在星期二和星期四于大礼堂举行. (c) remain 停留; 逗留; 待: She has been in her room for hours. 她在自己的房间里待了几个小时. * They're here till Christmas. 他们在这里要一直逗留到圣诞节. (d) attend; be present 出席; 到场: Were you at church yesterday? 昨天你去过教堂吗? * I'll be at the party. 我参加这个聚会.  3 (with an adv or a prepositional phrase indicating direction, a starting point, etc 与副词或介词短语连用表示方向、起点等) leave; arrive 离开; 到达: I'll be on my way very soon. 我很快就要上路. * She's from Italy, ie Her native country is Italy. 她是意大利人（她
-
-/bɪ; bɪ; strong form 强读式 biː; bi/ aux v =>Usage 见所附用法  1 (used with a past participle to form the passive 与过去分词连用构成被动语态): He was killed in the war. 他阵亡了. * Where were they made? 这些东西是在哪里制造的? * The thief was caught. 窃贼被捉住了. * The house is/was being built. 那房屋正在[那时正在]建造. * You will be severely punished if you do not obey. 你不服从, 就会受到严惩.  2 (used with present participles to form continuous tenses 与现在分词连用构成进行时态): They are/were reading. 他们正在[那时正在]阅读. * I am studying Chinese. 我正在学习汉语. * I shall be seeing him soon. 我不久就会见到他了. * What have you been doing this week? 你这星期以来在干什么? * I'm always being criticized. 我总是挨批.  3 (with to + infinitive 与to+不定式连用) (a) (expressing duty, necessity, etc 表示责任、需要等): I am to (ie I have been told to) inform you that... 我有义务（我受人之托）通知你... * You are to report (ie must, should report) to the police. 你应该报警. (b) (expressing arrangement, intention or purpose 表示安排、意向或目的): They are to be married, ie will be married. 他们打算结婚. * Each participant was to pay his own expenses. 每个参加者都必须自费. * The telegram was to say that she'd be late. 电报说她可能晚到. (c) (expressing possibility 表示可能性): The book was not to be (ie could not be) found. 那本书找不到了. (d) (expressing destiny 表示注定): He was never to see his wife again, ie Although he did not know it at the time, he did not see her again. 他从那以後就再也见不到他的妻子了. * The celebrations were not to be, ie They did not, in fact, take place. 庆祝活动结果未能举行. (e) (only in the form were, expressing supposition 仅用were这一形式, 表示假设): If I were to tell you/Were I to tell you that I killed him, would you believe me? 假如我对你说是我杀死了他, 你相信吗? * If it were to rain, we would have to cancel the match tomorrow. 假如下雨, 我们只好取消明天的比赛.
-
-NOTE ON USAGE 用法: Be is used as a main verb (be1) and as an auxiliary verb (be2). *be可用作主要动词 (be1),  (be2). The various written and spoken forms are the same for both verbs 两者的各种书面语和口语形式均相同: am (pres t with I)/ Em, m;m/, strong form/ m; Am/; written contraction I'm/ aIm; aIm/; negative question aren't I?/ 5B:ntaI; ?@ 5B:rEntaI; Brnt aI/. *am （现在时态与 I/ Em, m; m/, 强读式/m; Am/; 书写缩约式 I'm/ aIm; aIm/; 否定疑问式 aren't I?/ 5B:ntaI; 美式 5B:rEntaI; Brnt aI/. *is (pres t with he, she, it)/ s, z; s, z/, strong form/ Iz; Iz/; written contractions it's/ Its; Its/, Jack's/ dVks; dVAks/, he's/hi:z, hIz; hIz/, she's/ Fi:z, FIz; FIz/, the cow's/ TE kaUz; TE`kaJz/; negative isn't/ 5Iznt; `Iznt/. *is（现在时态与hesheit连用）/s, z; s, z/, 强读式/ Iz; Iz/; 书写缩约式it's/ Its; Its/, Jack's/ dVks; dVAks/, he's/ hi:z, hIz; hIz/,she's/ Fi:z, FIz; FIz/, the cow's/ TE kaUz; TE `kaJz/; 否定式 isn't/ 5Iznt; `Iznt/. *are (pres t with you, we, they)/E(r); L/ , strong form/ B:(r); Br/; written contractions we're/ wIE(r); wIr/, you're/ jUE(r), jR:(r); jJr/, they're/TeE(r); Ter/; negative aren't/ B:nt; ?@ 5B:rEnt; Brnt/. *are（现在时态与youwethey连用）/E(r); L/ , 强读式/ B:(r); Br/; 书写缩约式 we're/ wIE(r); wIr/, you're/jUE(r), jR:(r); jJr/, they're/ TeE(r); Ter/; 否定式 aren't/ B:nt; 美式 5B:rEnt; Brnt/. *was (pt with I, he, she, it)/wEz; wEz/, strong form/ wCz; ?@ wQz; wQz/; negative wasn't/ 5wCznt; ?@ 5wQznt; `wQznt/. *was （过去时态与Ihesheit连用）/wEz; wEz/, 强读式/ wCz; 美式 wQz; wQz/; 否定式 wasn't/ 5wCznt; 美式 5wQznt; `wQznt/.*were (pt with you, we, they)/ wE(r); wL/, strong form/w\:(r); w[/; negative weren't/ w\:nt; ?@ 5w\:rEnt; w[nt/.*were （过去时态与 you we they连用）/wE(r); wL/, 强读式/ w\:(r); w[/; 否定式 weren't/ w\:nt; 美式5w\:rEnt; w[nt/. *being (pres p)/ 5bi:IN; `biIN/. *being/ 5bi:IN; `biIN/. *been (pp)/ bi:n; ?@ also bIn; bIn/. *been（过去分词）/bi:n; 美式 bIn; bIn/.
-```
-
----
-
-## have
-
-**长度**: 13800字符
-
-**原始数据**:
+## HAVE
 
 ```
 /həv; həv; strong form 强读式 hæv; hæv/ 见词条使用详细说明6.2、6.3. aux v =>Usage at have3 用法见have3; (used with the past participle to form perfect tenses 与过去分词连用构成完成时态): I've finished my work. 我已经做完工作了. * He's gone home, hasn't he? 他已经回家去了, 是吗? * Have you seen it? Yes I have/No I haven't. 你看见了吗? 看见了[没看见]. * He'll have had the results by then. 他到时候会有结果的. * She may not have told him yet. 她可能还没有告诉他. * Had they left before you got there? 你到达那里时他们已经离开了吗? * She'd fallen asleep by that time, hadn't she? 那时她早已睡着了, 是吗? * If I hadn't seen it with my own eyes I wouldn't have believed it. 我要不是亲眼看见, 还可能不相信呢. * Had I known that (ie If I had known that), I would never have come. 我要是早知道, 我绝对不来.
@@ -91,11 +43,7 @@ NOTE ON USAGE 用法: Have is used as an auxiliary verb (have1) and as two separ
 
 ---
 
-## do
-
-**长度**: 11083字符
-
-**原始数据**:
+## DO
 
 ```
 /duː; du/ aux v (neg 否定式 do not, contracted form 缩约式 don't/ dEUnt; dont/; 3rd pers sing pres t does/ dEz; dEz; strong form 强读式  dQz; dQz/, neg 否定式 does not, contracted form 缩约式 doesn't/ 5dQznt; `dQznt/; pt did/ dId; dId/, neg 否定式 did not, contracted form 缩约式 didn't/ 5dIdnt; `dIdnt/; pp done/ dQn; dQn/)  1 (a) (used in front of a full v to form negative sentences and questions 用于实动词之前以构成否定句及疑问句): I don't like fish. 我不喜欢鱼. * They didn't go to Paris. 他们没去巴黎. * Don't forget to write. 别忘了写信. * Does she speak French? 她会说法语吗? * Do you believe him? 你相信他吗? * Did they take you home? 是他们把你送到家的吗? (b) (used to make tag questions 用以构成附加问句): You live in London, don't you? 你住在伦敦, 是吗? * He married his boss's daughter, didn't he? 他娶了老板的女儿, 是吗? * She doesn't work here, does she? 她不在此地工作, 是吗?  2 (used when no other aux v is present to emphasize that a verb is positive 用于句中无其他助动词时, 以加强动词的肯定语气): He `does look tired. 他确实显得很疲倦. * She `did write to say thank you. 她的确写信向你道谢了. * Do shut up! 住口! * Do say you'll stay for supper! 务必吃完晚饭再走!  3 (used to reverse the order of the subject and v when an adv or adverbial phrase is moved to the front 当副词或副词词组移置到句首时, 用以改变主语和动词的语序): Not only does she speak Spanish, (but) she also knows how to type. 她不但会说西班牙语, 还会打字呢. * (fml 文) So much did they eat that they could not move for the next hour. 他们吃得太多了, 一个小时都动弹不得. * (fml 文) Rarely did she request help but this was a matter of urgency. 她很少求助于人, 这事却是十分紧急.  4 (used to avoid repetition of a full v 用以代替实动词, 避免重复): He drives faster than he did a year ago. 他开车比一年以前快了. * She works harder than he does. 她工作比他努力. * `Who won?' `I did.' ｀谁赢了?＇｀我赢了.＇
@@ -111,11 +59,7 @@ abbr 缩写 = (also symb 符号为") ditto.
 
 ---
 
-## will
-
-**长度**: 4965字符
-
-**原始数据**:
+## WILL
 
 ```
 /wɪl; wɪl/ modal v (contracted form 缩约式 'll / l; l/;neg 否定式 will not, contracted form 缩约式 won't /wEUnt; wont/; pt would / wEd; wEd; strong form 强读式 wUd; wJd/, contracted form 缩约式 'd / d; d/; neg 否定式 would not, contracted form 缩约式 wouldn't / 5wUdnt;`wJdnt/)  1 (a) (indicating future predictions 用以表示对未来事物的预料): Next year will be the centenary of this firm. 明年是这家公司成立的一百周年. * He'll start school soon, won't he? 他很快就要上学了, 对吧? * You'll be in time if you hurry. 你要是快一点儿就能来得及. * How long will you be staying in Paris? 你在巴黎要呆多久? * Fred said he'd soon be leaving. 弗雷德说他很快就要走了. * If you phoned my secretary she'd give you an appointment. 你给我秘书打个电话, 她就会给你约定个时间. =>Usage 1 at shall 见shall所附用法第1项. (b) (indicating present predictions 用以表示对目前事物的预料): That'll be the postman now! 这准是邮递员来了! * They'll be home by this time. 他们现在一定到家了.  2 (a) (indicating willingness or unwillingness 用以表示愿意或不愿意): He'll take you home  you only have to ask. 他愿意送你回家--你跟他一说就行. * I'll check this letter for you, if you want. 你要想让我给你查查这封信, 我就给你查查. * We won't lend you any more money. 我们不再借给你钱了. * She wouldn't come to the zoo  she was frightened of the animals. 她不愿意到动物园来--她害怕动物. * We said we would keep them. 我们说过我们愿意保留它们. =>Usage 2 at shall 见shall所附用法第2项. (b) (indicating requests 用以表示请求): Will you post this letter for me, please? 请您把这封信给我寄出去行吗? * Will you (please) come in? 您（请）进来好吗? * You'll water the plants while I'm away, won't you? 我不在的时候, 你给这些植物浇浇水行吗? * I asked him if he wouldn't mind calling later. 我问他等一会儿再打电话来行不行.  3 (giving an order 用于发出命令或指示时): You will carry out these instructions and report back this afternoon. 你要执行这些指示并于今日下午报告执行情况. * Will you be quiet! 安静点儿!=>Usage 3 at shall 见shall所附用法第3项.  4 (a)(describing general truths 用于叙述真理时): Oil will float on water. 油能浮在水面上. * Engines won't run without lubricants. 没有润滑剂发动机就不能运转. (b) (describing habits in the present or past 用于叙述目前的或过去的习惯时): She will listen to records, alone in her room, for hours. 她独自一人在屋里听唱片, 每每一听就是半天.* He would spend hours in the bathroom or on the telephone. 他以前一进洗澡间或是一打电话, 往往就是半天.  5 (insistence on the part of the subject 用以表示施事者执意要做的事): He `will comb his hair at the table, even though he knows I don't like it. 他偏偏要在饭桌哪儿梳头, 还明明知道我腻味这事儿. * He `would keep telling those dreadful stories. 他专门爱讲那些讨厌的故事.

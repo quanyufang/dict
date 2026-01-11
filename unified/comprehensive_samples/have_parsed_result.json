@@ -1,0 +1,823 @@
+{
+  "headword": "have",
+  "source_id": "oxford",
+  "entry_id": null,
+  "pronunciations": [
+    {
+      "ipa": "həv",
+      "region": "uk",
+      "audio_file": null
+    },
+    {
+      "ipa": "həv",
+      "region": "general",
+      "audio_file": null
+    },
+    {
+      "ipa": "strong form 强读式 hæv",
+      "region": "general",
+      "audio_file": null
+    },
+    {
+      "ipa": "hæv",
+      "region": "general",
+      "audio_file": null
+    },
+    {
+      "ipa": "No I haven't. ? [].\n* He'll have had the results by then. .\n* She may not have told him yet. .\n* Had they left before you got there? ?\n* She'd fallen asleep by that time, hadn't she? , ?\n* If I hadn't seen it with my own eyes I wouldn't have believed it. , .\n* Had I known that (ie If I had known that), I would never have come. , .",
+      "region": "uk",
+      "audio_file": null
+    },
+    {
+      "ipa": "sth without others []",
+      "region": "uk",
+      "audio_file": null
+    },
+    {
+      "ipa": ":\nWith my parents away I've got the house to myself. , .\n\nNOTE ON USAGE :\nWhen indicating possession, the most commonly used verb in British English is have got (in present tense forms) , have got:\n`Have you got any pets?' `Yes, I've got three rabbits and a tortoise.' ?, .\n\nIn US English (and commonly in tenses other than the present in British English) have is used , have, have, :\nI have an apartment in downtown Manhattan. .\n*  I haven't got a car now but I'll have one next week. , .\n\nHave when used in the present tense in British English is more formal than have got *have, have got:\nI have no objection to your proposal. .\n\nIn British English have got, indicating possession, behaves like an auxiliary verb and a pp , have got, :\n`Have you got a computer?' `Yes, I have.' ?.\n\nIn US English questions and negatives are formed with do , do:\n`Do you have a computer?' `Yes I do.' ?.\n\nThis construction is common in British English in tenses other than the present :\nI didn't have any money so I couldn't get a newspaper. , .\n\nIt is also increasingly found in the present tense. .",
+      "region": "us",
+      "audio_file": null
+    },
+    {
+      "ipa": "a`way (with sb) (<!> sl , ) have sexual intercourse with sb :\nShe was having it off with a neighbour while her husband was away on business. .\n\nwhat `have you (infml ) other things, people, etc of the same kind :\nThere's room in the cellar to store unused furniture and what have you. .\n\n12 (phr v) have sb back allow (a spouse, etc from whom one is separated) to return :\nI'll never have her back. .\n\nhave sth back receive sth that has been borrowed, stolen, etc from one :\nLet me have it back soon. .\n* You can have your files back after we've checked them. .\n\nNOTE ON USAGE :\nHave is used as an auxiliary verb (have1) and as two separate main verbs (have2 and have3).\n*havehave1, have2have3.\n                                                                                                                    *Except for the negative forms haven't, hasn't and hadn't, the following written and spoken forms are common to all three verbs haven'thasn'thadn't, :\n                                                                                                                     have (pres t with I, you, we, they) have, Iyouwethey",
+      "region": "uk",
+      "audio_file": null
+    },
+    {
+      "ipa": ",",
+      "region": "uk",
+      "audio_file": null
+    },
+    {
+      "ipa": ", we've",
+      "region": "uk",
+      "audio_file": null
+    }
+  ],
+  "senses": [
+    {
+      "definition": "用法见have2,3. (Brit also have got) (not used in the continuous tenses 不用于进行时态).",
+      "definition_lang": "zh-en",
+      "pos": -1,
+      "sense_number": "3",
+      "examples": [],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "possess or own (sth) 有, 据有（某物）: He has a house in London and a cottage near the sea. 他在伦敦有一所房子, 在海边还有一个小屋.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "1a",
+      "examples": [
+        {
+          "text": "Do you have any pets?",
+          "translation": "你有什么宠物吗?",
+          "source": null
+        },
+        {
+          "text": "They've got two cars.",
+          "translation": "他们有两辆小汽车.",
+          "source": null
+        },
+        {
+          "text": "How many glasses have we got?",
+          "translation": "我们有多少个玻璃杯?",
+          "source": null
+        },
+        {
+          "text": "Do you have/Have you got a 50p piece?",
+          "translation": "你有没有一枚50便士的硬币?",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "possess or display (a mental quality or physical feature) 有, 具有（某种精神素质或生理特点）: You must have a lot of courage. 你可真有胆量.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "1b",
+      "examples": [
+        {
+          "text": "She has a good memory.",
+          "translation": "她的记性很好.",
+          "source": null
+        },
+        {
+          "text": "Giraffes have long necks.",
+          "translation": "长颈鹿的脖子很长.",
+          "source": null
+        },
+        {
+          "text": "The house has (ie contains) three bedrooms.",
+          "translation": "这所房子有三间卧室.",
+          "source": null
+        },
+        {
+          "text": "You've got a cut on your chin.",
+          "translation": "你下巴上有一道伤口.",
+          "source": null
+        },
+        {
+          "text": "have a tooth loose/missing",
+          "translation": "有一颗牙齿松了.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn, Tn.pr, Cn.a",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "(indicating a relationship 表示某种关系): I have two sisters. 我有两个姐姐.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "2",
+      "examples": [
+        {
+          "text": "They have four children.",
+          "translation": "他们有四个孩子.",
+          "source": null
+        },
+        {
+          "text": "Does he have any friends?",
+          "translation": "他有朋友吗?",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "(be able to) make use of or exercise (sth) （有能力）利用或运用（某事物）: She has no real power. 她没有实权.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "3",
+      "examples": [
+        {
+          "text": "I don't have the authority to send them home.",
+          "translation": "我无法打发他们回家.",
+          "source": null
+        },
+        {
+          "text": "I haven't as much responsibility as before.",
+          "translation": "我不再担负过去那样多的责任了.",
+          "source": null
+        },
+        {
+          "text": "Have you got time to phone him?",
+          "translation": "你有时间给他打电话吗?",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "experience or feel (sth); keep in the mind (used esp with the ns shown) 体验或感到（某事物）; 心存, 心怀（尤与下列名词连用）: I have no doubt (ie I am sure) that you are right. 我肯定你说得对.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "4",
+      "examples": [
+        {
+          "text": "She had the impression that she had seen him before.",
+          "translation": "她觉得以前见过他.",
+          "source": null
+        },
+        {
+          "text": "Do you have any idea where he lives?",
+          "translation": "你知道他住在哪里吗?",
+          "source": null
+        },
+        {
+          "text": "What reason have you (got) for thinking he's dishonest?",
+          "translation": "你凭什么认为他不诚实?",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "experience the results of sb's actions 经受（某人的行动所产生的结果）: We've got people phoning up from all over the world. 我们接到人们从世界各地打来的电话.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "5",
+      "examples": [
+        {
+          "text": "They have orders coming in at the rate of",
+          "translation": null,
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tng",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "an hour. 他们每小时接到30份定单.",
+      "definition_lang": "zh-en",
+      "pos": -1,
+      "sense_number": "30",
+      "examples": [],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "suffer from (an illness or a disease) 患（病）; 遭受（病痛）: She's got appendicitis. 她得了阑尾炎.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "6",
+      "examples": [
+        {
+          "text": "He says he has a headache.",
+          "translation": "他说他头痛.",
+          "source": null
+        },
+        {
+          "text": "Have you got problems at work?",
+          "translation": "你工作中有问题吗?",
+          "source": null
+        },
+        {
+          "text": "How often do you have a bad back?",
+          "translation": "你多长时间腰痛一次?",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "show or demonstrate (a quality) by one's actions 以行动表现或显示（某种品性）: He has the impudence to take things behind my back! 他背着我拿东西真不害臊!",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "7",
+      "examples": [
+        {
+          "text": "Surely she didn't have the nerve to say that to him?",
+          "translation": "她真的没有勇气对他说那件事吗?",
+          "source": null
+        },
+        {
+          "text": "(fml",
+          "translation": "文) Would you have the goodness (ie Please be good or kind enough) to help me with my cases? 劳驾帮我拿拿箱子好吗?",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tnt",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "(sometimes in the -ing form to indicate an intention or arrangement for the future 有时以-ing的形式表示意向或打算) attend to the needs of (sb/sth) for a limited period; take care of; look after 满足（某人）一时之需; 关照; 看管: Are you having the children tomorrow afternoon? 明天下午你照料孩子吗?",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "8",
+      "examples": [
+        {
+          "text": "We've got the neighbours' dog while they're away.",
+          "translation": "邻居出门时把狗交给我们看管.",
+          "source": null
+        },
+        {
+          "text": "We usually have my mother (ie staying in our house) for a month in the summer.",
+          "translation": "我们在夏天往往请母亲来住上一个月.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "take or accept (sb) in a specified function 吸收或接受（某人）担负某种责任: We'll have Jones as our spokesman. 我们让琼斯做我们的代言人.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "9",
+      "examples": [
+        {
+          "text": "Who can we have as treasurer?",
+          "translation": "我们能让谁掌管财务呢?",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Cn.n/a",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "be holding or displaying (sb/sth) in a specified way （以某种方式）抓住或展示（某人）: She's got him by the collar. 她抓住他的衣领.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "10",
+      "examples": [
+        {
+          "text": "Why did you have your back to the camera?",
+          "translation": "你为什么背对着照相机?",
+          "source": null
+        },
+        {
+          "text": "He had his head down as he walked out of the court.",
+          "translation": "他走出法庭时耷拉着脑袋.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn, Tn.pr, Tn.p",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "be aware of (sth) as a duty or necessity 对（某事物）觉得有责任或有必要: He has a lot of homework (to do) tonight. 他今晚有许多家庭作业（要做）.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "11",
+      "examples": [
+        {
+          "text": "I must go I have a bus to catch.",
+          "translation": "我该走了--我得赶上公共汽车.",
+          "source": null
+        },
+        {
+          "text": "She's got a family to feed.",
+          "translation": "她要养活一家人.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn, Tnt",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "`have it (that)... claim to be a fact that...; say that... 断言...; 说...: Rumour has it that we'll have a new manager soon. 据说我们不久就要来一位新经理. have (got) it/that `coming can expect unpleasant consequences to follow 注定; 活该: It was no surprise when he was sent to prison everyone knew he had it coming (to him). 果不其然他进了监狱--大家都清楚（他）得有这么一天. have it `in for sb (infml 口) intend to punish or do sth unpleasant to sb 意图惩罚某人; 跟某人过不去: She's had it in for him ever since he called her a fool in public. 自从他当众说她是蠢货以来, 她就一直想治治他. have it `in one (to do sth) (infml 口) be capable (of sth); have the ability (to do sth) 有（某一方面）的能力; 有能力（做某事）: Do you think she's got it in her to be a dancer? 你认为她是舞蹈家的材料吗?",
+      "definition_lang": "zh-en",
+      "pos": -1,
+      "sense_number": "12",
+      "examples": [],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "(phr v) have sth in have a stock of sth in one's home, etc 家里等存有某物: Have we got enough food in? 我们存的食物够不够? have sth on be wearing sth 穿着; 戴着: She has a red jacket on. 她穿着一件红色的短上衣.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "13",
+      "examples": [
+        {
+          "text": "He's got a tie on today.",
+          "translation": "他今天系着一条领带. have sth on sb (infml 口) (no passive 不用于被动语态) have (evidence) to show that sb is guilty of a crime, etc 有（证据）表明某人有罪等: Have the police got anything on him? 警方有证据证明他有罪吗? have sb/sth to oneself be able to use, enjoy, etc sb",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "perform (the action indicated by the following n) for a limited period （以有限的时间）从事, 进行（由後接之名词所表示的动作）: have a swim, walk, ride, etc (Cf 参看 go for a swim, walk, ride, etc) 游泳、散步、骑马",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "1a",
+      "examples": [
+        {
+          "text": "have a wash, rest, talk",
+          "translation": "洗一洗、歇一歇、谈一谈",
+          "source": null
+        },
+        {
+          "text": "Let me have a try.",
+          "translation": "让我试一下.",
+          "source": null
+        },
+        {
+          "text": "She usually has a bath in the morning.",
+          "translation": "她早上通常要洗个澡.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "consume (sth) by eating, drinking, smoking, etc 消费（某物）; 吃、喝或吸（烟）等: have breakfast/lunch/dinner 吃早饭",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "1b",
+      "examples": [
+        {
+          "text": "I usually have a sandwich for lunch.",
+          "translation": "我午饭时通常吃块三明治.",
+          "source": null
+        },
+        {
+          "text": "We have coffee at 11.",
+          "translation": "我们11点钟喝咖啡.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "午饭/晚饭",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "(not used in the continuous tenses 不用于进行时态) receive (sth); experience 接受（某物）; 体验: I had a letter from my brother this morning. 今早我收到哥哥的来信.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "2a",
+      "examples": [
+        {
+          "text": "She'll have an accident one day.",
+          "translation": "她总有一天要出事.",
+          "source": null
+        },
+        {
+          "text": "I had a shock when I heard the news.",
+          "translation": "我听到这个消息时感到震惊.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "undergo (sth) 经受（某事物）: I'm having treatment for my lumbago. 我腰痛正在治疗中.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "2b",
+      "examples": [
+        {
+          "text": "She's having an operation on her leg.",
+          "translation": "她的腿正在动手术.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "experience (sth) 经历（某事物）: We're having a wonderful time, holiday, party. 我们玩得、假期过得、聚会举办得有意思极了.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "3",
+      "examples": [
+        {
+          "text": "I've never had a worse morning than today.",
+          "translation": "我哪一天早上也不像今天早上这样倒霉.",
+          "source": null
+        },
+        {
+          "text": "They seem to be having some difficulty in starting the car.",
+          "translation": "他们在启动这辆小汽车时似乎遇到了一些困难.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "give birth to (sb/sth); produce 生（孩子）; 生产; 产生: My wife's having a baby. 我妻子正在分娩. *have a good effect/result/outcome 产生良好的效果",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "4",
+      "examples": [
+        {
+          "text": "Our dog has had puppies twice already.",
+          "translation": "我们的狗已经生了两窝小狗了.",
+          "source": null
+        },
+        {
+          "text": "His paintings had a strong influence on me as a student.",
+          "translation": "他的画儿对我这个学生产生了很大的影响.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "order or arrange (that sb does sth) 命令或安排（某人做某事）: I`ll have the gardener plant some trees. 我要让园丁种些树.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "5",
+      "examples": [
+        {
+          "text": "Have the driver bring the car round at 4.",
+          "translation": "让司机4点钟把汽车开来.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Cn.i no passive 不用于被动语态",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "(used with a n + past participle 与名词+过去分词连用) cause sth to be done 使某事物予以处理: Why don't you have your hair cut? 你为什么不理发?",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "6a",
+      "examples": [
+        {
+          "text": "They're going to have their house painted.",
+          "translation": "他们准备把房子粉刷一下.",
+          "source": null
+        },
+        {
+          "text": "We're having our car repaired.",
+          "translation": "我们的汽车正在修理.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "(used with a n + past participle 与名词 过去分词连用) suffer the consequences of another person's action 承受、蒙受他人行为之後果: He had his pocket picked, ie Something was stolen from his pocket. 他的口袋被掏了（衣袋中有东西被窃）.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "6b",
+      "examples": [
+        {
+          "text": "She's had her wallet taken.",
+          "translation": "她的钱包被人拿走了.",
+          "source": null
+        },
+        {
+          "text": "Charles I had his head cut off.",
+          "translation": "查理一世遭斩首.",
+          "source": null
+        },
+        {
+          "text": "They have had their request refused.",
+          "translation": "他们的请求遭到拒绝.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "(used in negative sentences, esp after will not, cannot, etc 用在否定句中, 尤用于will not、cannot等之後) allow or tolerate (sth) 允许或容忍（某事物）: I cannot have such behaviour in my house. 我不能容忍家中有这种行为.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "6c",
+      "examples": [
+        {
+          "text": "She won't have boys arriving late.",
+          "translation": "她不允许这些男孩子迟到.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn, Cn.g",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "cause sb to do sth 使某人做某事: She had her audience listening attentively. 她使听众听得入神.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "7a",
+      "examples": [
+        {
+          "text": "The film had us all sitting on the edges of our seats with excitement.",
+          "translation": "这部影片让我们大家激动不已.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Cn.g no passive 不用于被动语态",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "cause sb to be in a certain state 使某人处于某种状态: The news had me worried. 我听了这消息十分不安.",
+      "definition_lang": "zh-en",
+      "pos": -1,
+      "sense_number": "7b",
+      "examples": [],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Cn.a no passive 不用于被动语态",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "cause (sb) to come in a specified direction as a visitor, guest, etc 邀请（某人）来访、来作客等: We're having friends (over) for dinner. 我们请朋友们来吃饭.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "8",
+      "examples": [
+        {
+          "text": "We had her up here last term to give a lecture.",
+          "translation": "我们上学期请她上这里来讲过课.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "no passive 不用于被动语态: Tn.pr, Tn.p",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "(esp passive 尤用于被动语态) trick (sb); deceive 蒙骗（某人）; 欺骗: I'm afraid you've been had. 看来你上当了.",
+      "definition_lang": "zh-en",
+      "pos": -1,
+      "sense_number": "9a",
+      "examples": [],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "win an advantage over (sb); beat 胜过（某人）; 击败: She certainly had me in that argument. 她在辩论中确实把我驳倒了.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "9b",
+      "examples": [
+        {
+          "text": "You had me there!",
+          "translation": "还是你行! 10 (<!> sl 讳, 俚) (esp of a man) have sexual intercoursewith (sb) （尤指男人）与（某人）性交: Have you had her yet? 你跟她发生过性关系吗?",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": "Tn",
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "not be going to receive or enjoy sth 将得不到或享受不到某事物: If he was hoping for a lift home I'm afraid he's had it. 他要是想搭乘便车回家, 我看是吹了.",
+      "definition_lang": "zh-en",
+      "pos": -1,
+      "sense_number": "11a",
+      "examples": [],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "be going to experience sth unpleasant 将吃苦头: When they were completely surrounded by police they realized they'd had it. 警察把他们团团围住, 他们知道要有罪受了. have it `off",
+      "definition_lang": "zh-en",
+      "pos": -1,
+      "sense_number": "11b",
+      "examples": [],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "; hEv, Ev, v",
+      "definition_lang": "zh-en",
+      "pos": -1,
+      "sense_number": null,
+      "examples": [],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "; juv",
+      "definition_lang": "zh-en",
+      "pos": -1,
+      "sense_number": null,
+      "examples": [],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "coin? 你有一枚1英镑的硬币吗?",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "1",
+      "examples": [
+        {
+          "text": "(US, and sometimes Brit) Do you have a",
+          "translation": null,
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    },
+    {
+      "definition": "coin? 你有一枚1英镑的硬币吗? As regards have3, British and US speakers form negatives and questions in the same way with do 至于have3, do）构成否定式和疑问式: She didn't have any letters last week. 她上周没有收到任何信件. *has用作现在时态的助动词时, 常缩写为's/ s, z; s, z/, 如 She's gone to Scotland. 她到苏格兰去了. But has is seldom reduced in this way when it is a part of a main verb, except in set phrases 但has用作主要动词时, 则很少使用缩写形式, 只有一些惯用语例外, 如: He's no head for heights. 他攀高就头晕.",
+      "definition_lang": "zh-en",
+      "pos": "v",
+      "sense_number": "1",
+      "examples": [
+        {
+          "text": "Did this have a good effect?",
+          "translation": "这有效吗? Note that, as a general rule, the continuous tenses can be used with have3 but not with have2. 注意: 一般说来, have3, have2. As a present tense form of the auxiliary, has is often contracted to 's",
+          "source": null
+        },
+        {
+          "text": "She's no right to say that.",
+          "translation": "她没有权利说那话.",
+          "source": null
+        }
+      ],
+      "domain": null,
+      "register": null,
+      "grammar_note": null,
+      "synonyms": [],
+      "antonyms": []
+    }
+  ],
+  "forms": null,
+  "related_phrases": null,
+  "pinyin": null,
+  "pinyin_abbr": null,
+  "strokes": null,
+  "radical": null,
+  "etymology": null,
+  "story": null,
+  "source_book": null,
+  "frequency": null,
+  "level": null,
+  "tags": null
+}

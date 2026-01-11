@@ -87,32 +87,105 @@ class OxfordParser(BaseParser):
         # 2. 解析音标和词性（开头部分）
         # 先清理HTML标记以便解析
         content_for_parse = re.sub(r'<i>([^<]+)</i>', r'\1', content)
-        phonetic_pos_match = re.match(
-            r'^/([^/;]+)(?:;\s*([^/]+))?/\s*([a-z]+)',
-            content_for_parse
-        )
+        
+        # 改进音标解析：先匹配整个音标部分（包括强读式）
+        phonetic_match = re.match(r'^/([^/]+)/', content_for_parse)
         
         pos_str = None
         content_start = 0
         
-        if phonetic_pos_match:
-            uk_ipa = phonetic_pos_match.group(1).strip()
-            us_ipa = phonetic_pos_match.group(2).strip() if phonetic_pos_match.group(2) else None
-            pos_str = phonetic_pos_match.group(3)
+        if phonetic_match:
+            phonetic_text = phonetic_match.group(1).strip()
             
-            # 添加音标
-            entry.pronunciations.append(Pronunciation(
-                ipa=uk_ipa,
-                region="uk"
-            ))
-            if us_ipa:
+            # 解析音标：处理UK/US/强读式
+            # 格式可能是：UK; US; strong form 强读式 SF
+            # 或者：UK; US
+            
+            # 先检查是否有强读式
+            strong_form_match = re.search(r'strong form[^;]*?([^;]+?)(?:;|$)', phonetic_text)
+            
+            if strong_form_match:
+                # 有强读式，分离各部分
+                strong_form_start = strong_form_match.start()
+                main_phonetic = phonetic_text[:strong_form_start].strip()
+                strong_form_raw = strong_form_match.group(1).strip()
+                # 提取强读式音标（移除可能的说明文字）
+                # 格式：强读式 ðiː; ði 或 强读式 ðiː
+                strong_form_ipa = re.sub(r'强读式\s*', '', strong_form_raw).strip()
+                # 如果还有分号，取第一个作为强读式
+                if ';' in strong_form_ipa:
+                    strong_form_ipa = strong_form_ipa.split(';')[0].strip()
+                
+                # 解析主音标部分（UK和US）
+                # 格式：UK; US 或 UK; US（如果有多个分号）
+                phonetic_parts = re.split(r';\s*', main_phonetic)
+                uk_ipa = phonetic_parts[0].strip() if phonetic_parts else main_phonetic
+                # 查找US音标（在强读式之前的部分）
+                # 如果有多于1个部分，第二个通常是US
+                us_ipa = phonetic_parts[1].strip() if len(phonetic_parts) > 1 else None
+                # 如果US音标和UK相同，可能没有US，设置为None
+                if us_ipa and us_ipa == uk_ipa:
+                    us_ipa = None
+                
+                # 添加UK音标
                 entry.pronunciations.append(Pronunciation(
-                    ipa=us_ipa,
-                    region="us"
+                    ipa=uk_ipa,
+                    region="uk"
                 ))
+                
+                # 添加US音标（如果有且不同于UK）
+                if us_ipa and us_ipa != uk_ipa:
+                    entry.pronunciations.append(Pronunciation(
+                        ipa=us_ipa,
+                        region="us"
+                    ))
+                
+                # 添加强读式
+                entry.pronunciations.append(Pronunciation(
+                    ipa=strong_form_ipa,
+                    region="uk"
+                ))
+            else:
+                # 没有强读式，按标准格式解析
+                phonetic_parts = re.split(r';\s*', phonetic_text)
+                uk_ipa = phonetic_parts[0].strip()
+                us_ipa = phonetic_parts[1].strip() if len(phonetic_parts) > 1 else None
+                
+                # 添加UK音标
+                entry.pronunciations.append(Pronunciation(
+                    ipa=uk_ipa,
+                    region="uk"
+                ))
+                
+                # 添加US音标（如果有）
+                if us_ipa and us_ipa != uk_ipa:
+                    entry.pronunciations.append(Pronunciation(
+                        ipa=us_ipa,
+                        region="us"
+                    ))
             
-            # 找到释义开始位置（跳过音标、词性）
-            content_start = phonetic_pos_match.end()
+            # 查找词性（在音标后）
+            # 注意：需要在原始content中查找，因为需要准确的位置
+            content_after_phonetic = content[phonetic_match.end():].strip()
+            pos_match_in_content = re.search(r'\b(def\s+art|adj|n|v|aux\s+v|prep|adv|conj|pron|interj|det|aux|modal|art|abbr|symb)\b', content_after_phonetic, re.I)
+            
+            if pos_match_in_content:
+                pos_raw = pos_match_in_content.group(1).strip()
+                # 处理词性（支持def art和aux v等复合词性）
+                if pos_raw.lower() == 'def art':
+                    pos_str = 'art'  # def art = definite article
+                elif pos_raw.lower() == 'aux v':
+                    pos_str = 'aux'  # aux v = auxiliary verb
+                else:
+                    pos_str = pos_raw.lower()
+                
+                # 更新content_start到词性后
+                # content_after_phonetic是trimmed的，所以需要找到词性结束后的位置
+                pos_end_in_content = phonetic_match.end() + len(content_after_phonetic) - len(content_after_phonetic[pos_match_in_content.end():].lstrip())
+                content_start = pos_end_in_content
+            else:
+                # 没找到词性，使用默认位置
+                content_start = phonetic_match.end()
             
             # 解析词形变化（在词性后面，格式通常是 (better /音标/, best /音标/)）
             # 词形变化应该在第一个数字序号之前，且包含音标或常见词形变化格式
@@ -150,11 +223,40 @@ class OxfordParser(BaseParser):
                 ))
             content_start = 0
         
-        # 3. 解析主体内容（释义部分）
+        # 3. 检查是否有多词性（通过独立音标+词性组合识别）
+        # "have"词条格式：/həv/ aux v ... /hæv/ v ... /hæv/ v ...
+        # 需要识别独立的音标+词性组合，即使它们之间只有单换行符
+        # 在整个content中查找所有音标+词性组合
+        multiple_pos_pattern = re.compile(
+            r'/([^/]+)/[^\n]*?\b(aux\s+v|v|n|adj|adv|prep|conj|pron|interj|det|aux|modal|art|abbr|symb|def\s+art)\b',
+            re.I
+        )
+        pos_with_phonetic_matches = list(multiple_pos_pattern.finditer(content))
+        
+        # 如果有多个独立音标+词性组合，使用多词性解析
+        if len(pos_with_phonetic_matches) > 1:
+            # 使用_parse_without_cross_ref来处理多词性
+            # 但需要先处理第一个音标（已经在开头解析过了，需要合并）
+            multi_pos_entry = self._parse_without_cross_ref(content, word)
+            if multi_pos_entry:
+                # 优先使用multi_pos_entry的音标（如果已解析）
+                if multi_pos_entry.pronunciations:
+                    entry.pronunciations = multi_pos_entry.pronunciations
+                entry.senses.extend(multi_pos_entry.senses)
+            
+            # 多词性解析完成，跳过后续标准解析
+            entry.parse_quality = 0.9 if entry.senses else 0.3
+            entry.parse_notes = parse_notes
+            return entry
+        
+        # 4. 解析主体内容（释义部分）- 单词性情况
         main_content = content[content_start:].strip()
         
-        # 分离IDM和PHR V部分
+        # 分离IDM和PHR V部分（仅在非多词性情况下，或处理多词性后的剩余部分）
         # 支持多种IDM标记：IDM, (idm 习语), (习语)
+        # 注意：需要区分独立的IDM部分和义项内的IDM标记
+        # - 独立的IDM：如 "(idm 习语) be the making of sb..."
+        # - 义项内的IDM：如 "11 (idm 习语) the more..."
         idm_match = re.search(r'\bIDM\b|\(idm\s+习语\)|\(习语\)', main_content, re.I)
         phr_v_match = re.search(r'\bPHR V\b', main_content)
         
@@ -162,18 +264,34 @@ class OxfordParser(BaseParser):
         idm_content = None
         phr_v_content = None
         
-        if idm_match and phr_v_match:
-            if idm_match.start() < phr_v_match.start():
-                # IDM在前
-                main_content, idm_content = main_content[:idm_match.start()], main_content[idm_match.start():phr_v_match.start()]
-                phr_v_content = main_content[phr_v_match.start():]
+        if idm_match:
+            # 检查是否是义项内的IDM标记（前面有数字序号）
+            # 检查IDM标记前是否有数字序号（如 "11 (idm 习语)"）
+            # 需要检查IDM标记前的内容，而不是整个main_content
+            before_idm_start = max(0, idm_match.start() - 20)
+            before_idm_context = main_content[before_idm_start:idm_match.start() + 20]
+            sense_number_before_idm = re.search(r'(\d+)\s+(?:\(idm\s+习语\)|\(习语\))', before_idm_context, re.I)
+            
+            if sense_number_before_idm:
+                # 这是义项内的IDM标记，不分离，让它作为义项的一部分
+                # IDM习语会由_parse_main_senses中的_parse_sense_with_letters或_parse_single_sense处理
+                idm_match = None
             else:
-                # PHR V在前
-                main_content, phr_v_content = main_content[:phr_v_match.start()], main_content[phr_v_match.start():idm_match.start()]
-                idm_content = main_content[idm_match.start():]
-        elif idm_match:
-            main_content, idm_content = main_content[:idm_match.start()], main_content[idm_match.start():]
-        elif phr_v_match:
+                # 这是独立的IDM部分，需要分离
+                if phr_v_match:
+                    if idm_match.start() < phr_v_match.start():
+                        # IDM在前
+                        main_content, idm_content = main_content[:idm_match.start()], main_content[idm_match.start():phr_v_match.start()]
+                        phr_v_content = main_content[phr_v_match.start():]
+                    else:
+                        # PHR V在前
+                        main_content, phr_v_content = main_content[:phr_v_match.start()], main_content[phr_v_match.start():idm_match.start()]
+                        idm_content = main_content[idm_match.start():]
+                else:
+                    main_content, idm_content = main_content[:idm_match.start()], main_content[idm_match.start():]
+        
+        if phr_v_match and not idm_content:
+            # 只有在没有独立的IDM部分时才分离PHR V
             main_content, phr_v_content = main_content[:phr_v_match.start()], main_content[phr_v_match.start():]
         
         # 4. 根据格式类型选择解析策略
@@ -188,25 +306,31 @@ class OxfordParser(BaseParser):
         elif pattern_type == "mixed_cross_ref":
             # 混合格式：交叉引用开头 + 完整定义
             # 分离交叉引用部分和后续内容
-            cross_ref_match = re.match(r'^(=>|(pt|pp)\s+of\s+[^.]+\.)', content)
+            # 支持多种交叉引用格式：=>, =>Usage, =>Usage at, pt of, pp of
+            cross_ref_match = re.match(r'^(=>|(pt|pp)\s+of\s+[^.]+\.|=>Usage(?:\s+at\s+\w+)?[^.]*\.?)', content)
             if cross_ref_match:
                 cross_ref_text = cross_ref_match.group(0).strip()
                 remaining_content = content[cross_ref_match.end():].strip()
                 
-                # 添加交叉引用sense（可选，或者合并到metadata）
-                # 这里先添加一个sense记录交叉引用
-                cross_ref_sense = Sense(
-                    definition=cross_ref_text,
-                    definition_lang="en",
-                    sense_number=None
-                )
-                entry.senses.append(cross_ref_sense)
-                
-                # 继续解析剩余内容（调用主解析逻辑，但跳过交叉引用检测）
-                remaining_entry = self._parse_without_cross_ref(remaining_content, word)
-                if remaining_entry:
-                    entry.pronunciations.extend(remaining_entry.pronunciations)
-                    entry.senses.extend(remaining_entry.senses)
+                # 注意：交叉引用通常只是说明文字，不是真正的sense
+                # 如果剩余内容为空，才添加交叉引用sense
+                # 否则，直接解析剩余内容（跳过交叉引用）
+                if remaining_content.strip():
+                    # 继续解析剩余内容（调用主解析逻辑，但跳过交叉引用检测）
+                    remaining_entry = self._parse_without_cross_ref(remaining_content, word)
+                    if remaining_entry:
+                        # 使用remaining_entry的音标（如果已解析）
+                        if remaining_entry.pronunciations:
+                            entry.pronunciations = remaining_entry.pronunciations
+                        entry.senses.extend(remaining_entry.senses)
+                else:
+                    # 只有交叉引用，没有剩余内容
+                    cross_ref_sense = Sense(
+                        definition=cross_ref_text,
+                        definition_lang="en",
+                        sense_number=None
+                    )
+                    entry.senses.append(cross_ref_sense)
         elif pattern_type == "direct_letter_numbered" or self._is_come_up_pattern(word, main_content):
             # come up 类型：直接字母序号开始
             senses = self._parse_come_up_case(main_content, pos_str)
@@ -350,13 +474,130 @@ class OxfordParser(BaseParser):
         # 找到所有词性位置（包括abbr, symb等）
         # 注意：abbr和symb可能是独立的词条段（在换行后，且有独立的音标）
         
+        # 检查是否有多词性（通过独立音标+词性组合识别）
+        # 格式：/音标/ 词性 ... /音标/ 词性 ...
+        multiple_pos_pattern = re.compile(
+            r'/([^/]+)/[^\n]*?\b(aux\s+v|v|n|adj|adv|prep|conj|pron|interj|det|aux|modal|art|abbr|symb|def\s+art)\b',
+            re.I
+        )
+        pos_with_phonetic_matches = list(multiple_pos_pattern.finditer(content_clean))
+        
+        # 如果有多个独立音标+词性组合，分别解析每个部分
+        has_multiple_entries = len(pos_with_phonetic_matches) > 1
+        
+        # 如果有多词性，使用音标+词性组合分割
+        if has_multiple_entries:
+            # 多个独立词性部分，分别解析
+            for i, match in enumerate(pos_with_phonetic_matches):
+                phonetic_text = match.group(1).strip()
+                pos_raw = match.group(2).strip()
+                match_start = match.start()
+                
+                # 找到下一个音标+词性组合的位置，或结尾
+                if i + 1 < len(pos_with_phonetic_matches):
+                    next_match_start = pos_with_phonetic_matches[i + 1].start()
+                else:
+                    next_match_start = len(content_clean)
+                
+                # 提取这个词性部分的内容（从当前音标+词性后到下一个音标前）
+                # 需要找到词性结束的位置
+                match_end = match.end()
+                after_match = content_clean[match_end:match_end+100].strip()
+                
+                # 查找词性后的第一个有效内容位置（跳过交叉引用等）
+                # 查找第一个数字序号、字母序号或分类标题
+                content_start_pattern = re.search(
+                    r'(?:^|\s)(\d+)\s+|\([a-z]\)\s+|\* [A-Z]',
+                    after_match,
+                    re.MULTILINE
+                )
+                
+                if content_start_pattern:
+                    pos_content_start = match_end + content_start_pattern.start()
+                    if content_start_pattern.group(0).startswith(' '):
+                        pos_content_start += 1
+                else:
+                    # 没找到明确的起始标记，使用词性后
+                    pos_content_start = match_end
+                
+                pos_content = content_clean[pos_content_start:next_match_start].strip()
+                
+                # 解析音标（改进：清理音标文本，只提取真正的IPA音标）
+                # 先移除"strong form 强读式"等说明文字
+                phonetic_text_clean = phonetic_text
+                
+                # 提取强读式（如果有）
+                strong_form_match = re.search(r'strong form[^;]*?([^;]+?)(?:;|$)', phonetic_text_clean)
+                strong_form_ipa = None
+                if strong_form_match:
+                    strong_form_raw = strong_form_match.group(1).strip()
+                    # 移除"强读式"文字，只保留音标
+                    strong_form_ipa = re.sub(r'强读式\s*', '', strong_form_raw).strip()
+                    # 如果还有分号，取第一个
+                    if ';' in strong_form_ipa:
+                        strong_form_ipa = strong_form_ipa.split(';')[0].strip()
+                    # 移除音标文本中的强读式部分
+                    phonetic_text_clean = phonetic_text_clean[:strong_form_match.start()].strip()
+                
+                # 分割主音标部分（UK和US）
+                phonetic_parts = re.split(r';\s*', phonetic_text_clean)
+                if phonetic_parts:
+                    uk_ipa = phonetic_parts[0].strip()
+                    # 清理音标：移除可能的非音标字符（如中文字符）
+                    uk_ipa = re.sub(r'[^\x00-\x7F\s/\[\]()]', '', uk_ipa).strip()
+                    
+                    # 如果有强读式，添加弱读式和强读式
+                    if strong_form_ipa:
+                        strong_form_ipa_clean = re.sub(r'[^\x00-\x7F\s/\[\]()]', '', strong_form_ipa).strip()
+                        if uk_ipa and uk_ipa != strong_form_ipa_clean:
+                            entry.pronunciations.append(Pronunciation(
+                                ipa=uk_ipa,
+                                region="uk"
+                            ))
+                        if strong_form_ipa_clean:
+                            entry.pronunciations.append(Pronunciation(
+                                ipa=strong_form_ipa_clean,
+                                region="uk"
+                            ))
+                    else:
+                        # 没有强读式，添加主音标
+                        if uk_ipa:
+                            entry.pronunciations.append(Pronunciation(
+                                ipa=uk_ipa,
+                                region="uk"
+                            ))
+                        # 检查是否有US音标
+                        if len(phonetic_parts) > 1:
+                            us_ipa = phonetic_parts[1].strip()
+                            us_ipa = re.sub(r'[^\x00-\x7F\s/\[\]()]', '', us_ipa).strip()
+                            if us_ipa and us_ipa != uk_ipa:
+                                entry.pronunciations.append(Pronunciation(
+                                    ipa=us_ipa,
+                                    region="us"
+                                ))
+                
+                # 处理词性
+                if pos_raw.lower() == 'aux v':
+                    pos_str_section = 'aux'
+                elif pos_raw.lower() == 'def art':
+                    pos_str_section = 'art'
+                else:
+                    pos_str_section = pos_raw.lower()
+                
+                # 解析这个词性部分
+                senses_section = self._parse_main_senses(pos_content, pos_str_section)
+                entry.senses.extend(senses_section)
+            
+            return entry
+        
+        # 如果没有多词性，使用原有逻辑（双换行符分割或标准多词性解析）
         # 先按换行分割，检查是否有独立的词条段（每个段可能有独立的音标和词性）
         segments = re.split(r'\n\n+', content_clean)
         
         # 如果只有一个段，或者所有段都有音标，说明是多个独立的词条段
-        has_multiple_entries = len(segments) > 1
+        has_multiple_entries_legacy = len(segments) > 1
         
-        if has_multiple_entries:
+        if has_multiple_entries_legacy:
             # 多个独立词条段，分别解析
             for segment in segments:
                 segment = segment.strip()
@@ -372,7 +613,7 @@ class OxfordParser(BaseParser):
                 # 模式1: 音标后跟词性（如 `/eɪ; e/ symb`）
                 if phonetic_match:
                     after_phonetic = segment[phonetic_match.end():].strip()
-                    pos_match = re.search(r'\b(n|v|adj|adv|prep|conj|pron|interj|det|aux|modal|art|abbr|symb|def\s+art)\b', after_phonetic, re.I)
+                    pos_match = re.search(r'\b(n|v|aux\s+v|adj|adv|prep|conj|pron|interj|det|aux|modal|art|abbr|symb|def\s+art)\b', after_phonetic, re.I)
                 else:
                     # 模式2: 直接词性（如 `abbr 缩写 =`）
                     pos_match = re.search(r'^\s*(abbr|symb)\s+', segment, re.I)
@@ -398,6 +639,8 @@ class OxfordParser(BaseParser):
                         pos = pos_match.group(1).strip().lower()
                         if pos == 'def art':
                             pos = 'art'
+                        elif pos == 'aux v':
+                            pos = 'aux'  # aux v = auxiliary verb
                         pos_start = pos_match.end()
                     else:
                         # 没有音标，词性在开头
@@ -417,7 +660,8 @@ class OxfordParser(BaseParser):
                         entry.senses.append(sense)
         else:
             # 单个段，使用标准多词性解析
-            pos_pattern = r'\b(adj|n|v|prep|adv|conj|pron|interj|det|aux|modal|art|abbr|symb|def\s+art)\b'
+            # 支持aux v（助动词）
+            pos_pattern = r'\b(adj|n|v|aux\s+v|prep|adv|conj|pron|interj|det|aux|modal|art|abbr|symb|def\s+art)\b'
             pos_matches = list(re.finditer(pos_pattern, content_clean, re.I))
             
             if not pos_matches:
@@ -451,13 +695,20 @@ class OxfordParser(BaseParser):
     def _identify_pattern(self, content: str) -> str:
         """识别内容格式类型"""
         # 1. 检查交叉引用（但后面可能还有完整定义）
-        cross_ref_match = re.match(r'^(=>|(pt|pp)\s+of\s+[^.]+\.)', content)
+        # 支持多种交叉引用格式：
+        # - =>Usage at a2
+        # - =>Usage
+        # - => have.
+        # - pt of go1.
+        # - pp of go.
+        cross_ref_match = re.match(r'^(=>|(pt|pp)\s+of\s+[^.]+\.|=>Usage(?:\s+at\s+\w+)?)', content)
         if cross_ref_match:
             # 检查交叉引用后是否还有音标和定义
             cross_ref_end = cross_ref_match.end()
             remaining = content[cross_ref_end:].strip()
             # 如果后面有音标（/开头）或词性，说明是混合格式
-            if re.search(r'^/[^/]+/', remaining) or re.search(r'^\b(adj|n|v|prep|adv)\b', remaining):
+            # 支持的词性：adj, n, v, aux v, prep, adv, def art, art等
+            if re.search(r'^/[^/]+/', remaining) or re.search(r'^\b(adj|n|v|aux\s+v|prep|adv|conj|pron|interj|det|aux|modal|art|def\s+art|abbr|symb)\b', remaining, re.I):
                 return "mixed_cross_ref"  # 混合格式：交叉引用+完整定义
             return "cross_reference"
         
@@ -542,9 +793,23 @@ class OxfordParser(BaseParser):
                 return senses
             else:
                 # 没有数字序号也没有字母序号，尝试解析整个内容作为一个释义
+                # 遵循"不丢失内容"原则：即使解析失败，也保留原始内容
                 sense = self._parse_single_sense(content, default_pos, None)
                 if sense:
                     senses.append(sense)
+                else:
+                    # 如果解析失败，创建一个包含原始内容的sense（遵循"不丢失内容"原则）
+                    fallback_sense = Sense(
+                        definition=content,
+                        definition_lang="zh-en",
+                        pos=default_pos,
+                        sense_number=None,
+                        examples=[],
+                        grammar_note=None
+                    )
+                    if hasattr(fallback_sense, 'raw_content'):
+                        fallback_sense.raw_content = content
+                    senses.append(fallback_sense)
                 return senses
         
         # 处理每个数字序号之间的内容
@@ -571,6 +836,13 @@ class OxfordParser(BaseParser):
             sense_content = content[start_pos:end_pos].strip()
             
             if not sense_content:
+                continue
+            
+            # 跳过分类标题（如 `* POSSESSING 有`）
+            # 分类标题格式：* 大写英文单词 中文翻译
+            category_title_pattern = r'^\*\s+[A-Z][A-Z\s]+\s+[\u4e00-\u9fff]+'
+            if re.match(category_title_pattern, sense_content):
+                # 这是分类标题，跳过
                 continue
             
             # 检查词性变化（在释义开头）
@@ -636,9 +908,88 @@ class OxfordParser(BaseParser):
         return senses
     
     def _parse_single_sense(self, content: str, pos: Optional[str], sense_number: Optional[str]) -> Optional[Sense]:
-        """解析单个释义（提取定义、例句、语法说明等）"""
+        """
+        解析单个释义（提取定义、例句、语法说明等）
+        
+        原则：不丢失内容。即使解析失败，也保留原始内容。
+        """
+        original_content = content  # 保存原始内容，确保不丢失
+        
         if not content.strip():
-            return None
+            # 即使为空，也返回包含原始内容的sense（遵循"不丢失内容"原则）
+            sense = Sense(
+                definition=original_content,
+                definition_lang="zh-en",
+                pos=pos,
+                sense_number=sense_number,
+                examples=[],
+                grammar_note=None
+            )
+            # 如果Sense类有raw_content字段，保存原始内容
+            if hasattr(sense, 'raw_content'):
+                sense.raw_content = original_content
+            return sense
+        
+        # 检查是否有IDM习语标记（义项内的IDM）
+        idm_match = re.search(r'\(idm\s+习语\)|\(习语\)', content, re.I)
+        idiom_title = None
+        
+        if idm_match:
+            # 有IDM标记，提取习语短语标题和定义
+            # 格式: (idm 习语) phrase_title definition: example
+            idm_start = idm_match.end()
+            idm_content = content[idm_start:].strip()
+            
+            # 查找习语短语标题（通常在IDM标记后，定义前）
+            # 习语标题可能是短语（如 "the more, less, etc...the more, less, etc..."）
+            # 或者简单的短语模式
+            
+            # 尝试识别习语标题（到冒号或定义开始）
+            colon_pos = idm_content.find(': ')
+            if colon_pos > 0:
+                # 有冒号，标题可能在冒号前
+                before_colon = idm_content[:colon_pos].strip()
+                # 尝试提取习语标题（通常是短语）
+                # 如果before_colon很长，可能是标题+定义
+                # 查找定义开始位置（通常有中文或特定格式）
+                definition_start_match = re.search(r'\([^)]*[\u4e00-\u9fff]', before_colon)
+                if definition_start_match:
+                    # 有定义，提取标题和定义
+                    idiom_title = before_colon[:definition_start_match.start()].strip()
+                    definition_text = before_colon[definition_start_match.start():].strip()
+                else:
+                    # 没有找到定义，整个作为标题
+                    idiom_title = before_colon.strip()
+                    definition_text = idm_content[colon_pos+2:].strip()
+                
+                # 如果标题为空，尝试提取第一个短语作为标题
+                if not idiom_title:
+                    # 提取到第一个括号或冒号
+                    first_paren = before_colon.find('(')
+                    if first_paren > 0:
+                        idiom_title = before_colon[:first_paren].strip()
+                        definition_text = before_colon[first_paren:].strip()
+                    else:
+                        # 没有括号，整个作为标题
+                        idiom_title = before_colon.strip()
+                        definition_text = idm_content[colon_pos+2:].strip()
+            else:
+                # 没有冒号，整个内容可能是标题+定义
+                # 查找定义开始位置
+                definition_start_match = re.search(r'\([^)]*[\u4e00-\u9fff]', idm_content)
+                if definition_start_match:
+                    idiom_title = idm_content[:definition_start_match.start()].strip()
+                    definition_text = idm_content[definition_start_match.start():].strip()
+                else:
+                    # 没有找到定义，整个作为标题
+                    idiom_title = idm_content.strip()
+                    definition_text = ""
+            
+            # 将IDM标记和标题合并到内容开头
+            if idiom_title:
+                content = f"{idiom_title} {content[:idm_match.start()].strip()} {definition_text}".strip()
+            else:
+                content = content[:idm_match.start()].strip() + ' ' + definition_text
         
         # 提取语法说明 [xxx]
         grammar_note = None
@@ -646,7 +997,8 @@ class OxfordParser(BaseParser):
         if grammar_matches:
             # 取第一个或合并
             grammar_note = grammar_matches[0]
-            # 移除语法说明标记
+            # 移除语法说明标记（只移除确认已提取的标记，遵循"不丢失内容"原则）
+            # 注意：这里移除标记是合理的，因为语法说明已经提取到grammar_note字段中
             content = re.sub(r'\[([^\]]+)\]', '', content)
         
         # 提取例句
@@ -654,7 +1006,16 @@ class OxfordParser(BaseParser):
         # 2. 冒号后的直接例句（无*标记）
         examples = []
         
-        # 先提取*开头的例句
+        # 先识别并跳过分类标题（如 `* POSSESSING 有`、`* EXPERIENCING 体验或经历`）
+        # 分类标题格式：* 大写英文单词 中文翻译（通常是单一英文单词或短语，后面是中文）
+        category_title_pattern = r'\*\s+([A-Z][A-Z\s]+)\s+[\u4e00-\u9fff]+'
+        category_title_match = re.search(category_title_pattern, content)
+        if category_title_match:
+            # 找到分类标题，从定义中移除（分类标题不是sense的一部分）
+            category_title_text = category_title_match.group(0)
+            content = content.replace(category_title_text, '', 1).strip()
+        
+        # 先提取*开头的例句（但跳过分类标题）
         example_pattern = r'\*\s+([^*]+?)(?=\s*\*|$)'
         example_matches = re.finditer(example_pattern, content)
         
@@ -806,20 +1167,26 @@ class OxfordParser(BaseParser):
                     break
         
         # 移除例句标记，得到纯释义文本
+        # 原则：只移除确认已提取的例句，对于无法确认的内容保留在定义中
         definition_text = content
         for ex_text in example_texts:
-            definition_text = definition_text.replace(ex_text, '', 1).strip()
+            # 验证ex_text确实存在于definition_text中（避免移除错误的内容）
+            if ex_text in definition_text:
+                definition_text = definition_text.replace(ex_text, '', 1).strip()
+            # 如果不存在，说明提取可能有问题，保留原始内容（遵循"不丢失内容"原则）
         
-        # 清理定义文本（移除末尾的冒号）
+        # 清理定义文本（保守策略：只移除明显的格式标记）
+        # 1. 移除末尾的冒号（如果确实是定义后的冒号）
         definition_text = re.sub(r':\s*$', '', definition_text).strip()
         
-        # 改进：更彻底地清理定义中残留的例句片段
-        # 1. 移除末尾的例句片段（格式: 定义 例句. 翻译.）
-        # 匹配模式：空格+大写字母+...句子+中文+句号
-        definition_text = re.sub(r'\s+[A-Z][^.]*?\s+[\u4e00-\u9fff][^.]*?\.\s*$', '', definition_text)
+        # 2. 保守地清理定义中残留的例句片段
+        # 只移除确认是例句的内容（格式: 定义 例句. 翻译.）
+        # 匹配模式：空格+大写字母+...句子+中文+句号（在末尾）
+        # 注意：这个正则可能误匹配，所以更保守的策略是只移除确认已提取的例句
+        # definition_text = re.sub(r'\s+[A-Z][^.]*?\s+[\u4e00-\u9fff][^.]*?\.\s*$', '', definition_text)
         
-        # 2. 移除冒号后残留的内容（如果例句提取后还有残留）
-        # 查找定义后的冒号，如果冒号后还有内容，移除冒号后的内容
+        # 3. 移除冒号后残留的内容（保守策略：只移除确认是例句的内容）
+        # 查找定义后的冒号，如果冒号后还有内容，检查是否是已提取的例句
         colon_pos = definition_text.rfind(': ')
         if colon_pos > 0:
             after_colon = definition_text[colon_pos+2:].strip()
@@ -828,30 +1195,40 @@ class OxfordParser(BaseParser):
                 # 检查是否是缩写后的冒号
                 before_short = definition_text[max(0, colon_pos-20):colon_pos].strip()
                 if not re.search(r'\b(ie|eg|cf|viz)\s*$', before_short, re.I):
-                    # 不是缩写后的冒号，移除冒号后的内容
-                    definition_text = definition_text[:colon_pos].strip()
+                    # 检查这个内容是否已经在examples中（确认是例句）
+                    is_extracted_example = any(
+                        after_colon[:50] in ex.text or ex.text[:50] in after_colon 
+                        for ex in examples
+                    )
+                    if is_extracted_example:
+                        # 确认是已提取的例句，可以移除
+                        definition_text = definition_text[:colon_pos].strip()
+                    # 如果不是已提取的例句，保留在定义中（遵循"不丢失内容"原则）
         
-        # 3. 移除末尾的标点和多余内容
+        # 4. 移除末尾的标点和多余内容（保守策略：只移除明显的格式标记）
         definition_text = re.sub(r'\s*,\s*$', '', definition_text)
         definition_text = re.sub(r'\s+', ' ', definition_text).strip()
         
-        # 4. 移除开头的 ~ 符号（代表词头）
+        # 5. 移除开头的 ~ 符号（代表词头，这是格式标记，可以安全移除）
         definition_text = re.sub(r'^~\s*', '', definition_text)
         
-        # 5. 再次清理末尾的标点
+        # 6. 再次清理末尾的标点（保守策略：只移除明显的格式标记）
         definition_text = re.sub(r'[:，。、]$', '', definition_text).strip()
         
-        if definition_text or examples:
-            return Sense(
-                definition=definition_text if definition_text else "(见例句)",
-                definition_lang="zh-en",
-                pos=pos,
-                sense_number=sense_number,
-                examples=examples,
-                grammar_note=grammar_note
-            )
+        # 确保至少保留原始内容（遵循"不丢失内容"原则）
+        if not definition_text:
+            definition_text = original_content
         
-        return None
+        # 即使解析失败，也返回sense（遵循"不丢失内容"原则）
+        return Sense(
+            definition=definition_text if definition_text else original_content,
+            definition_lang="zh-en",
+            pos=pos,
+            sense_number=sense_number,
+            examples=examples,
+            grammar_note=grammar_note,
+            raw_content=original_content  # 保存原始内容，便于调试和恢复
+        )
     
     def _parse_come_up_case(self, content: str, default_pos: Optional[str] = None) -> List[Sense]:
         """
