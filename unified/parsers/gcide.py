@@ -102,14 +102,24 @@ class GcideParser(BaseParser):
         return etymology_text, webster_match.end()
     
     def _clean_text(self, text: str) -> str:
-        """清理文本：移除标记和引用"""
-        # 移除 [1913 Webster] 标记
+        """
+        清理文本：规范化格式，保留有意义的内容
+        
+        策略（基于GCIDE格式已很规范的特点）：
+        1. 移除 [1913 Webster] 标记（格式标记，不是定义内容）
+        2. 保留花括号 {word} 交叉引用（有意义的标记）
+        3. 规范化换行（合并为单行，用空格分隔）
+        4. 清理多余空格（保留必要的空格）
+        """
+        # 移除 [1913 Webster] 标记（格式标记，不是定义内容）
         text = re.sub(r'\[1913\s+Webster\]', '', text)
-        # 移除词根引用标记 {word}
-        text = re.sub(r'\{([^}]+)\}', r'\1', text)
-        # 移除年份标记
+        # 保留花括号 {word} 交叉引用（不移除，它们是有意义的标记）
+        # text = re.sub(r'\{([^}]+)\}', r'\1', text)  # 不再移除
+        # 移除年份标记（如果有其他年份标记）
         text = re.sub(r'\[\d{4}\s+\w+\]', '', text)
-        # 清理多余空格
+        # 规范化换行：将换行符替换为空格
+        text = re.sub(r'\n+', ' ', text)
+        # 清理多余空格（但保留必要的空格）
         text = re.sub(r'\s+', ' ', text)
         return text.strip()
     
