@@ -105,7 +105,13 @@ class LangdaoParser(BaseParser):
         parse_notes = []
         
         # 1. 解析音标 (第一行通常是 *[ipa])
-        phonetic = self._parse_phonetic(lines[0] if lines else "")
+        first_line = lines[0] if lines else ""
+        phonetic = self._parse_phonetic(first_line)
+        
+        # 判断第一行是否真的是音标行
+        # 如果是音标行（包含 *[...]），则跳过；否则也需要解析
+        start_line_index = 1 if phonetic else 0
+        
         if phonetic:
             entry.pronunciations.append(Pronunciation(
                 ipa=phonetic,
@@ -115,7 +121,7 @@ class LangdaoParser(BaseParser):
         # 2. 解析主体内容
         in_related_phrases = False
         
-        for line in lines[1:]:  # 跳过音标行
+        for line in lines[start_line_index:]:
             line = line.strip()
             if not line:
                 continue
@@ -223,4 +229,5 @@ a. 好的, 优良的, 上等的, 愉快的, 有益的, 好心的, 慈善的, 虔
         print(entry.to_json())
         print(f"\n解析质量: {entry.parse_quality}")
         print(f"解析备注: {entry.parse_notes}")
+
 

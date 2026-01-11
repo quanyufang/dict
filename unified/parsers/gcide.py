@@ -286,24 +286,55 @@ class GcideParser(BaseParser):
     
     def _parse_simple(self, entry: DictionaryEntry, content: str, pos: Optional[str]) -> Optional[DictionaryEntry]:
         """简单解析模式（当无法识别数字释义时）"""
-        # 移除词源部分
-        etymology_text, etymology_end = self._extract_etymology(content)
-        content_without_etymology = content[etymology_end:] if etymology_end > 0 else content
+        lines = content.strip().split('\n')
+        if not lines:
+            return None
         
-        # 移除标题行
-        lines = content_without_etymology.split('\n')[1:]
-        cleaned_lines = []
-        for line in lines:
-            line = line.strip()
-            # 跳过标记
-            if re.match(r'^\[1913\s+Webster\]$', line):
-                continue
-            if re.match(r'^--[A-Z]', line):
-                continue
-            if line:
-                cleaned_lines.append(line)
+        # 跳过标题行（第一行）
+        content_lines = lines[1:] if len(lines) > 1 else []
         
-        cleaned_content = ' '.join(cleaned_lines)
+        # 收集定义内容（在[1913 Webster]之前，或者整个内容如果没有[1913 Webster]）
+        definition_lines = []
+        found_webster = False
+        
+        for line in content_lines:
+            line_stripped = line.strip()
+            
+            # 遇到[1913 Webster]标记，停止收集
+            if re.match(r'^\[1913\s+Webster\]$', line_stripped):
+                found_webster = True
+                break
+            
+            # 跳过单独的引用标记行
+            if re.match(r'^--[A-Z]', line_stripped):
+                continue
+            
+            # 跳过空行
+            if not line_stripped:
+                continue
+            
+            # 保留定义内容（保留原始缩进，但去掉过度的空白）
+            definition_lines.append(line_stripped)
+        
+        # 如果没有找到[1913 Webster]且没有收集到内容，尝试提取词源后的内容
+        if not definition_lines and not found_webster:
+            etymology_text, etymology_end = self._extract_etymology(content)
+            if etymology_end > 0:
+                content_after_etymology = content[etymology_end:].strip()
+                if content_after_etymology:
+                    # 重新处理词源后的内容
+                    after_lines = content_after_etymology.split('\n')
+                    for line in after_lines[1:] if len(after_lines) > 1 else after_lines:
+                        line_stripped = line.strip()
+                        if re.match(r'^\[1913\s+Webster\]$', line_stripped):
+                            break
+                        if re.match(r'^--[A-Z]', line_stripped):
+                            continue
+                        if line_stripped:
+                            definition_lines.append(line_stripped)
+        
+        # 合并定义内容
+        cleaned_content = ' '.join(definition_lines)
         cleaned_content = self._clean_text(cleaned_content)
         
         if cleaned_content:

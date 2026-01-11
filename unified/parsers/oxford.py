@@ -213,15 +213,21 @@ class OxfordParser(BaseParser):
                 else:
                     content_start = content_start + match.start()
         else:
-            # 没有标准格式，尝试只解析音标
-            phonetic_match = re.search(r'/([^/]+)/', content)
-            if phonetic_match:
-                ipa = phonetic_match.group(1).split(';')[0].strip()
-                entry.pronunciations.append(Pronunciation(
-                    ipa=ipa,
-                    region="general"
-                ))
-            content_start = 0
+            # 没有标准音标格式（/音标/），尝试查找词性
+            # 可能格式：词性 定义（没有音标）
+            pos_match = re.match(r'^([a-z]+(?:\.\s*[a-z]+)?\.?)\s+', content)
+            if pos_match:
+                pos_raw = pos_match.group(1).strip().rstrip('.')
+                if pos_raw in self.POS_MAP:
+                    pos_str = self.POS_MAP[pos_raw]
+                    content_start = pos_match.end()
+                else:
+                    # 可能是词性但不在映射中，尝试提取
+                    pos_str = pos_raw.lower()
+                    content_start = pos_match.end()
+            else:
+                # 既没有音标也没有词性标记，从头开始
+                content_start = 0
         
         # 3. 检查是否有多词性（通过独立音标+词性组合识别）
         # "have"词条格式：/həv/ aux v ... /hæv/ v ... /hæv/ v ...
@@ -339,7 +345,7 @@ class OxfordParser(BaseParser):
             # give up 类型：冒号分隔，短语标题+子sense
             senses = self._parse_give_up_case(main_content, pos_str)
             entry.senses.extend(senses)
-        elif pattern_type == "numbered_sense" or phonetic_pos_match:
+        elif pattern_type == "numbered_sense" or phonetic_match:
             # 标准数字序号模式
             # 检查是否有多词性（main_content中是否有第二个词性标记）
             # main_content已经跳过了第一个词性，如果还有词性标记，说明是多词性
@@ -373,9 +379,9 @@ class OxfordParser(BaseParser):
             if has_multiple_pos and (len(pos_matches) > 1 or has_multiple_segments):
                 # 有多个词性，使用多词性解析（传入从音标后的内容，包含第一个词性）
                 # content_start已经跳过了音标，但我们需要包含第一个词性
-                # 所以从phonetic_pos_match.end()开始
-                if phonetic_pos_match:
-                    multi_pos_content = content[phonetic_pos_match.end():].strip()
+                # 所以从音标匹配结束位置开始（如果有音标）
+                if phonetic_match:
+                    multi_pos_content = content[phonetic_match.end():].strip()
                 else:
                     multi_pos_content = content[content_start:].strip()
                 
